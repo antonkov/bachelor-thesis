@@ -13,6 +13,15 @@
 \theoremstyle{definition} % See Lesson Three of the LaTeX Manual for more on this kind of "proclamation."
 \newtheorem*{dfn}{A Reasonable Definition}               
 
+\newcommand{\twopartdef}[4]
+{
+	\left\{
+		\begin{array}{ll}
+			#1 & \mbox{если } #2 \\
+			#3 & \mbox{если } #4
+		\end{array}
+	\right.
+}
 \title{Оптимизация параметров стратегий поиска объектов на море}
 \author{Антон Ковшаров} 
 \institute{Санкт-Петербургский национальный исследовательский университет \\ информационных технологий, механики и оптики}
@@ -88,7 +97,7 @@
 \begin{frame}
   \frametitle{Параметры распределения}
 \begin{itemize}
-\item $A_{t_0}$ --- матрица начального распределения
+\item $A_{t_0} : R^2 \to R $ --- начальное распределения (аппроксимируется матрицей)
 \item $f(A_t, \Delta t) = A_{t+\Delta t}$ --- функция изменения распределения
 \end{itemize}
 \end{frame}
@@ -98,7 +107,7 @@
 \begin{itemize}
 \item $p_0$ --- начальное положение средства поиска
 \item $v$ --- cкорость средства поиска
-\item $B$ --- матрица вероятности обнаружения средством поиска (для простоты - обнаружение в круге радиуса $r$ с вероятностью 1)
+\item $r$ --- радиус обнаружения средства поиска (все частицы попавшие в круг радиуса обнаружения считаются ``собранными'')
 \end{itemize}
 \end{frame}
 
@@ -123,6 +132,14 @@
 \end{frame}
 
 \begin{frame}
+  \frametitle{Параметры стратегии поиска}
+  Параллельное галсирование
+\begin{itemize}
+  \item $l$ - прямая параллельная направлению галсов
+\end{itemize}
+\end{frame}
+
+\begin{frame}
 \begin{columns}
 \column{.6\textwidth}
 \includegraphics<+>[width=\textwidth]{pics/pic04-1.png}
@@ -141,8 +158,28 @@
 \begin{itemize}
 \item параметры распределения
 \item параметры средства поиска
+\item параметры стратегии поиска
 \item $t$ --- время поиска
 \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Задача}
+\begin{itemize}
+  \item {$w : W$ --- частица}
+  %\item {$pos(w, t)$ --- позиция частицы $w$ в момент времени $t$}
+  %\item {$posFinder(t)$ --- позиция средства поиска}
+  \item {$\chi(w) = 
+	\left\{
+		\begin{array}{ll}
+			1 & \mbox{если } {\exists t {dist(posFinder(t), pos(w, t)) <= r}}\\
+			0 & \mbox{иначе }
+		\end{array}
+	\right.$
+        }
+  \item {$S_{res}=\frac{\int\limits_W{\chi(w)dw}}{\int\limits_Wdw}$}
+\end{itemize}
+  Построить маршрут максимизирующий $S_{res}$
 \end{frame}
 
 \begin{frame}
@@ -154,11 +191,6 @@
   \item $S_{res}$ --- доля собранных частиц от начального распределения
 \end{itemize}
 
-\end{frame}
-
-\begin{frame}
-  \frametitle{Задача}
-  Построить маршрут максимизирующий $S_{res}$
 \end{frame}
 
 \section{Симуляция эволюции распределения} % Since this is the start of a new section, our recurring outline will appear here.
