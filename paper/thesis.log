@@ -1,286 +1,62 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  1 MAY 2015 17:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=prv_thesis 2015.5.5)  5 MAY 2015 21:28
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**\input thesis.tex
-(./thesis.tex (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
-)
-\c@part=\count79
-\c@chapter=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+**&prv_thesis thesis.tex
+(./thesis.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 9 languages loaded.
+CUSTOMISED FORMAT. Preloaded files:
+        .
+  report.cls    2007/10/19 v1.4h Standard LaTeX document class
+  size10.clo    2007/10/19 v1.4h Standard LaTeX file (size option)
+ fontenc.sty
+  t2aenc.def    2005/09/27 v1.0i Cyrillic encoding definition file
+  t2acmr.fd    2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+inputenc.sty    2008/03/30 v1.1d Input encoding file
+   utf8x.def    2004/10/17 UCS: Input encoding UTF-8
+     ucs.sty    2013/05/11 v2.2 UCS: Unicode input support
+uni-global.def    2013/05/13 UCS: Unicode global data
+   babel.sty    2013/12/03 3.9h The Babel package
+ english.ldf    2012/08/20 v3.3p English support from the babel system
+russianb.ldf
+expdlist.sty    
+graphicx.sty    1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+  keyval.sty    1999/03/16 v1.13 key=value parser (DPC)
+graphics.sty    2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    1999/03/16 v1.09 sin cos tan (DPC)
+graphics.cfg    2010/04/23 v1.9 graphics configuration of TeX Live
+  pdftex.def    2011/05/27 v0.06d Graphics/color for pdfTeX
+infwarerr.sty    2010/04/08 v1.3 Providing info/warning/error messages (HO)
+ ltxcmds.sty    2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+ amsmath.sty    2013/01/14 v2.14 AMS math features
+ amstext.sty    2000/06/29 v2.01
+  amsgen.sty    1999/11/30 v2.0
+  amsbsy.sty    1999/11/29 v1.2d
+  amsopn.sty    1999/12/14 v2.01 operator names
+ amssymb.sty    2013/01/14 v3.01 AMS font symbols
+amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
+  amsthm.sty    2004/08/06 v2.20
+ amsxtra.sty    1999/11/15 v1.2c
+sty/dbl12.sty
+  srcltx.sty    2006/11/12 v1.6 Source specials for inverse search in DVI files
 
-(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2aenc.def
-File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
-)
-LaTeX Font Info:    Try loading font information for T2A+cmr on input line 100.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
-File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-))
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
-
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def
-File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
-))
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
-Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
-
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def
-File: uni-global.def 2013/05/13 UCS: Unicode global data
-)
-\uc@secondtry=\count88
-\uc@combtoks=\toks16
-\uc@combtoksb=\toks17
-\uc@temptokena=\toks18
-)
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2013/12/03 3.9h The Babel package
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2012/08/20 v3.3p English support from the babel system
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2013/12/03 3.9h Babel common definitions
-\babel@savecnt=\count89
-\U@D=\dimen103
-)
-\l@british = a dialect from \language\l@english 
-\l@UKenglish = a dialect from \language\l@english 
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
-)
-(/usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
-Language: russian 2013/04/13 1.3a Russian support from the babel system
-Package babel Info: Making " an active character on input line 147.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/expdlist/expdlist.sty
-Document Substyle `EXPDLIST'. Released 22.09.1999 (V 2.4)
-English Documentation  22.09.99
-\listpartsep=\skip43
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks19
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
-)
-Package graphics Info: Driver file: pdftex.def on input line 91.
-
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count90
-))
-\Gin@req@height=\dimen104
-\Gin@req@width=\dimen105
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip44
-
-For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks20
-\ex@=\dimen106
-))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen107
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
-)
-\inf@bad=\count91
-LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count92
-\leftroot@=\count93
-LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count94
-\DOTSCASE@=\count95
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
-\big@size=\dimen108
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count96
-\c@MaxMatrixCols=\count97
-\dotsspace@=\muskip10
-\c@parentequation=\count98
-\dspbrk@lvl=\count99
-\tag@help=\toks21
-\row@=\count100
-\column@=\count101
-\maxfields@=\count102
-\andhelp@=\toks22
-\eqnshift@=\dimen109
-\alignsep@=\dimen110
-\tagshift@=\dimen111
-\tagwidth@=\dimen112
-\totwidth@=\dimen113
-\lineht@=\dimen114
-\@envbody=\toks23
-\multlinegap=\skip45
-\multlinetaggap=\skip46
-\mathdisplay@stack=\toks24
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2004/08/06 v2.20
-\thm@style=\toks25
-\thm@bodyfont=\toks26
-\thm@headfont=\toks27
-\thm@notefont=\toks28
-\thm@headpunct=\toks29
-\thm@preskip=\skip47
-\thm@postskip=\skip48
-\thm@headsep=\skip49
-\dth@everypar=\toks30
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsxtra.sty
-Package: amsxtra 1999/11/15 v1.2c
-LaTeX Info: Redefining \nobreakspace on input line 65.
-) (./sty/dbl12.sty) (/usr/share/texlive/texmf-dist/tex/latex/srcltx/srcltx.sty
-Package: srcltx 2006/11/12 v1.6 Source specials for inverse search in DVI files
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
-)
-\src@lastline=\count103
-\src@new@everypar=\toks31
-\src@new@output=\toks32
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
-Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
-\epsfxsize=\dimen115
-\epsfysize=\dimen116
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks33
-\verbatim@line=\toks34
-\verbatim@in@stream=\read1
-) (./sty/rac.sty
-\thelinewidth=\skip50
-\c@anything=\count104
-\c@map=\count105
-\c@appendix=\count106
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count107
-\lst@gtempboxa=\box28
-\lst@token=\toks35
-\lst@length=\count108
-\lst@currlwidth=\dimen117
-\lst@column=\count109
-\lst@pos=\count110
-\lst@lostspace=\dimen118
-\lst@width=\dimen119
-\lst@newlines=\count111
-\lst@lineno=\count112
-\lst@maxwidth=\dimen120
-
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
-\c@lstnumber=\count113
-\lst@skipnumbers=\count114
-\lst@framebox=\box29
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2013/08/26 1.5b listings configuration
-))
-Package: listings 2013/08/26 1.5b (Carsten Heinz)
-
-(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
-Package: placeins 2005/04/18  v 2.2
-)
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen121
-\captionmargin@=\dimen122
-\captionwidth=\dimen123
-\caption@tempdima=\dimen124
-\caption@indent=\dimen125
-\caption@parindent=\dimen126
-\caption@hangindent=\dimen127
-Package caption Info: Unknown document class (or package),
-(caption)             standard defaults will be used.
-)
-
-Package caption Warning: Unsupported document class (or package) detected,
-(caption)                usage of the caption package is not recommended.
-See the caption package documentation for explanation.
-
-Package caption Info: \@makecaption = \long macro:#1#2-> \vskip 10pt \setbox \@
-tempboxa \hbox {#1. #2} \ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox 
-{#1. } \def \@tempdimj {\hsize } \advance \@tempdimj -\wd \@tempboxa \hbox to\h
-size {#1. \parbox [t]{\@tempdimj }{#2}} \else \hbox to\hsize {\hfill \box \@tem
-pboxa \hfill } \fi .
-\c@ContinuedFloat=\count115
-Package caption Info: listings package is loaded.
-)
-\c@theorem=\count116
- (./thesis.aux)
-\openout1 = `thesis.aux'.
-
+  ifthen.sty    2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+  epsfig.sty    1999/02/16 v1.7a (e)psfig emulation (SPQR)
+verbatim.sty    2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+ sty/rac.sty
+listings.sty    2013/08/26 1.5b (Carsten Heinz)
+ lstmisc.sty    2013/08/26 1.5b (Carsten Heinz)
+listings.cfg    2013/08/26 1.5b listings configuration
+placeins.sty    2005/04/18  v 2.2
+ caption.sty    2013/05/02 v3.3-89 Customizing captions (AR)
+caption3.sty    2013/05/02 v1.6-88 caption3 kernel (AR)
+    umsa.fd    2013/01/14 v3.01 AMS symbols A
+    umsb.fd    2013/01/14 v3.01 AMS symbols B
+ t2acmtt.fd    2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+ t2acmss.fd    2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+        .
+(./thesis.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
 LaTeX Font Info:    ... okay on input line 109.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
@@ -295,6 +71,27 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
 LaTeX Font Info:    ... okay on input line 109.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 109.
 LaTeX Font Info:    ... okay on input line 109.
+ (/home/antonkov/.emacs.d/elpa/auctex-11.88.5/latex/preview.sty
+Package: preview 2010/02/14 11.88 (AUCTeX/preview-latex)
+
+(/home/antonkov/.emacs.d/elpa/auctex-11.88.5/latex/prtightpage.def
+\PreviewBorder=\dimen128
+)
+(/home/antonkov/.emacs.d/elpa/auctex-11.88.5/latex/prauctex.def
+No auxiliary output files.
+
+
+\hbadness=\count117
+\hfuzz=\dimen129
+(/home/antonkov/.emacs.d/elpa/auctex-11.88.5/latex/prauctex.cfg))
+(/home/antonkov/.emacs.d/elpa/auctex-11.88.5/latex/prfootnotes.def)
+\pr@snippet=\count118
+\pr@box=\box30
+\pr@output=\toks36
+
+Preview: Fontsize 10pt
+Preview: PDFoutput 1
+)
 Package srcltx Info: Expanded filename `ucsencs.def' to `ucsencs.def.tex' on in
 put line 109.
 
@@ -305,17 +102,17 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 :<-
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count117
-\scratchdimen=\dimen128
-\scratchbox=\box30
-\nofMPsegments=\count118
-\nofMParguments=\count119
-\everyMPshowfont=\toks36
-\MPscratchCnt=\count120
-\MPscratchDim=\dimen129
-\MPnumerator=\count121
-\makeMPintoPDFobject=\count122
-\everyMPtoPDFconversion=\toks37
+\scratchcounter=\count119
+\scratchdimen=\dimen130
+\scratchbox=\box31
+\nofMPsegments=\count120
+\nofMParguments=\count121
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count122
+\MPscratchDim=\dimen131
+\MPnumerator=\count123
+\makeMPintoPDFobject=\count124
+\everyMPtoPDFconversion=\toks38
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -364,8 +161,11 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count123
+\c@lstlisting=\count125
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: Incompatible package detected (regarding \caption).
+(caption)             \caption = \protected\long macro:->\pr@protect@domacro {}
+{##1{}}\pr@\caption .
 Package caption Info: Incompatible package detected (regarding \@caption).
 (caption)             \@caption = \long macro:#1[#2]#3->\addcontentsline {\csna
 me ext@#1\endcsname }{#1}{\protect \numberline {\csname the#1\endcsname }{#2}} 
@@ -381,29 +181,7 @@ See the caption package documentation for explanation.
 Package caption Info: End \AtBeginDocument code.
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-4.def
 File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
-) [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for T2A+cmss on input line 160
-.
-
-(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmss.fd
-File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-) (./thesis.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 2.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 2.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2])
-\tf@toc=\write3
-\openout3 = `thesis.toc'.
-
- [3]
+) (./thesis.toc)
 Package srcltx Info: Expanded filename `chapters/intro.tex' to `chapters/intro.
 tex' on input line 189.
 
@@ -418,9 +196,44 @@ LaTeX Warning: Citation `MarNav' on page 4 undefined on input line 9.
 
 LaTeX Warning: Citation `CGinGIS' on page 4 undefined on input line 10.
 
+! Preview: Snippet 1 started.
+<-><->
+      
+l.16 ...�й линейную сложность ($
+                                                  O(n)$) \cite{DnCG}. Одн...
+
+Not a real error.
+
+Preview: Tightpage -32891 -32891 32891 32891
+! Preview: Snippet 1 ended.(707788+235929x2002143).
+<-><->
+      
+l.16 ...�инейную сложность ($O(n)$
+                                                  ) \cite{DnCG}. Однак�...
+
+Not a real error.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Warning: Citation `DnCG' on page 4 undefined on input line 16.
 
+! Preview: Snippet 2 started.
+<-><->
+      
+l.17 ...жество точек-запросов $
+                                                  Q$ имеет достат...
+
+Not a real error.
+
+! Preview: Snippet 2 ended.(644874+183500x731854).
+<-><->
+      
+l.17 ...ество точек-запросов $Q$
+                                                   имеет достато...
+
+Not a real error.
+
+[2]
 
 LaTeX Warning: Citation `PrSh' on page 4 undefined on input line 19.
 
@@ -442,12 +255,60 @@ LaTeX Warning: Citation `CGAL' on page 4 undefined on input line 22.
 
 LaTeX Warning: Citation `MarNav' on page 4 undefined on input line 29.
 
-[4
-
-]
 
 LaTeX Warning: Citation `PrSh' on page 5 undefined on input line 36.
 
+! Preview: Snippet 3 started.
+<-><->
+      
+l.37 ...� набор входных данных $
+                                                  S$. Требуется в�...
+
+Not a real error.
+
+! Preview: Snippet 3 ended.(644874+0x623242).
+<-><->
+      
+l.37 ...набор входных данных $S$
+                                                  . Требуется вы�...
+
+Not a real error.
+
+[3]
+! Preview: Snippet 4 started.
+<-><->
+      
+l.38 запрос $
+                   Q$, то есть ответить на некоторы�...
+
+Not a real error.
+
+! Preview: Snippet 4 ended.(644874+183500x731854).
+<-><->
+      
+l.38 запрос $Q$
+                     , то есть ответить на некоторы�...
+
+Not a real error.
+
+[4]
+! Preview: Snippet 5 started.
+<-><->
+      
+l.39 запроса из $
+                          Q$. Иногда такие задачи реша�...
+
+Not a real error.
+
+! Preview: Snippet 5 ended.(644874+183500x731854).
+<-><->
+      
+l.39 запроса из $Q$
+                            . Иногда такие задачи реша�...
+
+Not a real error.
+
+[5]
 
 LaTeX Warning: Citation `AHU' on page 5 undefined on input line 46.
 
@@ -463,130 +324,1417 @@ LaTeX Warning: Citation `FANN' on page 5 undefined on input line 46.
 
 LaTeX Warning: Citation `NGRID' on page 5 undefined on input line 46.
 
-)
+! Preview: Snippet 6 started.
+<-><->
+      
+l.54 ..., при логарифмическом ($
+                                                  O(\log n)$) огранич...
+
+Not a real error.
+
+! Preview: Snippet 6 ended.(707788+235929x3352985).
+<-><->
+      
+l.54 ...�огарифмическом ($O(\log n)$
+                                                  ) ограничении �...
+
+Not a real error.
+
+[6])
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter1.tex' to `chapters/cha
 pter1.tex' on input line 190.
 :<+ chapters/chapter1.tex
-(./chapters/chapter1.tex [5]
+(./chapters/chapter1.tex
+! Preview: Snippet 7 started.
+<-><->
+      
+l.2 \chapter
+            {Решение массовой задачи о ближайш�...
+
+Not a real error.
+
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 1.
+! Preview: Snippet 7 ended.(6140313+0x30767216).
+<-><->
+      
+l.2 ...щью диаграммы Вороного}
+                                                  
+Not a real error.
 
-LaTeX Warning: Citation `CGAL' on page 6 undefined on input line 8.
+[7
 
+
+
+
+]
+
+LaTeX Warning: Citation `CGAL' on page 5 undefined on input line 8.
+
+! Preview: Snippet 8 started.
+<-><->
+      
+l.11 \section
+             {Диаграмма Вороного для точек}
+Not a real error.
+
+! Preview: Snippet 8 ended.(776806+220148x30767216).
+<-><->
+      
+l.11 ...мма Вороного для точек}
+                                                  
+Not a real error.
+
+[8
+
+]
+! Preview: Snippet 9 started.
+<-><->
+      
+l.21 \subsection
+                {Определение диаграммы Вороного ...
+
+Not a real error.
+
+! Preview: Snippet 9 ended.(647094+183041x30767216).
+<-><->
+      
+l.21 ...ммы Вороного для точек}
+                                                  
+Not a real error.
+
+[9
+
+]
 
 LaTeX Warning: Citation `PrSh' on page 6 undefined on input line 24.
 
+! Preview: Snippet 10 started.
+<-><->
+      
+l.26 ...�усов для каждой точки $
+                                                  p$ данного множ...
+
+Not a real error.
+
+! Preview: Snippet 10 ended.(406323+183500x463772).
+<-><->
+      
+l.26 ...�сов для каждой точки $p$
+                                                   данного множе...
+
+Not a real error.
+
+[10]
+! Preview: Snippet 11 started.
+<-><->
+      
+l.26 ...и $p$ данного множества $
+                                                  S$ со
+Not a real error.
+
+! Preview: Snippet 11 ended.(644874+0x623242).
+<-><->
+      
+l.26 ... $p$ данного множества $S$
+                                                   со
+Not a real error.
+
+[11]
+! Preview: Snippet 12 started.
+<-><->
+      
+l.27 ... от любой точки локуса $
+                                                  q$ до $p$ меньше, ...
+
+Not a real error.
+
+! Preview: Snippet 12 ended.(406323+183500x443565).
+<-><->
+      
+l.27 ...�т любой точки локуса $q$
+                                                   до $p$ меньше, ч...
+
+Not a real error.
+
+[12]
+! Preview: Snippet 13 started.
+<-><->
+      
+l.27 ...�бой точки локуса $q$ до $
+                                                  p$ меньше, чем
+Not a real error.
+
+! Preview: Snippet 13 ended.(406323+183500x463772).
+<-><->
+      
+l.27 ...�ой точки локуса $q$ до $p$
+                                                   меньше, чем
+Not a real error.
+
+[13]
+! Preview: Snippet 14 started.
+<-><->
+      
+l.28 до любой точки из $
+                                      S$ (рис. \ref{pvd}). Локусы, ...
+
+Not a real error.
+
+! Preview: Snippet 14 ended.(644874+0x623242).
+<-><->
+      
+l.28 до любой точки из $S$
+                                         (рис. \ref{pvd}). Локусы, ...
+
+Not a real error.
+
+[14]
 
 LaTeX Warning: Citation `PrSh' on page 6 undefined on input line 30.
 
 
 LaTeX Warning: Citation `CGAL' on page 6 undefined on input line 30.
 
-<img/pvd.png, id=25, 225.84375pt x 178.41656pt>
+! Preview: Snippet 15 started.
+<-><->
+      
+l.32 никакие четыре точки из $
+                                                  S$ не лежат на о...
+
+Not a real error.
+
+! Preview: Snippet 15 ended.(644874+0x623242).
+<-><->
+      
+l.32 ...�акие четыре точки из $S$
+                                                   не лежат на од...
+
+Not a real error.
+
+[15]
+! Preview: Snippet 16 started.
+<-><->
+      
+l.34 ...{Диаграмма Вороного}{pvd}
+                                                  
+Not a real error.
+
+<img/pvd.png, id=55, 225.84375pt x 178.41656pt>
 File: img/pvd.png Graphic file (type png)
  <use img/pvd.png>
 Package pdftex.def Info: img/pvd.png used on input line 34.
 (pdftex.def)             Requested size: 227.62204pt x 179.83176pt.
- [6
+
+! Preview: Snippet 16 ended.(13227246+0x30767216).
+<-><->
+      
+l.34 ...{Диаграмма Вороного}{pvd}
+                                                  
+Not a real error.
+
+[16
+
+
+
+ <./img/pvd.png>]
+! Preview: Snippet 17 started.
+<-><->
+      
+l.37 \subsection
+                {Построение диаграммы Вороного д...
+
+Not a real error.
+
+! Preview: Snippet 17 ended.(647094+183041x30767216).
+<-><->
+      
+l.37 ...ммы Вороного для точек}
+                                                  
+Not a real error.
+
+[17
+
+]
+! Preview: Snippet 18 started.
+<-><->
+      
+l.41 $
+      O(n \log n)$. Эта оценка достигается, наприм...
+
+Not a real error.
+
+! Preview: Snippet 18 ended.(707788+235929x4061857).
+<-><->
+      
+l.41 $O(n \log n)$
+                  . Эта оценка достигается, наприм...
+
+Not a real error.
+
+[18]
+
+LaTeX Warning: Citation `PrSh' on page 6 undefined on input line 42.
+
+
+LaTeX Warning: Citation `PrSh' on page 6 undefined on input line 44.
+
+
+LaTeX Warning: Citation `CGAL' on page 6 undefined on input line 44.
+
+
+LaTeX Warning: Citation `PrSh' on page 6 undefined on input line 49.
+
+! Preview: Snippet 19 started.
+<-><->
+      
+l.50 оценивается в $
+                                O(\log n)$, однако, если запр�...
+
+Not a real error.
+
+! Preview: Snippet 19 ended.(707788+235929x3352985).
+<-><->
+      
+l.50 оценивается в $O(\log n)$
+                                          , однако, если запр�...
+
+Not a real error.
+
+[19]
+! Preview: Snippet 20 started.
+<-><->
+      
+l.57 ...�ализацию в среднем за $
+                                                  O(1)$, так как
+Not a real error.
+
+! Preview: Snippet 20 ended.(707788+235929x1912578).
+<-><->
+      
+l.57 ...изацию в среднем за $O(1)$
+                                                  , так как
+Not a real error.
+
+[20]
+! Preview: Snippet 21 started.
+<-><->
+      
+l.62 \section
+             {Диаграмма Вороного для отрезков}
+Not a real error.
+
+! Preview: Snippet 21 ended.(776806+220148x30767216).
+<-><->
+      
+l.62 ... Вороного для отрезков}
+                                                  
+Not a real error.
+
+[21
 
 ]
 
-LaTeX Warning: Citation `PrSh' on page 7 undefined on input line 42.
+LaTeX Warning: Citation `SVD' on page 7 undefined on input line 65.
 
+! Preview: Snippet 22 started.
+<-><->
+      
+l.67 ...роного для отрезков}{svd}
+                                                  
+Not a real error.
 
-LaTeX Warning: Citation `PrSh' on page 7 undefined on input line 44.
-
-
-LaTeX Warning: Citation `CGAL' on page 7 undefined on input line 44.
-
-
-LaTeX Warning: Citation `PrSh' on page 7 undefined on input line 49.
-
-[7 <./img/pvd.png>]
-
-LaTeX Warning: Citation `SVD' on page 8 undefined on input line 65.
-
-<img/svd.png, id=36, 369.38pt x 340.27126pt>
+<img/svd.png, id=77, 369.38pt x 340.27126pt>
 File: img/svd.png Graphic file (type png)
  <use img/svd.png>
 Package pdftex.def Info: img/svd.png used on input line 67.
 (pdftex.def)             Requested size: 227.62204pt x 209.68353pt.
 
+! Preview: Snippet 22 ended.(15183612+0x30767216).
+<-><->
+      
+l.67 ...роного для отрезков}{svd}
+                                                  
+Not a real error.
 
-LaTeX Warning: Citation `CGAL' on page 8 undefined on input line 80.
-
-[8 <./img/svd.png>]
-
-LaTeX Warning: Citation `CGAL' on page 9 undefined on input line 85.
+[22
 
 
-LaTeX Warning: Citation `CGAL' on page 9 undefined on input line 88.
+ <./img/svd.png>]
+! Preview: Snippet 23 started.
+<-><->
+      
+l.71 ...оного (гранью) отрезка $
+                                                  s$ называется м...
 
-[9])
+Not a real error.
+
+! Preview: Snippet 23 ended.(406323+0x435265).
+<-><->
+      
+l.71 ...ного (гранью) отрезка $s$
+                                                   называется мн...
+
+Not a real error.
+
+[23]
+! Preview: Snippet 24 started.
+<-><->
+      
+l.72 ...кости, более близких к $
+                                                  s$, чем к какому...
+
+Not a real error.
+
+! Preview: Snippet 24 ended.(406323+0x435265).
+<-><->
+      
+l.72 ...ости, более близких к $s$
+                                                  , чем к какому-�...
+
+Not a real error.
+
+[24]
+! Preview: Snippet 25 started.
+<-><->
+      
+l.72 ...�-либо другому отрезку $
+                                                  s$ из
+Not a real error.
+
+! Preview: Snippet 25 ended.(406323+0x435265).
+<-><->
+      
+l.72 ...либо другому отрезку $s$
+                                                   из
+Not a real error.
+
+[25]
+! Preview: Snippet 26 started.
+<-><->
+      
+l.73 множества $
+                         S$. На самом деле отличие от д...
+
+Not a real error.
+
+! Preview: Snippet 26 ended.(644874+0x623242).
+<-><->
+      
+l.73 множества $S$
+                           . На самом деле отличие от д...
+
+Not a real error.
+
+[26]
+
+LaTeX Warning: Citation `CGAL' on page 7 undefined on input line 80.
+
+
+LaTeX Warning: Citation `CGAL' on page 7 undefined on input line 85.
+
+! Preview: Snippet 27 started.
+<-><->
+      
+l.88 ...�ность ее построения -- $
+                                                  O(n \log n)$ \cite{CGAL} (...
+
+Not a real error.
+
+! Preview: Snippet 27 ended.(707788+235929x4061857).
+<-><->
+      
+l.88 ...ее построения -- $O(n \log n)$
+                                                   \cite{CGAL} (хотя в ...
+
+Not a real error.
+
+[27]
+
+LaTeX Warning: Citation `CGAL' on page 7 undefined on input line 88.
+
+! Preview: Snippet 28 started.
+<-><->
+      
+l.89 ...ый алгоритм сложности $
+                                                  O(n \log^2 n$)). Лока�...
+
+Not a real error.
+
+! Preview: Snippet 28 ended.(824662+235929x4062955).
+<-><->
+      
+l.89 ...ритм сложности $O(n \log^2 n$
+                                                  )). Локализация...
+
+Not a real error.
+
+[28]
+! Preview: Snippet 29 started.
+<-><->
+      
+l.90 $
+      O(\log n)$. Однако, применяя технику локаль...
+
+Not a real error.
+
+! Preview: Snippet 29 ended.(707788+235929x3352985).
+<-><->
+      
+l.90 $O(\log n)$
+                . Однако, применяя технику локаль...
+
+Not a real error.
+
+[29]
+! Preview: Snippet 30 started.
+<-><->
+      
+l.91 ...нки сложности запроса $
+                                                  O(1)$.
+Not a real error.
+
+! Preview: Snippet 30 ended.(707788+235929x1912578).
+<-><->
+      
+l.91 ...� сложности запроса $O(1)$
+                                                  .
+Not a real error.
+
+[30]
+! Preview: Snippet 31 started.
+<-><->
+      
+l.96 \section
+             {Решение задачи dist2segments}
+Not a real error.
+
+! Preview: Snippet 31 ended.(776806+220148x30767216).
+<-><->
+      
+l.96 ...Решение задачи dist2segments}
+                                                  
+Not a real error.
+
+[31
+
+]
+! Preview: Snippet 32 started.
+<-><->
+      
+l.99 ...�ность в худшем случае $
+                                                  O(n \log n)$. Затем �...
+
+Not a real error.
+
+! Preview: Snippet 32 ended.(707788+235929x4061857).
+<-><->
+      
+l.99 ...в худшем случае $O(n \log n)$
+                                                  . Затем для каж...
+
+Not a real error.
+
+[32]
+! Preview: Snippet 33 started.
+<-><->
+      
+l.99 ...�ждой точки-запроса из $
+                                                  Q$
+Not a real error.
+
+! Preview: Snippet 33 ended.(644874+183500x731854).
+<-><->
+      
+l.99 ...�дой точки-запроса из $Q$
+                                                  
+Not a real error.
+
+[33]
+! Preview: Snippet 34 started.
+<-><->
+      
+l.101 худшем случае $
+                                 O(\log n)$, в среднем -- $O(1)$. П...
+
+Not a real error.
+
+! Preview: Snippet 34 ended.(707788+235929x3352985).
+<-><->
+      
+l.101 худшем случае $O(\log n)$
+                                           , в среднем -- $O(1)$. П...
+
+Not a real error.
+
+[34]
+! Preview: Snippet 35 started.
+<-><->
+      
+l.101 ...�ае $O(\log n)$, в среднем -- $
+                                                  O(1)$. Получив яч...
+
+Not a real error.
+
+! Preview: Snippet 35 ended.(707788+235929x1912578).
+<-><->
+      
+l.101 ... $O(\log n)$, в среднем -- $O(1)$
+                                                  . Получив ячей�...
+
+Not a real error.
+
+[35]
+! Preview: Snippet 36 started.
+<-><->
+      
+l.103 ...�ем и среднем случае -- $
+                                                  O(1)$.
+Not a real error.
+
+! Preview: Snippet 36 ended.(707788+235929x1912578).
+<-><->
+      
+l.103 ... и среднем случае -- $O(1)$
+                                                  .
+Not a real error.
+
+[36]
+! Preview: Snippet 37 started.
+<-><->
+      
+l.106 \section
+              {Анализ полученных результатов}
+Not a real error.
+
+! Preview: Snippet 37 ended.(776806+0x30767216).
+<-><->
+      
+l.106 ...�лученных результатов}
+                                                  
+Not a real error.
+
+[37
+
+]
+! Preview: Snippet 38 started.
+<-><->
+      
+l.109 среднем случаях $
+                                     O(n)$ памяти. Сложность ...
+
+Not a real error.
+
+! Preview: Snippet 38 ended.(707788+235929x2002143).
+<-><->
+      
+l.109 среднем случаях $O(n)$
+                                           памяти. Сложность ...
+
+Not a real error.
+
+[38]
+! Preview: Snippet 39 started.
+<-><->
+      
+l.110  в худшем случае -- $
+                                        O(n \log n)$. Локализация...
+
+Not a real error.
+
+! Preview: Snippet 39 ended.(707788+235929x4061857).
+<-><->
+      
+l.110 ...�удшем случае -- $O(n \log n)$
+                                                  . Локализация �...
+
+Not a real error.
+
+[39]
+! Preview: Snippet 40 started.
+<-><->
+      
+l.110 ... ней в худшем случае -- $
+                                                  O(\log n)$,
+Not a real error.
+
+! Preview: Snippet 40 ended.(707788+235929x3352985).
+<-><->
+      
+l.110 ... худшем случае -- $O(\log n)$
+                                                  ,
+Not a real error.
+
+[40]
+! Preview: Snippet 41 started.
+<-><->
+      
+l.112 сложность в среднем $
+                                            O(1)$. Собственно, к�...
+
+Not a real error.
+
+! Preview: Snippet 41 ended.(707788+235929x1912578).
+<-><->
+      
+l.112 сложность в среднем $O(1)$
+                                                 . Собственно, к�...
+
+Not a real error.
+
+[41])
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter2.tex' to `chapters/cha
 pter2.tex' on input line 191.
 :<+ chapters/chapter2.tex
-(./chapters/chapter2.tex [10]
+(./chapters/chapter2.tex
+! Preview: Snippet 42 started.
+<-><->
+      
+l.2 \chapter
+            {Решение массовой задачи о ближайш�...
+
+Not a real error.
+
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 2.
+! Preview: Snippet 42 ended.(6140313+0x30767216).
+<-><->
+      
+l.2 ...�зованием квадродерева}
+                                                  
+Not a real error.
 
-LaTeX Warning: Citation `FANN' on page 11 undefined on input line 20.
+[42
 
 
-LaTeX Warning: Citation `SQT' on page 11 undefined on input line 25.
 
-<img/ann.jpg, id=48, 225.84375pt x 224.84pt>
+
+]
+! Preview: Snippet 43 started.
+<-><->
+      
+l.3 \section
+            {Квадродерево}
+Not a real error.
+
+! Preview: Snippet 43 ended.(776806+220148x30767216).
+<-><->
+      
+l.3 \section{Квадродерево}
+                                      
+Not a real error.
+
+[43
+
+]
+! Preview: Snippet 44 started.
+<-><->
+      
+l.7 ... мера его насыщенности $
+                                                  p(C)$. Если узел
+Not a real error.
+
+! Preview: Snippet 44 ended.(707788+235929x1911358).
+<-><->
+      
+l.7 ...ра его насыщенности $p(C)$
+                                                  . Если узел
+Not a real error.
+
+[44]
+! Preview: Snippet 45 started.
+<-><->
+      
+l.8 насыщен ($
+                     p(C) > T$, где $T$ -- предельное насы�...
+
+Not a real error.
+
+! Preview: Snippet 45 ended.(707788+235929x3824274).
+<-><->
+      
+l.8 насыщен ($p(C) > T$
+                              , где $T$ -- предельное насы�...
+
+Not a real error.
+
+[45]
+! Preview: Snippet 46 started.
+<-><->
+      
+l.8 насыщен ($p(C) > T$, где $
+                                        T$ -- предельное насы�...
+
+Not a real error.
+
+! Preview: Snippet 46 ended.(644874+0x669933).
+<-><->
+      
+l.8 насыщен ($p(C) > T$, где $T$
+                                           -- предельное насы�...
+
+Not a real error.
+
+[46]
+
+LaTeX Warning: Citation `FANN' on page 9 undefined on input line 20.
+
+! Preview: Snippet 47 started.
+<-><->
+      
+l.23 ...�ная глубина древа для $
+                                                  n$ точек может �...
+
+Not a real error.
+
+! Preview: Snippet 47 ended.(406323+0x551588).
+<-><->
+      
+l.23 ...�ая глубина древа для $n$
+                                                   точек может с�...
+
+Not a real error.
+
+[47]
+! Preview: Snippet 48 started.
+<-><->
+      
+l.23 ...очек может составлять $
+                                                  n$, в результат�...
+
+Not a real error.
+
+! Preview: Snippet 48 ended.(406323+0x551588).
+<-><->
+      
+l.23 ...чек может составлять $n$
+                                                  , в результате ...
+
+Not a real error.
+
+[48]
+! Preview: Snippet 49 started.
+<-><->
+      
+l.24 ...ации может составлять $
+                                                  O(n)$. Для борьбы...
+
+Not a real error.
+
+! Preview: Snippet 49 ended.(707788+235929x2002143).
+<-><->
+      
+l.24 ...�и может составлять $O(n)$
+                                                  . Для борьбы с �...
+
+Not a real error.
+
+[49]
+
+LaTeX Warning: Citation `SQT' on page 9 undefined on input line 25.
+
+! Preview: Snippet 50 started.
+<-><->
+      
+l.25 ...водить локализацию за $
+                                                  O(\log n)$.
+Not a real error.
+
+! Preview: Snippet 50 ended.(707788+235929x3352985).
+<-><->
+      
+l.25 ...ь локализацию за $O(\log n)$
+                                                  .
+Not a real error.
+
+[50]
+! Preview: Snippet 51 started.
+<-><->
+      
+l.27 ...{Квадродерево}{ann}{width=5cm}
+                                                  
+Not a real error.
+
+<img/ann.jpg, id=172, 225.84375pt x 224.84pt>
 File: img/ann.jpg Graphic file (type jpg)
  <use img/ann.jpg>
 Package pdftex.def Info: img/ann.jpg used on input line 27.
 (pdftex.def)             Requested size: 142.26378pt x 141.63965pt.
- [11
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 54--69
+! Preview: Snippet 51 ended.(10724288+0x30767216).
+<-><->
+      
+l.27 ...{Квадродерево}{ann}{width=5cm}
+                                                  
+Not a real error.
 
- []
-
-[12 <./img/ann.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 70--101
-[][]\T2A/cmr/m/n/14.4 ������� ��-��-��-��-�� ��-��� ���-��� ��-��� ��-���
- []
+[51
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 70--101
-\T2A/cmr/m/n/14.4 ��� �� ��-�� ��-��-��-�� ���-��-��� ����-����-��-��-�� ��-��-
-��-��� ���-�� �
- []
+ <./img/ann.jpg>]
+! Preview: Snippet 52 started.
+<-><->
+      
+l.39 ...�. Они состоят из знака $
+                                                  s$, мантиссы $m$
+Not a real error.
 
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+! Preview: Snippet 52 ended.(406323+0x435265).
+<-><->
+      
+l.39 ... Они состоят из знака $s$
+                                                  , мантиссы $m$
+Not a real error.
+
+[52]
+! Preview: Snippet 53 started.
+<-><->
+      
+l.39 ...т из знака $s$, мантиссы $
+                                                  m$
+Not a real error.
+
+! Preview: Snippet 53 ended.(406323+0x808268).
+<-><->
+      
+l.39 ... из знака $s$, мантиссы $m$
+                                                  
+Not a real error.
+
+[53]
+! Preview: Snippet 54 started.
+<-><->
+      
+l.40 и экспоненты $
+                              e$, причем $m \in [1, 2)$ и перва�...
+
+Not a real error.
+
+! Preview: Snippet 54 ended.(406323+0x428273).
+<-><->
+      
+l.40 и экспоненты $e$
+                                , причем $m \in [1, 2)$ и перва�...
+
+Not a real error.
+
+[54]
+! Preview: Snippet 55 started.
+<-><->
+      
+l.40 и экспоненты $e$, причем $
+                                                m \in [1, 2)$ и перва�...
+
+Not a real error.
+
+! Preview: Snippet 55 ended.(707788+235929x3915734).
+<-><->
+      
+l.40 ...�енты $e$, причем $m \in [1, 2)$
+                                                   и первая един�...
+
+Not a real error.
+
+[55]
+! Preview: Snippet 56 started.
+<-><->
+      
+l.41 представляется в виде $
+                                               sm2^e$. В компьютер...
+
+Not a real error.
+
+! Preview: Snippet 56 ended.(624635+0x2043477).
+<-><->
+      
+l.41 ...дставляется в виде $sm2^e$
+                                                  . В компьютерн�...
+
+Not a real error.
+
+[56]
+! Preview: Snippet 57 started.
+<-><->
+      
+l.42 ...�й последовательности $
+                                                  b_1b_2\ldots b_n$, при ...
+
+Not a real error.
+
+! Preview: Snippet 57 ended.(655359+141557x3724858).
+<-><->
+      
+l.42 ...�вательности $b_1b_2\ldots b_n$
+                                                  , при этом $m = 1 +...
+
+Not a real error.
+
+[57]
+! Preview: Snippet 58 started.
+<-><->
+      
+l.42 ...ти $b_1b_2\ldots b_n$, при этом $
+                                                  m = 1 + \sum\limits_{i=1}^...
+
+Not a real error.
+
+! Preview: Snippet 58 ended.(1273077+919820x6753600).
+<-><->
+      
+l.42 ...�м $m = 1 + \sum\limits_{i=1}^nb_i2^{-i}$
+                                                  .
+Not a real error.
+
+[58]
+! Preview: Snippet 59 started.
+<-><->
+      
+l.44 ... к квадродереву. Пусть $
+                                                  (x_0, y_0)$ -- коорд�...
+
+Not a real error.
+
+! Preview: Snippet 59 ended.(707788+235929x2829220).
+<-><->
+      
+l.44 ...�родереву. Пусть $(x_0, y_0)$
+                                                   -- координаты �...
+
+Not a real error.
+
+[59]
+! Preview: Snippet 60 started.
+<-><->
+      
+l.45 а $
+         w, h$ -- его ширина и высота. Перейдем в �...
+
+Not a real error.
+
+! Preview: Snippet 60 ended.(655359+183500x1631827).
+<-><->
+      
+l.45 а $w, h$
+               -- его ширина и высота. Перейдем в �...
+
+Not a real error.
+
+[60]
+! Preview: Snippet 61 started.
+<-><->
+      
+l.46 $
+      
+Not a real error.
+
+! Preview: Snippet 61 ended.(1743257+1271399x7906043).
+<-><->
+      
+l.52 \right.$
+             
+Not a real error.
+
+[61]
+! Preview: Snippet 62 started.
+<-><->
+      
+l.55 $
+      (x', y') \in [0, 1] \times [0, 1]$. Посмотрим, что про�...
+
+Not a real error.
+
+! Preview: Snippet 62 ended.(707788+235929x8577754).
+<-><->
+      
+l.55 $(x', y') \in [0, 1] \times [0, 1]$
+                                        . Посмотрим, что про�...
+
+Not a real error.
+
+[62]
+! Preview: Snippet 63 started.
+<-><->
+      
+l.56 ...дети имеют координаты $
+                                                  [0, \frac{1}{2}] \times [0...
+
+Not a real error.
+
+! Preview: Snippet 63 ended.(793915+325432x4902051).
+<-><->
+      
+l.56 ...$[0, \frac{1}{2}] \times [0, \frac{1}{2}]$
+                                                  
+Not a real error.
+
+[63]
+! Preview: Snippet 64 started.
+<-><->
+      
+l.57 -- левый нижний, $
+                                  [\frac{1}{2}, 1] \times [0, \frac{1}{2}]$
+Not a real error.
+
+! Preview: Snippet 64 ended.(793915+325432x4902051).
+<-><->
+      
+l.57 ...$[\frac{1}{2}, 1] \times [0, \frac{1}{2}]$
+                                                  
+Not a real error.
+
+[64]
+! Preview: Snippet 65 started.
+<-><->
+      
+l.58 -- правый нижний, $
+                                    [0, \frac{1}{2}] \times [\frac{1}{2}, 1]$
+Not a real error.
+
+! Preview: Snippet 65 ended.(793915+325432x4902051).
+<-><->
+      
+l.58 ...$[0, \frac{1}{2}] \times [\frac{1}{2}, 1]$
+                                                  
+Not a real error.
+
+[65]
+! Preview: Snippet 66 started.
+<-><->
+      
+l.59 -- левый верхний, $
+                                    [\frac{1}{2}, 1] \times [\frac{1}{2}, 1]$
+Not a real error.
+
+! Preview: Snippet 66 ended.(793915+325432x4902051).
+<-><->
+      
+l.59 ...$[\frac{1}{2}, 1] \times [\frac{1}{2}, 1]$
+                                                  
+Not a real error.
+
+[66]
+! Preview: Snippet 67 started.
+<-><->
+      
+l.61 $
+      
+Not a real error.
+
+! Preview: Snippet 67 ended.(1743257+1271399x8535737).
+<-><->
+      
+l.67 \right.$
+             
+Not a real error.
+
+[67]
+! Preview: Snippet 68 started.
+<-><->
+      
+l.70 ...�ых нижних углов детей $
+                                                  (x_{c_i}, y_{c_i}) \in \{0...
+
+Not a real error.
+
+! Preview: Snippet 68 ended.(793915+325432x10093658).
+<-><->
+      
+l.70 ..., \frac{1}{2}\} \times \{0, \frac{1}{2}\}$
+                                                  
+Not a real error.
+
+[68]
+! Preview: Snippet 69 started.
+<-><->
+      
+l.71 на $
+           (b^x_{c_i}, b^y_{c_i}) = (2x_{c_i}, 2y_{c_i}) \in \{0, 1\} \times...
+
+Not a real error.
+
+! Preview: Snippet 69 ended.(707788+331606x15202364).
+<-><->
+      
+l.71 ...}, 2y_{c_i}) \in \{0, 1\} \times \{0, 1\}$
+                                                  .\\
+Not a real error.
+
+[69]
+! Preview: Snippet 70 started.
+<-><->
+      
+l.72 $
+      
+Not a real error.
+
+! Preview: Snippet 70 ended.(1743257+1271399x7684816).
+<-><->
+      
+l.78 \right.$
+             
+Not a real error.
+
+[70]
+! Preview: Snippet 71 started.
+<-><->
+      
+l.81 $
+      
+Not a real error.
+
+! Preview: Snippet 71 ended.(1743257+1271399x8411160).
+<-><->
+      
+l.87 \right.$
+             
+Not a real error.
+
+[71]
+! Preview: Snippet 72 started.
+<-><->
+      
+l.89 ...�лу перехода от уровня $
+                                                  d$ к самому вер�...
+
+Not a real error.
+
+! Preview: Snippet 72 ended.(655359+0x480156).
+<-><->
+      
+l.89 ...�у перехода от уровня $d$
+                                                   к самому верх�...
+
+Not a real error.
+
+[72]
+! Preview: Snippet 73 started.
+<-><->
+      
+l.90 $
+      
+Not a real error.
+
+! Preview: Snippet 73 ended.(2601769+2129911x9116720).
+<-><->
+      
+l.96 \right.$
+             
+Not a real error.
+
+[73]
+! Preview: Snippet 74 started.
+<-><->
+      
+l.105 ...учить путь на глубину $
+                                                  d = 53$ для чисел ...
+
+Not a real error.
+
+! Preview: Snippet 74 ended.(655359+0x2647185).
+<-><->
+      
+l.105 ...�ь путь на глубину $d = 53$
+                                                   для чисел с пл...
+
+Not a real error.
+
+[74]
+! Preview: Snippet 75 started.
+<-><->
+      
+l.108 \section
+              {Нижняя огибающая}
+Not a real error.
+
+! Preview: Snippet 75 ended.(776806+220148x30767216).
+<-><->
+      
+l.108 \section{Нижняя огибающая}
+                                               
+Not a real error.
+
+[75
+
+] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
+! Preview: Snippet 76 started.
+<-><->
+      
+l.111 точке $
+                  (0, -\infty)$. Формально же это граф, п...
 
-LaTeX Warning: Citation `LENV' on page 13 undefined on input line 112.
+Not a real error.
 
-<img/lenv.png, id=58, 484.81125pt x 152.57pt>
+! Preview: Snippet 76 ended.(707788+235929x3272413).
+<-><->
+      
+l.111 точке $(0, -\infty)$
+                               . Формально же это граф, п...
+
+Not a real error.
+
+[76]
+
+LaTeX Warning: Citation `LENV' on page 10 undefined on input line 112.
+
+! Preview: Snippet 77 started.
+<-><->
+      
+l.116 ...v}{Нижняя огибающая}{lenv}
+                                                  
+Not a real error.
+
+<img/lenv.png, id=260, 484.81125pt x 152.57pt>
 File: img/lenv.png Graphic file (type png)
  <use img/lenv.png>
 Package pdftex.def Info: img/lenv.png used on input line 116.
 (pdftex.def)             Requested size: 227.62204pt x 71.6334pt.
 
-<img/mdiag.png, id=59, 301.125pt x 258.9675pt>
+! Preview: Snippet 77 ended.(6136359+0x30767216).
+<-><->
+      
+l.116 ...v}{Нижняя огибающая}{lenv}
+                                                  
+Not a real error.
+
+[77
+
+
+ <./img/lenv.png (PNG copy)>]
+! Preview: Snippet 78 started.
+<-><->
+      
+l.117 ...ционная диаграмма}{mdiag}
+                                                  
+Not a real error.
+
+<img/mdiag.png, id=264, 301.125pt x 258.9675pt>
 File: img/mdiag.png Graphic file (type png)
  <use img/mdiag.png>
 Package pdftex.def Info: img/mdiag.png used on input line 117.
 (pdftex.def)             Requested size: 227.62204pt x 195.76227pt.
- [13]
-[14 <./img/lenv.png (PNG copy)> <./img/mdiag.png (PNG copy)>]
 
-LaTeX Warning: Citation `NGRID' on page 15 undefined on input line 132.
+! Preview: Snippet 78 ended.(14271268+0x30767216).
+<-><->
+      
+l.117 ...ционная диаграмма}{mdiag}
+                                                  
+Not a real error.
+
+[78
 
 
-LaTeX Warning: Citation `AVOR' on page 15 undefined on input line 134.
+ <./img/mdiag.png (PNG copy)>]
+! Preview: Snippet 79 started.
+<-><->
+      
+l.120 \section
+              {Алгоритм}
+Not a real error.
+
+! Preview: Snippet 79 ended.(776806+0x30767216).
+<-><->
+      
+l.120 \section{Алгоритм}
+                                
+Not a real error.
+
+[79
+
+]
+! Preview: Snippet 80 started.
+<-><->
+      
+l.121 \subsection
+                 {Идея алгоритма}
+Not a real error.
+
+! Preview: Snippet 80 ended.(647094+183041x30767216).
+<-><->
+      
+l.121 \subsection{Идея алгоритма}
+                                              
+Not a real error.
+
+[80
+
+]
+
+LaTeX Warning: Citation `NGRID' on page 11 undefined on input line 132.
 
 
-LaTeX Warning: Citation `ROBUS' on page 15 undefined on input line 136.
+LaTeX Warning: Citation `AVOR' on page 11 undefined on input line 134.
 
-[15]
+
+LaTeX Warning: Citation `ROBUS' on page 11 undefined on input line 136.
+
+! Preview: Snippet 81 started.
+<-><->
+      
+l.142 \subsection
+                 {Работа алгоритма}
+Not a real error.
+
+! Preview: Snippet 81 ended.(673612+183041x30767216).
+<-><->
+      
+l.142 \subsection{Работа алгоритма}
+                                                  
+Not a real error.
+
+[81
+
+]
+! Preview: Snippet 82 started.
+<-><->
+      
+l.155 Обозначим: $
+                           S$ -- множество отрезков, бли...
+
+Not a real error.
+
+! Preview: Snippet 82 ended.(644874+0x623242).
+<-><->
+      
+l.155 Обозначим: $S$
+                              -- множество отрезков, бли...
+
+Not a real error.
+
+[82]
+! Preview: Snippet 83 started.
+<-><->
+      
+l.155 ...в, ближайших к ячейке, $
+                                                  S_b$ -- ближайших...
+
+Not a real error.
+
+! Preview: Snippet 83 ended.(644874+141557x882328).
+<-><->
+      
+l.155 ...ближайших к ячейке, $S_b$
+                                                   -- ближайших к ...
+
+Not a real error.
+
+[83]
+! Preview: Snippet 84 started.
+<-><->
+      
+l.155 ...- ближайших к границе, $
+                                                  S_i$ --
+Not a real error.
+
+! Preview: Snippet 84 ended.(644874+141557x826850).
+<-><->
+      
+l.155 ...лижайших к границе, $S_i$
+                                                   --
+Not a real error.
+
+[84]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 158.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
@@ -595,132 +1743,1701 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 158.
 
-<img/contrex.png, id=71, 301.125pt x 301.125pt>
+! Preview: Snippet 85 started.
+<-><->
+      
+l.158 \item $
+             S_b \cup S_i \subset S$ \\
+Not a real error.
+
+! Preview: Snippet 85 ended.(644874+141557x4639276).
+<-><->
+      
+l.158 \item $S_b \cup S_i \subset S$
+                                     \\
+Not a real error.
+
+[85]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 $
+       S_b \subset S$ -- очевидно, так как граница яч...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Preview: Snippet 86 started.
+<-><->
+      
+l.159 $
+       S_b \subset S$ -- очевидно, так как граница яч...
+
+Not a real error.
+
+! Preview: Snippet 86 ended.(644874+141557x2763855).
+<-><->
+      
+l.159 $S_b \subset S$
+                      -- очевидно, так как граница яч...
+
+Not a real error.
+
+[86]
+! Preview: Snippet 87 started.
+<-><->
+      
+l.161 ближайшим, значит $
+                                        S_i \subset S$
+Not a real error.
+
+! Preview: Snippet 87 ended.(644874+141557x2708377).
+<-><->
+      
+l.161 ...�айшим, значит $S_i \subset S$
+                                                  
+Not a real error.
+
+[87]
+! Preview: Snippet 88 started.
+<-><->
+      
+l.162 \item $
+             S_b \cup S_i \supset S$ \\
+Not a real error.
+
+! Preview: Snippet 88 ended.(644874+141557x4639276).
+<-><->
+      
+l.162 \item $S_b \cup S_i \supset S$
+                                     \\
+Not a real error.
+
+[88]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 �
+       �редположим, что это не так.\\Пусть $s$ -- ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Preview: Snippet 89 started.
+<-><->
+      
+l.163 ... что это не так.\\Пусть $
+                                                  s$ -- отрезок, не...
+
+Not a real error.
+
+! Preview: Snippet 89 ended.(406323+0x435265).
+<-><->
+      
+l.163 ...�то это не так.\\Пусть $s$
+                                                   -- отрезок, не �...
+
+Not a real error.
+
+[89]
+! Preview: Snippet 90 started.
+<-><->
+      
+l.165 он ближайший для точки $
+                                                 P$ ячейки, а $Q$ -- ...
+
+Not a real error.
+
+! Preview: Snippet 90 ended.(644874+0x723947).
+<-><->
+      
+l.165 ... ближайший для точки $P$
+                                                   ячейки, а $Q$ -- �...
+
+Not a real error.
+
+[90]
+! Preview: Snippet 91 started.
+<-><->
+      
+l.165 ... для точки $P$ ячейки, а $
+                                                  Q$ -- точка $s$, бл...
+
+Not a real error.
+
+! Preview: Snippet 91 ended.(644874+183500x731854).
+<-><->
+      
+l.165 ...�ля точки $P$ ячейки, а $Q$
+                                                   -- точка $s$, бли...
+
+Not a real error.
+
+[91]
+! Preview: Snippet 92 started.
+<-><->
+      
+l.165 ... $P$ ячейки, а $Q$ -- точка $
+                                                  s$, ближайшая к ...
+
+Not a real error.
+
+! Preview: Snippet 92 ended.(406323+0x435265).
+<-><->
+      
+l.165 ...P$ ячейки, а $Q$ -- точка $s$
+                                                  , ближайшая к $P$.
+Not a real error.
+
+[92]
+! Preview: Snippet 93 started.
+<-><->
+      
+l.165 ...- точка $s$, ближайшая к $
+                                                  P$.
+Not a real error.
+
+! Preview: Snippet 93 ended.(644874+0x723947).
+<-><->
+      
+l.165 ...точка $s$, ближайшая к $P$
+                                                  .
+Not a real error.
+
+[93]
+! Preview: Snippet 94 started.
+<-><->
+      
+l.166 Построим отрезок $
+                                       PQ$, так как точка $P$ в�...
+
+Not a real error.
+
+! Preview: Snippet 94 ended.(644874+183500x1455801).
+<-><->
+      
+l.166 Построим отрезок $PQ$
+                                          , так как точка $P$ в�...
+
+Not a real error.
+
+[94]
+! Preview: Snippet 95 started.
+<-><->
+      
+l.166 ...езок $PQ$, так как точка $
+                                                  P$ вне ячейки, а...
+
+Not a real error.
+
+! Preview: Snippet 95 ended.(644874+0x723947).
+<-><->
+      
+l.166 ...зок $PQ$, так как точка $P$
+                                                   вне ячейки, а �...
+
+Not a real error.
+
+[95]
+! Preview: Snippet 96 started.
+<-><->
+      
+l.166 ... $P$ вне ячейки, а точка $
+                                                  Q$ внутри, то $PQ$
+Not a real error.
+
+! Preview: Snippet 96 ended.(644874+183500x731854).
+<-><->
+      
+l.166 ...P$ вне ячейки, а точка $Q$
+                                                   внутри, то $PQ$
+Not a real error.
+
+[96]
+! Preview: Snippet 97 started.
+<-><->
+      
+l.166 ...�, а точка $Q$ внутри, то $
+                                                  PQ$
+Not a real error.
+
+! Preview: Snippet 97 ended.(644874+183500x1455801).
+<-><->
+      
+l.166 ...а точка $Q$ внутри, то $PQ$
+                                                  
+Not a real error.
+
+[97]
+! Preview: Snippet 98 started.
+<-><->
+      
+l.167 ...�йки, допустим в точке $
+                                                  F$. Рассмотрим �...
+
+Not a real error.
+
+! Preview: Snippet 98 ended.(644874+0x726514).
+<-><->
+      
+l.167 ...�ки, допустим в точке $F$
+                                                  . Рассмотрим о�...
+
+Not a real error.
+
+[98]
+! Preview: Snippet 99 started.
+<-><->
+      
+l.167 ...F$. Рассмотрим отрезок $
+                                                  s'$,
+Not a real error.
+
+! Preview: Snippet 99 ended.(706557+0x648256).
+<-><->
+      
+l.167 ... Рассмотрим отрезок $s'$
+                                                  ,
+Not a real error.
+
+[99]
+! Preview: Snippet 100 started.
+<-><->
+      
+l.168 ближайший к $
+                             F$. Пусть точка $E$ -- ближайш...
+
+Not a real error.
+
+! Preview: Snippet 100 ended.(644874+0x726514).
+<-><->
+      
+l.168 ближайший к $F$
+                               . Пусть точка $E$ -- ближайш...
+
+Not a real error.
+
+[100]
+! Preview: Snippet 101 started.
+<-><->
+      
+l.168 ...�йший к $F$. Пусть точка $
+                                                  E$ -- ближайшая �...
+
+Not a real error.
+
+! Preview: Snippet 101 ended.(644874+0x739348).
+<-><->
+      
+l.168 ...�ший к $F$. Пусть точка $E$
+                                                   -- ближайшая т�...
+
+Not a real error.
+
+[101]
+! Preview: Snippet 102 started.
+<-><->
+      
+l.168 ...�жайшая точка на нем к $
+                                                  F$.
+Not a real error.
+
+! Preview: Snippet 102 ended.(644874+0x726514).
+<-><->
+      
+l.168 ...�айшая точка на нем к $F$
+                                                  .
+Not a real error.
+
+[102]
+! Preview: Snippet 103 started.
+<-><->
+      
+l.169 Так как $
+                     s'$ ближайший к $F$, то $|FE| < |FQ|$, по...
+
+Not a real error.
+
+! Preview: Snippet 103 ended.(706557+0x648256).
+<-><->
+      
+l.169 Так как $s'$
+                         ближайший к $F$, то $|FE| < |FQ|$, по...
+
+Not a real error.
+
+[103]
+! Preview: Snippet 104 started.
+<-><->
+      
+l.169 Так как $s'$ ближайший к $
+                                                F$, то $|FE| < |FQ|$, по...
+
+Not a real error.
+
+! Preview: Snippet 104 ended.(644874+0x726514).
+<-><->
+      
+l.169 Так как $s'$ ближайший к $F$
+                                                  , то $|FE| < |FQ|$, по...
+
+Not a real error.
+
+[104]
+! Preview: Snippet 105 started.
+<-><->
+      
+l.169 ...к $s'$ ближайший к $F$, то $
+                                                  |FE| < |FQ|$, по нер�...
+
+Not a real error.
+
+! Preview: Snippet 105 ended.(707788+235929x5215789).
+<-><->
+      
+l.169 ...ижайший к $F$, то $|FE| < |FQ|$
+                                                  , по неравенст�...
+
+Not a real error.
+
+[105]
+! Preview: Snippet 106 started.
+<-><->
+      
+l.169 ...венству треугольника $
+                                                  |PF|
+Not a real error.
+
+! Preview: Snippet 106 ended.(707788+235929x8333592).
+<-><->
+      
+l.170 + |FE| < |PE|$
+                    . Подставив первое неравенство...
+
+Not a real error.
+
+[106]
+! Preview: Snippet 107 started.
+<-><->
+      
+l.171 отрезок $
+                      s'$ ближе к $P$ чем $s$ (рис. \ref{contrex...
+
+Not a real error.
+
+! Preview: Snippet 107 ended.(706557+0x648256).
+<-><->
+      
+l.171 отрезок $s'$
+                          ближе к $P$ чем $s$ (рис. \ref{contrex...
+
+Not a real error.
+
+[107]
+! Preview: Snippet 108 started.
+<-><->
+      
+l.171 отрезок $s'$ ближе к $
+                                         P$ чем $s$ (рис. \ref{contrex...
+
+Not a real error.
+
+! Preview: Snippet 108 ended.(644874+0x723947).
+<-><->
+      
+l.171 отрезок $s'$ ближе к $P$
+                                            чем $s$ (рис. \ref{contrex...
+
+Not a real error.
+
+[108]
+! Preview: Snippet 109 started.
+<-><->
+      
+l.171 ...�езок $s'$ ближе к $P$ чем $
+                                                  s$ (рис. \ref{contrex}).\\
+
+Not a real error.
+
+! Preview: Snippet 109 ended.(406323+0x435265).
+<-><->
+      
+l.171 ...�зок $s'$ ближе к $P$ чем $s$
+                                                   (рис. \ref{contrex}).\\
+Not a real error.
+
+[109]
+! Preview: Snippet 110 started.
+<-><->
+      
+l.174 $
+       \qedsymbol$
+Not a real error.
+
+! Preview: Snippet 110 ended.(606357+0x698688).
+<-><->
+      
+l.174 $\qedsymbol$
+                  
+Not a real error.
+
+[110]
+! Preview: Snippet 111 started.
+<-><->
+      
+l.175 ...ntrex}{Противоречие}{contrex}
+                                                  
+Not a real error.
+
+<img/contrex.png, id=371, 301.125pt x 301.125pt>
 File: img/contrex.png Graphic file (type png)
  <use img/contrex.png>
 Package pdftex.def Info: img/contrex.png used on input line 175.
 (pdftex.def)             Requested size: 227.62204pt x 227.63055pt.
- [16]
-<img/le_dist.png, id=76, 199.74625pt x 310.15875pt>
+
+! Preview: Snippet 111 ended.(16359788+0x30767216).
+<-><->
+      
+l.175 ...ntrex}{Противоречие}{contrex}
+                                                  
+Not a real error.
+
+[111
+
+
+ <./img/contrex.png (PNG copy)>]
+! Preview: Snippet 112 started.
+<-><->
+      
+l.194 ...расстояний}{le_dist}{width=6cm}
+                                                  
+Not a real error.
+
+<img/le_dist.png, id=375, 199.74625pt x 310.15875pt>
 File: img/le_dist.png Graphic file (type png)
  <use img/le_dist.png>
 Package pdftex.def Info: img/le_dist.png used on input line 194.
 (pdftex.def)             Requested size: 170.71652pt x 265.09383pt.
 
-[17 <./img/contrex.png (PNG copy)>] [18 <./img/le_dist.png (PNG copy)>]
-[19] <img/big_deg.png, id=87, 301.125pt x 301.125pt>
+! Preview: Snippet 112 ended.(18814981+0x30767216).
+<-><->
+      
+l.194 ...расстояний}{le_dist}{width=6cm}
+                                                  
+Not a real error.
+
+[112
+
+
+ <./img/le_dist.png (PNG copy)>]
+! Preview: Snippet 113 started.
+<-><->
+      
+l.204 ...�ким образом (пусть их $
+                                                  n$), ячейка
+Not a real error.
+
+! Preview: Snippet 113 ended.(406323+0x551588).
+<-><->
+      
+l.204 ...�им образом (пусть их $n$
+                                                  ), ячейка
+Not a real error.
+
+[113]
+! Preview: Snippet 114 started.
+<-><->
+      
+l.205 ...ижайшей как минимум к $
+                                                  n$
+Not a real error.
+
+! Preview: Snippet 114 ended.(406323+0x551588).
+<-><->
+      
+l.205 ...жайшей как минимум к $n$
+                                                  
+Not a real error.
+
+[114]
+! Preview: Snippet 115 started.
+<-><->
+      
+l.216 \subsection
+                 {Оценка числа перебираемых отре�...
+
+Not a real error.
+
+! Preview: Snippet 115 ended.(673612+183041x30767216).
+<-><->
+      
+l.216 ...�еребираемых отрезков}
+                                                  
+Not a real error.
+
+[115
+
+]
+! Preview: Snippet 116 started.
+<-><->
+      
+l.219 ...м квадродерева. Пусть $
+                                                  X$ -- случайный �...
+
+Not a real error.
+
+! Preview: Snippet 116 ended.(644874+0x841093).
+<-><->
+      
+l.219 ... квадродерева. Пусть $X$
+                                                   -- случайный з�...
+
+Not a real error.
+
+[116]
+! Preview: Snippet 117 started.
+<-><->
+      
+l.220 $
+       n(X)$ -- число перебираемых отрезков, при...
+
+Not a real error.
+
+! Preview: Snippet 117 ended.(707788+235929x2111383).
+<-><->
+      
+l.220 $n(X)$
+             -- число перебираемых отрезков, при...
+
+Not a real error.
+
+[117]
+! Preview: Snippet 118 started.
+<-><->
+      
+l.220 ...отрезков, при запросе $
+                                                  X$, $C$ -- прямоуг�...
+
+Not a real error.
+
+! Preview: Snippet 118 ended.(644874+0x841093).
+<-><->
+      
+l.220 ...трезков, при запросе $X$
+                                                  , $C$ -- прямоуго�...
+
+Not a real error.
+
+[118]
+! Preview: Snippet 119 started.
+<-><->
+      
+l.220 ...�езков, при запросе $X$, $
+                                                  C$ -- прямоуголь...
+
+Not a real error.
+
+! Preview: Snippet 119 ended.(644874+0x728884).
+<-><->
+      
+l.220 ...�зков, при запросе $X$, $C$
+                                                   -- прямоугольн...
+
+Not a real error.
+
+[119]
+! Preview: Snippet 120 started.
+<-><->
+      
+l.221 ...�ровнем квадродерева, $
+                                                  L$ -- множество �...
+
+Not a real error.
+
+! Preview: Snippet 120 ended.(644874+0x628702).
+<-><->
+      
+l.221 ...�овнем квадродерева, $L$
+                                                   -- множество л�...
+
+Not a real error.
+
+[120]
+! Preview: Snippet 121 started.
+<-><->
+      
+l.222 \begin{equation}
+                      
+Not a real error.
+
+! Preview: Snippet 121 ended.(3019472+0x30767216).
+<-><->
+      
+l.224 \end{equation}
+                    
+Not a real error.
+
+[121]
+! Preview: Snippet 122 started.
+<-><->
+      
+l.225 ...ление равномерное, то $
+                                                  p_l = \frac{S_l}{S}$, где
+Not a real error.
+
+! Preview: Snippet 122 ended.(838681+325432x2708274).
+<-><->
+      
+l.225 ...�мерное, то $p_l = \frac{S_l}{S}$
+                                                  , где
+Not a real error.
+
+[122]
+! Preview: Snippet 123 started.
+<-><->
+      
+l.226 $
+       S_l$ -- площадь листа $l$, $S$ -- площадь покр...
+
+Not a real error.
+
+! Preview: Snippet 123 ended.(644874+141557x809512).
+<-><->
+      
+l.226 $S_l$
+            -- площадь листа $l$, $S$ -- площадь покр...
+
+Not a real error.
+
+[123]
+! Preview: Snippet 124 started.
+<-><->
+      
+l.226 $S_l$ -- площадь листа $
+                                          l$, $S$ -- площадь покр...
+
+Not a real error.
+
+! Preview: Snippet 124 ended.(655359+0x296001).
+<-><->
+      
+l.226 $S_l$ -- площадь листа $l$
+                                            , $S$ -- площадь покр...
+
+Not a real error.
+
+[124]
+! Preview: Snippet 125 started.
+<-><->
+      
+l.226 $S_l$ -- площадь листа $l$, $
+                                               S$ -- площадь покр...
+
+Not a real error.
+
+! Preview: Snippet 125 ended.(644874+0x623242).
+<-><->
+      
+l.226 $S_l$ -- площадь листа $l$, $S$
+                                                  -- площадь покр...
+
+Not a real error.
+
+[125]
+! Preview: Snippet 126 started.
+<-><->
+      
+l.228 \begin{equation}
+                      
+Not a real error.
+
+! Preview: Snippet 126 ended.(2758772+0x30767216).
+<-><->
+      
+l.230 \end{equation}
+                    
+Not a real error.
+
+[126]
+! Preview: Snippet 127 started.
+<-><->
+      
+l.232 ...�ва ограничена числом $
+                                                  d$,
+Not a real error.
+
+! Preview: Snippet 127 ended.(655359+0x480156).
+<-><->
+      
+l.232 ...�а ограничена числом $d$
+                                                  ,
+Not a real error.
+
+[127]
+! Preview: Snippet 128 started.
+<-><->
+      
+l.233 а $
+          c$ -- насыщенность узла квадродерева, ...
+
+Not a real error.
+
+! Preview: Snippet 128 ended.(406323+0x397689).
+<-><->
+      
+l.233 а $c$
+             -- насыщенность узла квадродерева, ...
+
+Not a real error.
+
+[128]
+! Preview: Snippet 129 started.
+<-><->
+      
+l.235 ...е находятся на уровне $
+                                                  d$ и все еще сод...
+
+Not a real error.
+
+! Preview: Snippet 129 ended.(655359+0x480156).
+<-><->
+      
+l.235 ... находятся на уровне $d$
+                                                   и все еще соде...
+
+Not a real error.
+
+[129]
+! Preview: Snippet 130 started.
+<-><->
+      
+l.235 ...� содержат больше, чем $
+                                                  c$ отрезков.
+Not a real error.
+
+! Preview: Snippet 130 ended.(406323+0x397689).
+<-><->
+      
+l.235 ...содержат больше, чем $c$
+                                                   отрезков.
+Not a real error.
+
+[130]
+! Preview: Snippet 131 started.
+<-><->
+      
+l.236 ...ненасыщенных листьев $
+                                                  G$ (good), множест�...
+
+Not a real error.
+
+! Preview: Snippet 131 ended.(644874+0x728884).
+<-><->
+      
+l.236 ...енасыщенных листьев $G$
+                                                   (good), множеств�...
+
+Not a real error.
+
+[131]
+! Preview: Snippet 132 started.
+<-><->
+      
+l.236 ...�о насыщенных листьев $
+                                                  B$ (bad).
+Not a real error.
+
+! Preview: Snippet 132 ended.(644874+0x749616).
+<-><->
+      
+l.236 ...� насыщенных листьев $B$
+                                                   (bad).
+Not a real error.
+
+[132]
+! Preview: Snippet 133 started.
+<-><->
+      
+l.237 \begin{equation}
+                      
+Not a real error.
+
+! Preview: Snippet 133 ended.(2758772+0x30767216).
+<-><->
+      
+l.243 \end{equation}
+                    
+Not a real error.
+
+[133
+
+]
+! Preview: Snippet 134 started.
+<-><->
+      
+l.245 \begin{equation}
+                      
+Not a real error.
+
+! Preview: Snippet 134 ended.(2758772+0x30767216).
+<-><->
+      
+l.248 \end{equation}
+                    
+Not a real error.
+
+[134
+
+]
+! Preview: Snippet 135 started.
+<-><->
+      
+l.249 ...мму. Так как листья из $
+                                                  B$ находятся на...
+
+Not a real error.
+
+! Preview: Snippet 135 ended.(644874+0x749616).
+<-><->
+      
+l.249 ...му. Так как листья из $B$
+                                                   находятся на �...
+
+Not a real error.
+
+[135]
+! Preview: Snippet 136 started.
+<-><->
+      
+l.249 ...B$ находятся на уровне $
+                                                  d$, то $S_l = \frac{S}{4...
+
+Not a real error.
+
+! Preview: Snippet 136 ended.(655359+0x480156).
+<-><->
+      
+l.249 ... находятся на уровне $d$
+                                                  , то $S_l = \frac{S}{4^d}$.
+
+Not a real error.
+
+[136]
+! Preview: Snippet 137 started.
+<-><->
+      
+l.249 ...�дятся на уровне $d$, то $
+                                                  S_l = \frac{S}{4^d}$.
+Not a real error.
+
+! Preview: Snippet 137 ended.(819400+328595x2843048).
+<-><->
+      
+l.249 ...�овне $d$, то $S_l = \frac{S}{4^d}$
+                                                  .
+Not a real error.
+
+[137]
+! Preview: Snippet 138 started.
+<-><->
+      
+l.250 ...� таком листе не более $
+                                                  n$ отрезков.
+Not a real error.
+
+! Preview: Snippet 138 ended.(406323+0x551588).
+<-><->
+      
+l.250 ...таком листе не более $n$
+                                                   отрезков.
+Not a real error.
+
+[138]
+! Preview: Snippet 139 started.
+<-><->
+      
+l.251 \begin{equation}
+                      
+Not a real error.
+
+! Preview: Snippet 139 ended.(2758772+0x30767216).
+<-><->
+      
+l.254 \end{equation}
+                    
+Not a real error.
+
+[139
+
+]
+! Preview: Snippet 140 started.
+<-><->
+      
+l.255 ...�ь мощность множества $
+                                                  B$. Ячейка попа�...
+
+Not a real error.
+
+! Preview: Snippet 140 ended.(644874+0x749616).
+<-><->
+      
+l.255 ...� мощность множества $B$
+                                                  . Ячейка попад�...
+
+Not a real error.
+
+[140]
+! Preview: Snippet 141 started.
+<-><->
+      
+l.255 ... попадает в множество $
+                                                  B$, если ее пере...
+
+Not a real error.
+
+! Preview: Snippet 141 ended.(644874+0x749616).
+<-><->
+      
+l.255 ...�опадает в множество $B$
+                                                  , если ее перес...
+
+Not a real error.
+
+[141]
+! Preview: Snippet 142 started.
+<-><->
+      
+l.259 $
+       O(n)$, локусов тоже $O(n)$.
+Not a real error.
+
+! Preview: Snippet 142 ended.(707788+235929x2002143).
+<-><->
+      
+l.259 $O(n)$
+            , локусов тоже $O(n)$.
+Not a real error.
+
+[142]
+! Preview: Snippet 143 started.
+<-><->
+      
+l.259 $O(n)$, локусов тоже $
+                                       O(n)$.
+Not a real error.
+
+! Preview: Snippet 143 ended.(707788+235929x2002143).
+<-><->
+      
+l.259 $O(n)$, локусов тоже $O(n)$
+                                            .
+Not a real error.
+
+[143]
+! Preview: Snippet 144 started.
+<-><->
+      
+l.261 ...�ой степени}{big_deg}{width=5cm}
+                                                  
+Not a real error.
+
+<img/big_deg.png, id=478, 301.125pt x 301.125pt>
 File: img/big_deg.png Graphic file (type png)
  <use img/big_deg.png>
 Package pdftex.def Info: img/big_deg.png used on input line 261.
 (pdftex.def)             Requested size: 142.26378pt x 142.26852pt.
 
-<img/thin_loc.png, id=88, 301.125pt x 301.125pt>
+! Preview: Snippet 144 ended.(10765502+0x30767216).
+<-><->
+      
+l.261 ...�ой степени}{big_deg}{width=5cm}
+                                                  
+Not a real error.
+
+[144
+
+
+ <./img/big_deg.png (PNG copy)>]
+! Preview: Snippet 145 started.
+<-><->
+      
+l.262 ...кие локусы}{thin_loc}{width=5cm}
+                                                  
+Not a real error.
+
+<img/thin_loc.png, id=482, 301.125pt x 301.125pt>
 File: img/thin_loc.png Graphic file (type png)
  <use img/thin_loc.png>
 Package pdftex.def Info: img/thin_loc.png used on input line 262.
 (pdftex.def)             Requested size: 142.26378pt x 142.26852pt.
 
-[20 <./img/big_deg.png (PNG copy)> <./img/thin_loc.png>])
+! Preview: Snippet 145 ended.(10765502+0x30767216).
+<-><->
+      
+l.262 ...кие локусы}{thin_loc}{width=5cm}
+                                                  
+Not a real error.
+
+[145
+
+
+ <./img/thin_loc.png>]
+! Preview: Snippet 146 started.
+<-><->
+      
+l.266 диаграммы Вороного, на $
+                                                 4^d$ ячеек ($2^d$ по...
+
+Not a real error.
+
+! Preview: Snippet 146 ended.(797578+0x835897).
+<-><->
+      
+l.266 ...граммы Вороного, на $4^d$
+                                                   ячеек ($2^d$ по в...
+
+Not a real error.
+
+[146]
+! Preview: Snippet 147 started.
+<-><->
+      
+l.266 ...�ороного, на $4^d$ ячеек ($
+                                                  2^d$ по вертикал...
+
+Not a real error.
+
+! Preview: Snippet 147 ended.(797578+0x835897).
+<-><->
+      
+l.266 ...�оного, на $4^d$ ячеек ($2^d$
+                                                   по вертикали �...
+
+Not a real error.
+
+[147]
+! Preview: Snippet 148 started.
+<-><->
+      
+l.269 ... и отрезки пересекают $
+                                                  O(n)$ ячеек (сетк...
+
+Not a real error.
+
+! Preview: Snippet 148 ended.(707788+235929x2002143).
+<-><->
+      
+l.269 ...�трезки пересекают $O(n)$
+                                                   ячеек (сетка $n...
+
+Not a real error.
+
+[148]
+! Preview: Snippet 149 started.
+<-><->
+      
+l.269 ...�кают $O(n)$ ячеек (сетка $
+                                                  n \times n$).
+Not a real error.
+
+! Preview: Snippet 149 ended.(550502+78643x2256605).
+<-><->
+      
+l.269 ...O(n)$ ячеек (сетка $n \times n$
+                                                  ).
+Not a real error.
+
+[149]
+! Preview: Snippet 150 started.
+<-><->
+      
+l.270 ...�кий локус пересекает $
+                                                  O(2^d)$ ячеек. Мож...
+
+Not a real error.
+
+! Preview: Snippet 150 ended.(797578+235929x2286452).
+<-><->
+      
+l.270 ... локус пересекает $O(2^d)$
+                                                   ячеек. Можно о...
+
+Not a real error.
+
+[150]
+! Preview: Snippet 151 started.
+<-><->
+      
+l.270 ...$ ячеек. Можно оценить $
+                                                  |B|$.
+Not a real error.
+
+! Preview: Snippet 151 ended.(707788+235929x1273904).
+<-><->
+      
+l.270 ...чеек. Можно оценить $|B|$
+                                                  .
+Not a real error.
+
+[151]
+! Preview: Snippet 152 started.
+<-><->
+      
+l.271 \begin{equation}
+                      
+Not a real error.
+
+! Preview: Snippet 152 ended.(1743257+0x30767216).
+<-><->
+      
+l.274 \end{equation}
+                    
+Not a real error.
+
+[152
+
+]
+! Preview: Snippet 153 started.
+<-><->
+      
+l.277 \begin{equation}
+                      
+Not a real error.
+
+! Preview: Snippet 153 ended.(2154672+0x30767216).
+<-><->
+      
+l.279 \end{equation}
+                    
+Not a real error.
+
+[153]
+! Preview: Snippet 154 started.
+<-><->
+      
+l.281 Отсюда видно, что при $
+                                              d = 2\log_2 n + C$, где $C$...
+
+Not a real error.
+
+! Preview: Snippet 154 ended.(655359+216268x6472336).
+<-><->
+      
+l.281 ...дно, что при $d = 2\log_2 n + C$
+                                                  , где $C$ -- конст...
+
+Not a real error.
+
+[154]
+! Preview: Snippet 155 started.
+<-><->
+      
+l.281 ...то при $d = 2\log_2 n + C$, где $
+                                                  C$ -- константа, ...
+
+Not a real error.
+
+! Preview: Snippet 155 ended.(644874+0x728884).
+<-><->
+      
+l.281 ...о при $d = 2\log_2 n + C$, где $C$
+                                                   -- константа, $E...
+
+Not a real error.
+
+[155]
+! Preview: Snippet 156 started.
+<-><->
+      
+l.281 ...+ C$, где $C$ -- константа, $
+                                                  E\{n(X)\} = O(1)$.
+Not a real error.
+
+! Preview: Snippet 156 ended.(707788+235929x6950012).
+<-><->
+      
+l.281 ...-- константа, $E\{n(X)\} = O(1)$
+                                                  .
+Not a real error.
+
+[156]
+! Preview: Snippet 157 started.
+<-><->
+      
+l.284 \subsection
+                 {Анализ полученных результатов}
+Not a real error.
+
+! Preview: Snippet 157 ended.(647094+183041x30767216).
+<-><->
+      
+l.284 ...�лученных результатов}
+                                                  
+Not a real error.
+
+[157
+
+]
+! Preview: Snippet 158 started.
+<-><->
+      
+l.290 ...ное число ячеек будет $
+                                                  4^d$, что равно $O...
+
+Not a real error.
+
+! Preview: Snippet 158 ended.(797578+0x835897).
+<-><->
+      
+l.290 ...е число ячеек будет $4^d$
+                                                  , что равно $O(n^4)$.
+
+Not a real error.
+
+[158]
+! Preview: Snippet 159 started.
+<-><->
+      
+l.290 ...�к будет $4^d$, что равно $
+                                                  O(n^4)$.
+Not a real error.
+
+! Preview: Snippet 159 ended.(764810+235929x2362592).
+<-><->
+      
+l.290 ...�дет $4^d$, что равно $O(n^4)$
+                                                  .
+Not a real error.
+
+[159]
+! Preview: Snippet 160 started.
+<-><->
+      
+l.294 ...�на ограничена сверху $
+                                                  d$, вторая огра�...
+
+Not a real error.
+
+! Preview: Snippet 160 ended.(655359+0x480156).
+<-><->
+      
+l.294 ...�а ограничена сверху $d$
+                                                  , вторая огран�...
+
+Not a real error.
+
+[160]
+! Preview: Snippet 161 started.
+<-><->
+      
+l.296 Ввиду того что $
+                                  d$ обычно не очень велик...
+
+Not a real error.
+
+! Preview: Snippet 161 ended.(655359+0x480156).
+<-><->
+      
+l.296 Ввиду того что $d$
+                                     обычно не очень велик...
+
+Not a real error.
+
+[161]
+! Preview: Snippet 162 started.
+<-><->
+      
+l.300 ...�кализация и занимает $
+                                                  O(\log n)$ времени,...
+
+Not a real error.
+
+! Preview: Snippet 162 ended.(707788+235929x3352985).
+<-><->
+      
+l.300 ...�ация и занимает $O(\log n)$
+                                                   времени, но, п�...
+
+Not a real error.
+
+[162]
+! Preview: Snippet 163 started.
+<-><->
+      
+l.302 ...еребираемых отрезков $
+                                                  O(1)$. Практичес�...
+
+Not a real error.
+
+! Preview: Snippet 163 ended.(707788+235929x1912578).
+<-><->
+      
+l.302 ...�бираемых отрезков $O(1)$
+                                                  . Практические...
+
+Not a real error.
+
+[163]
+! Preview: Snippet 164 started.
+<-><->
+      
+l.303 ...на лежит в промежутке $
+                                                  [0.5c, c]$, где $c$ -- ...
+
+Not a real error.
+
+! Preview: Snippet 164 ended.(707788+235929x2903424).
+<-><->
+      
+l.303 ...�ит в промежутке $[0.5c, c]$
+                                                  , где $c$ -- преде...
+
+Not a real error.
+
+[164]
+! Preview: Snippet 165 started.
+<-><->
+      
+l.303 ...�ромежутке $[0.5c, c]$, где $
+                                                  c$ -- предельная
+Not a real error.
+
+! Preview: Snippet 165 ended.(406323+0x397689).
+<-><->
+      
+l.303 ...�омежутке $[0.5c, c]$, где $c$
+                                                   -- предельная
+Not a real error.
+
+[165]
+! Preview: Snippet 166 started.
+<-><->
+      
+l.307 $
+       O(2^d n + 4^d) = O(n^4)$, что на практике не набл�...
+
+Not a real error.
+
+! Preview: Snippet 166 ended.(797578+235929x8417639).
+<-><->
+      
+l.307 $O(2^d n + 4^d) = O(n^4)$
+                               , что на практике не набл�...
+
+Not a real error.
+
+[166])
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter3.tex' to `chapters/cha
 pter3.tex' on input line 192.
 :<+ chapters/chapter3.tex
-(./chapters/chapter3.tex [21]
+(./chapters/chapter3.tex
+! Preview: Snippet 167 started.
+<-><->
+      
+l.2 \chapter
+            {Сравнение с другими точными решен�...
+
+Not a real error.
+
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 3.
+! Preview: Snippet 167 ended.(4632985+0x30767216).
+<-><->
+      
+l.2 ...гими точными решениями}
+                                                  
+Not a real error.
 
-LaTeX Warning: Citation `NGRID' on page 22 undefined on input line 5.
+[167
 
-[22
+
+
 
 ]
-Overfull \hbox (3.33252pt too wide) in paragraph at lines 56--57
- [][] 
- []
+! Preview: Snippet 168 started.
+<-><->
+      
+l.3 \section
+            {Модификация n-grid для точного решен�...
+
+Not a real error.
+
+! Preview: Snippet 168 ended.(776806+220148x30767216).
+<-><->
+      
+l.3 ...-grid для точного решения}
+                                                  
+Not a real error.
+
+[168
+
+]
+
+LaTeX Warning: Citation `NGRID' on page 15 undefined on input line 5.
+
+! Preview: Snippet 169 started.
+<-><->
+      
+l.18 \section
+             {Сравнительные испытания}
+Not a real error.
+
+! Preview: Snippet 169 ended.(776806+0x30767216).
+<-><->
+      
+l.18 ...авнительные испытания}
+                                                  
+Not a real error.
+
+[169
+
+]
+! Preview: Snippet 170 started.
+<-><->
+      
+l.41 \begin{table}
+                  [ht]
+Not a real error.
+
+! Preview: Snippet 170 ended.(1441792+3538958x30985616).
+<-><->
+      
+l.57 \end{table}
+                
+Not a real error.
+
+[170
 
 
-Overfull \hbox (3.33252pt too wide) in paragraph at lines 75--76
- [][] 
- []
+]
+! Preview: Snippet 171 started.
+<-><->
+      
+l.59 \begin{table}
+                  [ht]
+Not a real error.
+
+! Preview: Snippet 171 ended.(1441792+3538958x30985616).
+<-><->
+      
+l.76 \end{table}
+                
+Not a real error.
+
+[171
 
 
-Overfull \hbox (3.33252pt too wide) in paragraph at lines 93--94
- [][] 
- []
+]
+! Preview: Snippet 172 started.
+<-><->
+      
+l.78 \begin{table}
+                  [ht]
+Not a real error.
+
+! Preview: Snippet 172 ended.(1441792+3538958x30985616).
+<-><->
+      
+l.94 \end{table}
+                
+Not a real error.
+
+[172
 
 
-Overfull \hbox (3.33252pt too wide) in paragraph at lines 113--114
- [][] 
- []
+]
+! Preview: Snippet 173 started.
+<-><->
+      
+l.96 \begin{table}
+                  [ht]
+Not a real error.
 
-[23]
-Overfull \hbox (3.33252pt too wide) in paragraph at lines 142--143
- [][] 
- []
+! Preview: Snippet 173 ended.(1441792+3538958x30985616).
+<-><->
+      
+l.114 \end{table}
+                 
+Not a real error.
 
-)
+[173
+
+
+]
+! Preview: Snippet 174 started.
+<-><->
+      
+l.128 \begin{table}
+                   [ht]
+Not a real error.
+
+! Preview: Snippet 174 ended.(1441792+3538958x30985616).
+<-><->
+      
+l.143 \end{table}
+                 
+Not a real error.
+
+[174
+
+
+])
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter4.tex' to `chapters/cha
 pter4.tex' on input line 193.
 :<+ chapters/chapter4.tex
-(./chapters/chapter4.tex [24]
+(./chapters/chapter4.tex
+! Preview: Snippet 175 started.
+<-><->
+      
+l.1 \chapter
+            {Применение}
+Not a real error.
+
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 4.
-<img/rgeocoding.png, id=106, 199.49532pt x 155.07938pt>
+! Preview: Snippet 175 ended.(3125657+0x30767216).
+<-><->
+      
+l.1 \chapter{Применение}
+                                  
+Not a real error.
+
+[175
+
+
+
+
+]
+! Preview: Snippet 176 started.
+<-><->
+      
+l.2 \section
+            {Решение задачи обратного геокодир...
+
+Not a real error.
+
+! Preview: Snippet 176 ended.(776806+220148x30767216).
+<-><->
+      
+l.2 ...�атного геокодирования}
+                                                  
+Not a real error.
+
+[176
+
+]
+! Preview: Snippet 177 started.
+<-><->
+      
+l.19 ...лижайший объект}{rgeocoding}
+                                                  
+Not a real error.
+
+<img/rgeocoding.png, id=588, 199.49532pt x 155.07938pt>
 File: img/rgeocoding.png Graphic file (type png)
 
 <use img/rgeocoding.png>
 Package pdftex.def Info: img/rgeocoding.png used on input line 19.
 (pdftex.def)             Requested size: 227.62204pt x 176.95085pt.
- [25
+
+! Preview: Snippet 177 ended.(13038443+0x30767216).
+<-><->
+      
+l.19 ...лижайший объект}{rgeocoding}
+                                                  
+Not a real error.
+
+[177
+
+
+ <./img/rgeocoding.png (PNG copy)>]
+! Preview: Snippet 178 started.
+<-><->
+      
+l.22 \section
+             {Решение задач интерполяции}
+Not a real error.
+
+! Preview: Snippet 178 ended.(776806+220148x30767216).
+<-><->
+      
+l.22 ...�ие задач интерполяции}
+                                                  
+Not a real error.
+
+[178
 
 ]
 
-LaTeX Warning: Citation `NGRID' on page 26 undefined on input line 28.
+LaTeX Warning: Citation `NGRID' on page 18 undefined on input line 28.
 
-[26 <./img/rgeocoding.png (PNG copy)>])
+)
 :<-
 Package srcltx Info: Expanded filename `chapters/outro.tex' to `chapters/outro.
 tex' on input line 194.
 :<+ chapters/outro.tex
-(./chapters/outro.tex [27]
+(./chapters/outro.tex
 
-LaTeX Warning: Citation `APREC' on page 28 undefined on input line 15.
+LaTeX Warning: Citation `APREC' on page 19 undefined on input line 15.
 
-)
+! Preview: Snippet 179 started.
+<-><->
+      
+l.24 ...(furthest segment problem) и поиск $
+                                                  k$ ближайших со...
+
+Not a real error.
+
+! Preview: Snippet 179 ended.(655359+0x512268).
+<-><->
+      
+l.24 ...urthest segment problem) и поиск $k$
+                                                   ближайших сос...
+
+Not a real error.
+
+[179])
 :<-
 :<+ thesis.bbl
 No file thesis.bbl.
 :<-
-[28] (./thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7578 strings out of 494515
- 104595 string characters out of 6173718
- 169464 words of memory out of 5000000
- 10628 multiletter control sequences out of 15000+600000
- 16679 words of font info for 40 fonts, out of 8000000 for 9000
+ 2212 strings out of 488935
+ 28404 string characters out of 6093875
+ 168264 words of memory out of 5000000
+ 10804 multiletter control sequences out of 15000+600000
+ 21987 words of font info for 47 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 38i,8n,42p,1090b,628s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1440.600pk> </home/
-antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasx1440.600pk> </home/antonkov/.
-texmf-var/fonts/pk/ljfour/lh/lh-t2a/laxc1728.600pk> </home/antonkov/.texmf-var/
-fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/antonkov/.texmf-var/fonts/pk/l
-jfour/lh/lh-t2a/lasx2488.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/l
-h-t2a/labx1728.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm
-1440.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.600pk
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb>
-Output written on thesis.pdf (28 pages, 331425 bytes).
+ 38i,10n,42p,1090b,635s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1440.600pk> </home/
+antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.600pk> </home/antonkov/.
+texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasx1440.600pk> </home/antonkov/.texmf-var/
+fonts/pk/ljfour/lh/lh-t2a/laxc1728.600pk> </home/antonkov/.texmf-var/fonts/pk/l
+jfour/lh/lh-t2a/lasx2488.600pk></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on thesis.pdf (179 pages, 261123 bytes).
 PDF statistics:
- 574 PDF objects out of 1000 (max. 8388607)
- 117 compressed objects within 2 object streams
+ 850 PDF objects out of 1000 (max. 8388607)
+ 437 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
