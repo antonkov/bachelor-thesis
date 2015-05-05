@@ -35,6 +35,17 @@
 
 \section{Постановка задачи}
 \begin{frame}
+  \frametitle{Цель работы}
+   Построить маршрут поиска объекта максимизирующий вероятность его обнаружения. Фиксированы: \\
+\begin{itemize}
+  \item распределениe вероятности (зависимость от времени)
+  \item параметры средства поиска
+  \item стратегия поиска - ``параллельное галсирование''
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Распределение вероятности}
 \begin{columns}
 \column{.6\textwidth}
 \includegraphics<+>[width=\textwidth]{pics/pic03-1.png}
@@ -51,40 +62,6 @@
   \end{itemize}
 \item<.(-2)-.(0)>{Эволюция распределения (диффузия)}
 \end{itemize}
-\end{columns}
-\end{frame}
-
-\begin{frame}
-\begin{columns}
-\column{.6\textwidth}
-\includegraphics<+>[width=\textwidth]{pics/pic04-1.png}
-\includegraphics<+>[width=\textwidth]{pics/pic04-2.png}
-\includegraphics<+>[width=\textwidth]{pics/pic04-3.png}
-\column{.4\textwidth}
-\begin{itemize}
-    \item<.(-2)-.(-1)>{Построение маршрута поиска объекта, основываясь на поле вероятности}
-    \item<.(0)>{Симуляция прохождения маршрута}
-\end{itemize}
-\end{columns}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Стратегии поиска}
-\begin{columns}
-
-\column{.6\textwidth}
-\includegraphics<2>[width=\textwidth]{pics/pic05-comb.png}
-\includegraphics<3, 5->[width=\textwidth]{pics/pic05-parallel_tacks.png}
-\includegraphics<4>[width=\textwidth]{pics/pic05-expand_box.png}
-\column{.4\textwidth}
-\setbeamercovered{dynamic}
-\begin{itemize}
-  \item<1> ``Заданный маршрут''
-  \item<2> ``Гребенка''
-  \item<3, 5-> ``Параллельное галсирование''
-  \item<4> ``Расширяющийся квадрат''
-\end{itemize}
-
 \end{columns}
 \end{frame}
 
@@ -109,16 +86,62 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Входные данные}
+  \frametitle{Параметры распределения}
 \begin{itemize}
-\item $t$ --- время поиска
 \item $A_{t_0}$ --- матрица начального распределения
 \item $f(A_t, \Delta t) = A_{t+\Delta t}$ --- функция изменения распределения
-\item $geom$ --- геометрия района поиска
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Параметры средства поиска}
+\begin{itemize}
 \item $p_0$ --- начальное положение средства поиска
-\item $l$ --- прямая задающая направление галсирования
 \item $v$ --- cкорость средства поиска
 \item $B$ --- матрица вероятности обнаружения средством поиска (для простоты - обнаружение в круге радиуса $r$ с вероятностью 1)
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Стратегии поиска}
+\begin{columns}
+
+\column{.6\textwidth}
+\includegraphics<2>[width=\textwidth]{pics/pic05-comb.png}
+\includegraphics<3, 5->[width=\textwidth]{pics/pic05-parallel_tacks.png}
+\includegraphics<4>[width=\textwidth]{pics/pic05-expand_box.png}
+\column{.4\textwidth}
+\setbeamercovered{dynamic}
+\begin{itemize}
+  \item<1> ``Заданный маршрут''
+  \item<2> ``Гребенка''
+  \item<3, 5-> ``Параллельное галсирование''
+  \item<4> ``Расширяющийся квадрат''
+\end{itemize}
+
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\begin{columns}
+\column{.6\textwidth}
+\includegraphics<+>[width=\textwidth]{pics/pic04-1.png}
+\includegraphics<+>[width=\textwidth]{pics/pic04-2.png}
+\includegraphics<+>[width=\textwidth]{pics/pic04-3.png}
+\column{.4\textwidth}
+\begin{itemize}
+    \item<.(-2)-.(-1)>{Построение маршрута поиска объекта, основываясь на поле вероятности}
+    \item<.(0)>{Симуляция прохождения маршрута}
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Входные данные}
+\begin{itemize}
+\item параметры распределения
+\item параметры средства поиска
+\item $t$ --- время поиска
 \end{itemize}
 \end{frame}
 
