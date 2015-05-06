@@ -22,6 +22,8 @@
     "graphicx"
     "amsmath"
     "ulem")
+   (TeX-add-symbols
+    '("twopartdef" 4))
    (LaTeX-add-environments
     "dfn")))
 
