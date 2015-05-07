@@ -15,6 +15,7 @@
 \newtheorem*{dfn}{A Reasonable Definition}               
 
 \newcommand\smallerFont{\fontsize{9pt}{10.8}\selectfont}
+
 \newcommand<>{\putImg}[1] { \includegraphics#2[width=\textwidth]{pics/#1} }
 \newcommand{\twopartdef}[4]
 {
