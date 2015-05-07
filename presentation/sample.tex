@@ -19,7 +19,7 @@
 \setbeamerfont{page number in head/foot}{size=\large}
 \setbeamertemplate{footline}[frame number]
 
-\def\putImg<#1>#2{ \includegraphics<#1>[width=\textwidth]{pics/#2} }
+\def\putImg<#1>#2{ \includegraphics<#1>[width=\textwidth]{../img/#2} }
 %\newcommand<>{\putImg}[1] { \includegraphics#2[width=\textwidth]{pics/#1} }
 \newcommand{\twopartdef}[4]
 {
@@ -192,7 +192,7 @@
 
 \begin{frame}
   \frametitle{Выходные данные}
-\includegraphics[width=\textwidth]{pics/pic06-lh.png}
+\putImg<+->{pic06-lh.png}
 \begin{itemize}
   \item $l_i$ --- проекция $i$-го галса на прямую $l$
   \item $h_i$ --- разница между галсом $i$ и $i+1$
@@ -240,7 +240,7 @@
 
 \begin{frame}
 \frametitle{Решение проблемы 1}
-\includegraphics[width=\textwidth]{pics/keyframe.png} 
+\putImg<+->{keyframe.png}
 \begin{itemize}
   \item{приближенные версии частично примененных ядер $K_{\frac{1}{3}}, K_{\frac{2}{3}}$}
   \item{погрешность не накапливается, так как минимум предыдущий кадр ключевой}

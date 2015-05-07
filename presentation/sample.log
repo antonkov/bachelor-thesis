@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.5)  7 MAY 2015 16:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.5)  7 MAY 2015 16:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1261,11 +1261,11 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 
 [3
 
-] <pics/pic03-1.png, id=67, 1122.1925pt x 956.57375pt>
-File: pics/pic03-1.png Graphic file (type png)
+] <../img/pic03-1.png, id=67, 1122.1925pt x 956.57375pt>
+File: ../img/pic03-1.png Graphic file (type png)
 
-<use pics/pic03-1.png>
-Package pdftex.def Info: pics/pic03-1.png used on input line 83.
+<use ../img/pic03-1.png>
+Package pdftex.def Info: ../img/pic03-1.png used on input line 83.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
 LaTeX Font Info:    Try loading font information for U+msa on input line 83.
 
@@ -1278,32 +1278,33 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 83.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [4
 
- <./pics/pic03-1.png>] <pics/pic03-2.png, id=76, 1122.1925pt x 956.57375pt>
-File: pics/pic03-2.png Graphic file (type png)
+ <../img/pic03-1.png>] <../img/pic03-2.png, id=76, 1122.1925pt x 956.57375pt>
+File: ../img/pic03-2.png Graphic file (type png)
 
-<use pics/pic03-2.png>
-Package pdftex.def Info: pics/pic03-2.png used on input line 83.
+<use ../img/pic03-2.png>
+Package pdftex.def Info: ../img/pic03-2.png used on input line 83.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
  [5
 
- <./pics/pic03-2.png>]
-<pics/pic03-3.png, id=85, 1122.1925pt x 956.57375pt>
-File: pics/pic03-3.png Graphic file (type png)
- <use pics/pic03-3.png>
-Package pdftex.def Info: pics/pic03-3.png used on input line 83.
+ <../img/pic03-2.png>]
+<../img/pic03-3.png, id=85, 1122.1925pt x 956.57375pt>
+File: ../img/pic03-3.png Graphic file (type png)
+
+<use ../img/pic03-3.png>
+Package pdftex.def Info: ../img/pic03-3.png used on input line 83.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
+ [6
 
-[6
+ <../img/pic03-3.png>]
+<../img/pic03-4.png, id=94, 1122.1925pt x 956.57375pt>
+File: ../img/pic03-4.png Graphic file (type png)
 
- <./pics/pic03-3.png>] <pics/pic03-4.png, id=94, 1122.1925pt x 956.57375pt>
-File: pics/pic03-4.png Graphic file (type png)
-
-<use pics/pic03-4.png>
-Package pdftex.def Info: pics/pic03-4.png used on input line 83.
+<use ../img/pic03-4.png>
+Package pdftex.def Info: ../img/pic03-4.png used on input line 83.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
  [7
 
- <./pics/pic03-4.png>] [8
+ <../img/pic03-4.png>] [8
 
 ] [9
 
@@ -1313,92 +1314,94 @@ Package pdftex.def Info: pics/pic03-4.png used on input line 83.
 
 ] [12
 
-] [13
-
 ]
-[14
+[13
+
+] [14
 
 ] [15
 
 ] [16
 
-] <pics/pic05-comb.png, id=183, 200.75pt x 112.42pt>
-File: pics/pic05-comb.png Graphic file (type png)
+] <../img/pic05-comb.png, id=183, 200.75pt x 112.42pt>
+File: ../img/pic05-comb.png Graphic file (type png)
 
-<use pics/pic05-comb.png>
-Package pdftex.def Info: pics/pic05-comb.png used on input line 140.
+<use ../img/pic05-comb.png>
+Package pdftex.def Info: ../img/pic05-comb.png used on input line 140.
 (pdftex.def)             Requested size: 184.3758pt x 103.25783pt.
  [17
 
- <./pics/pic05-comb.png>]
-<pics/pic05-parallel_tacks.png, id=192, 202.7575pt x 116.435pt>
-File: pics/pic05-parallel_tacks.png Graphic file (type png)
+ <../img/pic05-comb.png>]
+<../img/pic05-parallel_tacks.png, id=192, 202.7575pt x 116.435pt>
+File: ../img/pic05-parallel_tacks.png Graphic file (type png)
 
-<use pics/pic05-parallel_tacks.png>
-Package pdftex.def Info: pics/pic05-parallel_tacks.png used on input line 140.
+<use ../img/pic05-parallel_tacks.png>
+Package pdftex.def Info: ../img/pic05-parallel_tacks.png used on input line 140
+.
 (pdftex.def)             Requested size: 184.3758pt x 105.88138pt.
  [18
 
- <./pics/pic05-parallel_tacks.png>]
-<pics/pic05-expand_box.png, id=201, 210.7875pt x 116.435pt>
-File: pics/pic05-expand_box.png Graphic file (type png)
+ <../img/pic05-parallel_tacks.png>]
+<../img/pic05-expand_box.png, id=201, 210.7875pt x 116.435pt>
+File: ../img/pic05-expand_box.png Graphic file (type png)
 
-<use pics/pic05-expand_box.png>
-Package pdftex.def Info: pics/pic05-expand_box.png used on input line 140.
+<use ../img/pic05-expand_box.png>
+Package pdftex.def Info: ../img/pic05-expand_box.png used on input line 140.
 (pdftex.def)             Requested size: 184.3758pt x 101.84839pt.
  [19
 
- <./pics/pic05-expand_box.png>]
-File: pics/pic05-parallel_tacks.png Graphic file (type png)
+ <../img/pic05-expand_box.png>]
+File: ../img/pic05-parallel_tacks.png Graphic file (type png)
 
-<use pics/pic05-parallel_tacks.png>
-Package pdftex.def Info: pics/pic05-parallel_tacks.png used on input line 140.
+<use ../img/pic05-parallel_tacks.png>
+Package pdftex.def Info: ../img/pic05-parallel_tacks.png used on input line 140
+.
 (pdftex.def)             Requested size: 184.3758pt x 105.88138pt.
  [20
 
 ] [21
 
 ]
-<pics/pic04-1.png, id=227, 1122.1925pt x 956.57375pt>
-File: pics/pic04-1.png Graphic file (type png)
- <use pics/pic04-1.png>
-Package pdftex.def Info: pics/pic04-1.png used on input line 162.
+<../img/pic04-1.png, id=227, 1122.1925pt x 956.57375pt>
+File: ../img/pic04-1.png Graphic file (type png)
+
+<use ../img/pic04-1.png>
+Package pdftex.def Info: ../img/pic04-1.png used on input line 162.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
+ [22
 
-[22
+ <../img/pic04-1.png>]
+<../img/pic04-2.png, id=236, 1122.1925pt x 956.57375pt>
+File: ../img/pic04-2.png Graphic file (type png)
 
- <./pics/pic04-1.png>]
-<pics/pic04-2.png, id=236, 1122.1925pt x 956.57375pt>
-File: pics/pic04-2.png Graphic file (type png)
- <use pics/pic04-2.png>
-Package pdftex.def Info: pics/pic04-2.png used on input line 162.
+<use ../img/pic04-2.png>
+Package pdftex.def Info: ../img/pic04-2.png used on input line 162.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
+ [23
 
-[23
+ <../img/pic04-2.png>]
+<../img/pic04-3.png, id=245, 1122.1925pt x 956.57375pt>
+File: ../img/pic04-3.png Graphic file (type png)
 
- <./pics/pic04-2.png>]
-<pics/pic04-3.png, id=245, 1122.1925pt x 956.57375pt>
-File: pics/pic04-3.png Graphic file (type png)
- <use pics/pic04-3.png>
-Package pdftex.def Info: pics/pic04-3.png used on input line 162.
+<use ../img/pic04-3.png>
+Package pdftex.def Info: ../img/pic04-3.png used on input line 162.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
+ [24
 
-[24
-
- <./pics/pic04-3.png>] [25
+ <../img/pic04-3.png>] [25
 
 ] [26
 
 ]
-<pics/pic06-lh.png, id=274, 1087.06125pt x 355.3275pt>
-File: pics/pic06-lh.png Graphic file (type png)
- <use pics/pic06-lh.png>
-Package pdftex.def Info: pics/pic06-lh.png used on input line 202.
+<../img/pic06-lh.png, id=274, 1087.06125pt x 355.3275pt>
+File: ../img/pic06-lh.png Graphic file (type png)
+
+<use ../img/pic06-lh.png>
+Package pdftex.def Info: ../img/pic06-lh.png used on input line 202.
 (pdftex.def)             Requested size: 307.28987pt x 100.44525pt.
+ [27
 
-[27
-
- <./pics/pic06-lh.png>]
+ <../img/pic06-lh.png>]
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
 (hyperref)                removing `\CYRS' on input line 204.
@@ -1521,82 +1524,82 @@ Package hyperref Warning: Glyph not defined in PD1 encoding,
 
 (./sample.toc) [28
 
-] <pics/pic08-1.png, id=296, 1122.1925pt x 956.57375pt>
-File: pics/pic08-1.png Graphic file (type png)
+] <../img/pic08-1.png, id=296, 1122.1925pt x 956.57375pt>
+File: ../img/pic08-1.png Graphic file (type png)
 
-<use pics/pic08-1.png>
-Package pdftex.def Info: pics/pic08-1.png used on input line 222.
+<use ../img/pic08-1.png>
+Package pdftex.def Info: ../img/pic08-1.png used on input line 222.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
  [29
 
- <./pics/pic08-1.png>]
-<pics/pic08-2.png, id=305, 1267.73625pt x 784.9325pt>
-File: pics/pic08-2.png Graphic file (type png)
- <use pics/pic08-2.png>
-Package pdftex.def Info: pics/pic08-2.png used on input line 222.
+ <../img/pic08-1.png>]
+<../img/pic08-2.png, id=305, 1267.73625pt x 784.9325pt>
+File: ../img/pic08-2.png Graphic file (type png)
+
+<use ../img/pic08-2.png>
+Package pdftex.def Info: ../img/pic08-2.png used on input line 222.
 (pdftex.def)             Requested size: 184.3758pt x 114.15364pt.
+ [30
 
-[30
-
- <./pics/pic08-2.png>] [31
+ <../img/pic08-2.png>] [31
 
 ] [32
 
 ]
-<pics/keyframe.png, id=332, 1456.44125pt x 400.49625pt>
-File: pics/keyframe.png Graphic file (type png)
+<../img/keyframe.png, id=332, 1456.44125pt x 400.49625pt>
+File: ../img/keyframe.png Graphic file (type png)
 
-<use pics/keyframe.png>
-Package pdftex.def Info: pics/keyframe.png used on input line 248.
+<use ../img/keyframe.png>
+Package pdftex.def Info: ../img/keyframe.png used on input line 248.
 (pdftex.def)             Requested size: 307.28987pt x 84.4978pt.
  [33
 
- <./pics/keyframe.png>]
-<pics/pic07-1.png, id=342, 1122.1925pt x 956.57375pt>
-File: pics/pic07-1.png Graphic file (type png)
- <use pics/pic07-1.png>
-Package pdftex.def Info: pics/pic07-1.png used on input line 259.
+ <../img/keyframe.png>]
+<../img/pic07-1.png, id=342, 1122.1925pt x 956.57375pt>
+File: ../img/pic07-1.png Graphic file (type png)
+
+<use ../img/pic07-1.png>
+Package pdftex.def Info: ../img/pic07-1.png used on input line 259.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
+ [34
 
-[34
+ <../img/pic07-1.png>]
+<../img/pic07-2.png, id=351, 1122.1925pt x 956.57375pt>
+File: ../img/pic07-2.png Graphic file (type png)
 
- <./pics/pic07-1.png>]
-<pics/pic07-2.png, id=351, 1122.1925pt x 956.57375pt>
-File: pics/pic07-2.png Graphic file (type png)
- <use pics/pic07-2.png>
-Package pdftex.def Info: pics/pic07-2.png used on input line 259.
+<use ../img/pic07-2.png>
+Package pdftex.def Info: ../img/pic07-2.png used on input line 259.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
+ [35
 
-[35
+ <../img/pic07-2.png>]
+<../img/pic07-3.png, id=360, 1122.1925pt x 956.57375pt>
+File: ../img/pic07-3.png Graphic file (type png)
 
- <./pics/pic07-2.png>]
-<pics/pic07-3.png, id=360, 1122.1925pt x 956.57375pt>
-File: pics/pic07-3.png Graphic file (type png)
- <use pics/pic07-3.png>
-Package pdftex.def Info: pics/pic07-3.png used on input line 275.
+<use ../img/pic07-3.png>
+Package pdftex.def Info: ../img/pic07-3.png used on input line 275.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
+ [36
 
-[36
+ <../img/pic07-3.png>]
+<../img/pic07-4.png, id=369, 1122.1925pt x 956.57375pt>
+File: ../img/pic07-4.png Graphic file (type png)
 
- <./pics/pic07-3.png>]
-<pics/pic07-4.png, id=369, 1122.1925pt x 956.57375pt>
-File: pics/pic07-4.png Graphic file (type png)
- <use pics/pic07-4.png>
-Package pdftex.def Info: pics/pic07-4.png used on input line 275.
+<use ../img/pic07-4.png>
+Package pdftex.def Info: ../img/pic07-4.png used on input line 275.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
+ [37
 
-[37
+ <../img/pic07-4.png>]
+<../img/pic07-5.png, id=379, 1122.1925pt x 956.57375pt>
+File: ../img/pic07-5.png Graphic file (type png)
 
- <./pics/pic07-4.png>]
-<pics/pic07-5.png, id=379, 1122.1925pt x 956.57375pt>
-File: pics/pic07-5.png Graphic file (type png)
- <use pics/pic07-5.png>
-Package pdftex.def Info: pics/pic07-5.png used on input line 275.
+<use ../img/pic07-5.png>
+Package pdftex.def Info: ../img/pic07-5.png used on input line 275.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
+ [38
 
-[38
-
- <./pics/pic07-5.png>]
+ <../img/pic07-5.png>]
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
 (hyperref)                removing `\CYRA' on input line 277.
@@ -1710,96 +1713,96 @@ Package hyperref Warning: Glyph not defined in PD1 encoding,
 ] [42
 
 ]
-<pics/pic01-clear.png, id=423, 1122.1925pt x 956.57375pt>
-File: pics/pic01-clear.png Graphic file (type png)
+<../img/pic01-clear.png, id=423, 1122.1925pt x 956.57375pt>
+File: ../img/pic01-clear.png Graphic file (type png)
 
-<use pics/pic01-clear.png>
-Package pdftex.def Info: pics/pic01-clear.png used on input line 342.
+<use ../img/pic01-clear.png>
+Package pdftex.def Info: ../img/pic01-clear.png used on input line 342.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
  [43
 
- <./pics/pic01-clear.png>]
-<pics/pic01-1h.png, id=433, 1122.1925pt x 956.57375pt>
-File: pics/pic01-1h.png Graphic file (type png)
- <use pics/pic01-1h.png>
-Package pdftex.def Info: pics/pic01-1h.png used on input line 342.
+ <../img/pic01-clear.png>]
+<../img/pic01-1h.png, id=433, 1122.1925pt x 956.57375pt>
+File: ../img/pic01-1h.png Graphic file (type png)
+
+<use ../img/pic01-1h.png>
+Package pdftex.def Info: ../img/pic01-1h.png used on input line 342.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
+ [44
 
-[44
+ <../img/pic01-1h.png>]
+<../img/pic01-2h.png, id=442, 1122.1925pt x 956.57375pt>
+File: ../img/pic01-2h.png Graphic file (type png)
 
- <./pics/pic01-1h.png>]
-<pics/pic01-2h.png, id=442, 1122.1925pt x 956.57375pt>
-File: pics/pic01-2h.png Graphic file (type png)
- <use pics/pic01-2h.png>
-Package pdftex.def Info: pics/pic01-2h.png used on input line 342.
+<use ../img/pic01-2h.png>
+Package pdftex.def Info: ../img/pic01-2h.png used on input line 342.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
+ [45
 
-[45
+ <../img/pic01-2h.png>]
+<../img/pic01-3h.png, id=451, 1122.1925pt x 956.57375pt>
+File: ../img/pic01-3h.png Graphic file (type png)
 
- <./pics/pic01-2h.png>]
-<pics/pic01-3h.png, id=451, 1122.1925pt x 956.57375pt>
-File: pics/pic01-3h.png Graphic file (type png)
- <use pics/pic01-3h.png>
-Package pdftex.def Info: pics/pic01-3h.png used on input line 342.
+<use ../img/pic01-3h.png>
+Package pdftex.def Info: ../img/pic01-3h.png used on input line 342.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
+ [46
 
-[46
+ <../img/pic01-3h.png>]
+<../img/pic01-4h.png, id=461, 1122.1925pt x 956.57375pt>
+File: ../img/pic01-4h.png Graphic file (type png)
 
- <./pics/pic01-3h.png>]
-<pics/pic01-4h.png, id=461, 1122.1925pt x 956.57375pt>
-File: pics/pic01-4h.png Graphic file (type png)
- <use pics/pic01-4h.png>
-Package pdftex.def Info: pics/pic01-4h.png used on input line 342.
+<use ../img/pic01-4h.png>
+Package pdftex.def Info: ../img/pic01-4h.png used on input line 342.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
+ [47
 
-[47
+ <../img/pic01-4h.png>]
+<../img/pic01-8h.png, id=470, 1122.1925pt x 956.57375pt>
+File: ../img/pic01-8h.png Graphic file (type png)
 
- <./pics/pic01-4h.png>]
-<pics/pic01-8h.png, id=470, 1122.1925pt x 956.57375pt>
-File: pics/pic01-8h.png Graphic file (type png)
- <use pics/pic01-8h.png>
-Package pdftex.def Info: pics/pic01-8h.png used on input line 342.
+<use ../img/pic01-8h.png>
+Package pdftex.def Info: ../img/pic01-8h.png used on input line 342.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
+ [48
 
-[48
+ <../img/pic01-8h.png>]
+<../img/pic01-16h.png, id=479, 1122.1925pt x 956.57375pt>
+File: ../img/pic01-16h.png Graphic file (type png)
 
- <./pics/pic01-8h.png>]
-<pics/pic01-16h.png, id=479, 1122.1925pt x 956.57375pt>
-File: pics/pic01-16h.png Graphic file (type png)
-
-<use pics/pic01-16h.png>
-Package pdftex.def Info: pics/pic01-16h.png used on input line 342.
+<use ../img/pic01-16h.png>
+Package pdftex.def Info: ../img/pic01-16h.png used on input line 342.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
  [49
 
- <./pics/pic01-16h.png>]
-<pics/pic02-init.png, id=489, 1122.1925pt x 956.57375pt>
-File: pics/pic02-init.png Graphic file (type png)
+ <../img/pic01-16h.png>]
+<../img/pic02-init.png, id=489, 1122.1925pt x 956.57375pt>
+File: ../img/pic02-init.png Graphic file (type png)
 
-<use pics/pic02-init.png>
-Package pdftex.def Info: pics/pic02-init.png used on input line 361.
+<use ../img/pic02-init.png>
+Package pdftex.def Info: ../img/pic02-init.png used on input line 361.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
  [50
 
- <./pics/pic02-init.png>]
-<pics/pic02-before.png, id=498, 1122.1925pt x 956.57375pt>
-File: pics/pic02-before.png Graphic file (type png)
+ <../img/pic02-init.png>]
+<../img/pic02-before.png, id=498, 1122.1925pt x 956.57375pt>
+File: ../img/pic02-before.png Graphic file (type png)
 
-<use pics/pic02-before.png>
-Package pdftex.def Info: pics/pic02-before.png used on input line 361.
+<use ../img/pic02-before.png>
+Package pdftex.def Info: ../img/pic02-before.png used on input line 361.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
  [51
 
- <./pics/pic02-before.png>]
-<pics/pic02-after.png, id=507, 1122.1925pt x 956.57375pt>
-File: pics/pic02-after.png Graphic file (type png)
+ <../img/pic02-before.png>]
+<../img/pic02-after.png, id=507, 1122.1925pt x 956.57375pt>
+File: ../img/pic02-after.png Graphic file (type png)
 
-<use pics/pic02-after.png>
-Package pdftex.def Info: pics/pic02-after.png used on input line 361.
+<use ../img/pic02-after.png>
+Package pdftex.def Info: ../img/pic02-after.png used on input line 361.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
  [52
 
- <./pics/pic02-after.png>] [53
+ <../img/pic02-after.png>] [53
 
 ] [54
 
@@ -1917,8 +1920,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 392.
  ) 
 Here is how much of TeX's memory you used:
  18132 strings out of 494515
- 323087 string characters out of 6173719
- 404939 words of memory out of 5000000
+ 323321 string characters out of 6173719
+ 404941 words of memory out of 5000000
  20767 multiletter control sequences out of 15000+600000
  14689 words of font info for 43 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
