@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=prv_thesis 2015.5.1)  1 MAY 2015 01:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=prv_thesis 2015.5.7)  7 MAY 2015 19:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -71,20 +71,20 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
 LaTeX Font Info:    ... okay on input line 109.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 109.
 LaTeX Font Info:    ... okay on input line 109.
-(/home/antonkov/.emacs.d/elpa/auctex-11.88.4/latex/preview.sty
+(/home/antonkov/.emacs.d/elpa/auctex-11.88.5/latex/preview.sty
 Package: preview 2010/02/14 11.88 (AUCTeX/preview-latex)
 
-(/home/antonkov/.emacs.d/elpa/auctex-11.88.4/latex/prtightpage.def
+(/home/antonkov/.emacs.d/elpa/auctex-11.88.5/latex/prtightpage.def
 \PreviewBorder=\dimen128
 )
-(/home/antonkov/.emacs.d/elpa/auctex-11.88.4/latex/prauctex.def
+(/home/antonkov/.emacs.d/elpa/auctex-11.88.5/latex/prauctex.def
 No auxiliary output files.
 
 
 \hbadness=\count117
 \hfuzz=\dimen129
-(/home/antonkov/.emacs.d/elpa/auctex-11.88.4/latex/prauctex.cfg))
-(/home/antonkov/.emacs.d/elpa/auctex-11.88.4/latex/prfootnotes.def)
+(/home/antonkov/.emacs.d/elpa/auctex-11.88.5/latex/prauctex.cfg))
+(/home/antonkov/.emacs.d/elpa/auctex-11.88.5/latex/prfootnotes.def)
 \pr@snippet=\count118
 \pr@box=\box30
 \pr@output=\toks36
@@ -185,7 +185,7 @@ File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
 )
 No file _region_.toc.
 Package srcltx Info: Expanded filename `chapters/intro.tex' to `chapters/intro.
-tex' on input line 193.
+tex' on input line 192.
 :<+ chapters/intro.tex
 (./chapters/intro.tex
 
@@ -344,7 +344,7 @@ Not a real error.
 [6])
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter1.tex' to `chapters/cha
-pter1.tex' on input line 194.
+pter1.tex' on input line 193.
 :<+ chapters/chapter1.tex
 (./chapters/chapter1.tex
 ! Preview: Snippet 7 started.
@@ -992,7 +992,7 @@ Not a real error.
 [41])
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter2.tex' to `chapters/cha
-pter2.tex' on input line 195.
+pter2.tex' on input line 194.
 :<+ chapters/chapter2.tex
 (./chapters/chapter2.tex
 ! Preview: Snippet 42 started.
@@ -3167,7 +3167,7 @@ Not a real error.
 [166])
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter3.tex' to `chapters/cha
-pter3.tex' on input line 196.
+pter3.tex' on input line 195.
 :<+ chapters/chapter3.tex
 (./chapters/chapter3.tex
 ! Preview: Snippet 167 started.
@@ -3338,7 +3338,7 @@ Not a real error.
 ])
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter4.tex' to `chapters/cha
-pter4.tex' on input line 197.
+pter4.tex' on input line 196.
 :<+ chapters/chapter4.tex
 (./chapters/chapter4.tex
 ! Preview: Snippet 175 started.
@@ -3431,7 +3431,7 @@ LaTeX Warning: Citation `NGRID' on page 17 undefined on input line 28.
 )
 :<-
 Package srcltx Info: Expanded filename `chapters/outro.tex' to `chapters/outro.
-tex' on input line 198.
+tex' on input line 197.
 :<+ chapters/outro.tex
 (./chapters/outro.tex
 
@@ -3464,7 +3464,7 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  2203 strings out of 488935
- 28323 string characters out of 6093874
+ 28323 string characters out of 6093875
  168040 words of memory out of 5000000
  10798 multiletter control sequences out of 15000+600000
  21987 words of font info for 47 fonts, out of 8000000 for 9000
