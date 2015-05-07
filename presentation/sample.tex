@@ -15,7 +15,12 @@
 \newtheorem*{dfn}{A Reasonable Definition}               
 
 \newcommand\smallerFont{\fontsize{9pt}{10.8}\selectfont}
-\newcommand<>{\putImg}[1] { \includegraphics#2[width=\textwidth]{pics/#1} }
+\beamertemplatenavigationsymbolsempty
+\setbeamerfont{page number in head/foot}{size=\large}
+\setbeamertemplate{footline}[frame number]
+
+\def\putImg<#1>#2{ \includegraphics<#1>[width=\textwidth]{pics/#2} }
+%\newcommand<>{\putImg}[1] { \includegraphics#2[width=\textwidth]{pics/#1} }
 \newcommand{\twopartdef}[4]
 {
 	\left\{
