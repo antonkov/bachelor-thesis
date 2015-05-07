@@ -195,6 +195,24 @@
 \end{frame}
 
 \section{Симуляция эволюции распределения} % Since this is the start of a new section, our recurring outline will appear here.
+\begin{frame}
+  \frametitle{Сервисы симулятора}
+\begin{columns}
+\column{.6\textwidth}
+\includegraphics<+>[width=\textwidth]{pics/pic08-1.png}
+\includegraphics<+>[width=\textwidth]{pics/pic08-2.png}
+\column{.4\textwidth}
+\begin{itemize}
+\item<.(-1)->{демонстрация распределения в каждый момент прохождения маршрута}
+\item<.>{Статистика
+\begin{itemize}
+  \item{\color{red} прогресс поиска}
+  \item{\color{blue} поисковая производительность}
+\end{itemize}
+}
+\end{itemize}
+\end{columns}
+\end{frame}
 
 \begin{frame} 
 \frametitle{Примеры моделей изменения распределения}
@@ -215,7 +233,38 @@
 
 \begin{frame}
 \frametitle{Решение проблемы 1}
-\includegraphics[width=\textwidth]{pics/keyframe.png}
+\includegraphics[width=\textwidth]{pics/keyframe.png} 
+\begin{itemize}
+  \item{приближенные версии частично примененных ядер $K_{\frac{1}{3}}, K_{\frac{2}{3}}$}
+  \item{погрешность не накапливается, так как минимум предыдущий кадр ключевой}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Проблема 2}
+\begin{columns}
+\column{.6\textwidth}
+\includegraphics<+>[width=\textwidth]{pics/pic07-1.png}
+\includegraphics<+>[width=\textwidth]{pics/pic07-2.png}
+\column{.4\textwidth}
+\only<.>{изначально выделенной текстуры недостаточно}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Решение проблемы 2}
+\begin{columns}
+\column{.6\textwidth}
+\includegraphics<+>[width=\textwidth]{pics/pic07-3.png}
+\includegraphics<+>[width=\textwidth]{pics/pic07-4.png}
+\includegraphics<+>[width=\textwidth]{pics/pic07-5.png}
+\column{.4\textwidth}
+\only<.(-2)->{Начинает выходить?}
+\begin{itemize}
+  \item<.(-1)->{перецентрировать}
+  \item<.(0)->{увеличить x2 (совместить четыре ячейки в одну)}
+\end{itemize}
+\end{columns}
 \end{frame}
 
 \section{Алгоритм построения маршрута}
@@ -276,4 +325,4 @@
 %%% TeX-master: t
 %%% End:
 
-\message{ !name(sample.tex) !offset(-279) }
+\message{ !name(sample.tex) !offset(-328) }

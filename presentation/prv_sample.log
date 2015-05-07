@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.5)  5 MAY 2015 21:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.5)  7 MAY 2015 11:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1012,7 +1012,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 
  )
 Beginning to dump on file prv_sample.fmt
- (format=prv_sample 2015.5.5)
+ (format=prv_sample 2015.5.7)
 21711 strings of total length 362810
 391217 memory locations dumped; current usage is 306&379587
 19084 multiletter control sequences

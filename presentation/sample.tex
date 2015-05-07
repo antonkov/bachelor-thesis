@@ -9,9 +9,12 @@
 \usepackage{graphicx} % This package is needed if you wish to include external image files.
 \usepackage{amsmath}
 \usepackage{ulem}
+\usepackage{enumitem}
+\setlist[itemize]{label=\textbullet}
 \theoremstyle{definition} % See Lesson Three of the LaTeX Manual for more on this kind of "proclamation."
 \newtheorem*{dfn}{A Reasonable Definition}               
 
+\newcommand\smallerFont{\fontsize{9pt}{10.8}\selectfont}
 \newcommand{\twopartdef}[4]
 {
 	\left\{
@@ -268,7 +271,42 @@
 \section{Алгоритм построения маршрута}
 \begin{frame}
 \frametitle{Глобальный алгоритм}
-Здесь нужно написать описание динамики за пятую степень
+\begin{itemize}
+\item{$dp[row][col][time][last]$ - максимальное значение $S_{res}$ заканчивая путь с заданными параметрами}
+\item{$row, col$ - текущий строка и столбец в которой находится средство поиска}
+\item{$time$ - количество сделанных ходов}
+\item{$last$ - предыдущая строка в которой был горизонтальный галс}
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Глобальный алгоритм: переходы}
+\begin{itemize}
+\item{$(row, col, time) \to (row+1, col, time+1)/(row, col \pm 1, time+1)$}
+\\
+\item{$(row, col_{row}, time, last) \to 
+\left\{
+\begin{array}{l}
+        (row+1, col_{row+1}, time+|col_{row}-col_{row+1}| + 1, last)\\
+ \mbox{если } col_{row} \neq col_{row+1}\\
+  \\
+        (row+1, col_{row+1}, time + 1, row)\\
+ \mbox{иначе }
+\end{array}
+\right.$}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Глобальный алгоритм: порядки величин}
+\begin{itemize}
+\item{$row \approx 50$}
+\item{$col \approx 50$}
+\item{$time \approx 10^3$}
+\item{$last \approx 4$ - более дальние мало влияют}
+\item{$row \cdot col^2 \cdot time \cdot last \approx 5*10^8$}
+\end{itemize}
 \end{frame}
 
 \begin{frame}
