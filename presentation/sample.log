@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.5)  7 MAY 2015 12:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.5)  7 MAY 2015 13:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1782,7 +1782,7 @@ Package pdftex.def Info: pics/pic02-init.png used on input line 355.
  [50
 
  <./pics/pic02-init.png>]
-<pics/pic02-before.png, id=1500, 1122.1925pt x 956.57375pt>
+<pics/pic02-before.png, id=1502, 1122.1925pt x 956.57375pt>
 File: pics/pic02-before.png Graphic file (type png)
 
 <use pics/pic02-before.png>
@@ -1791,7 +1791,7 @@ Package pdftex.def Info: pics/pic02-before.png used on input line 355.
  [51
 
  <./pics/pic02-before.png>]
-<pics/pic02-after.png, id=1528, 1122.1925pt x 956.57375pt>
+<pics/pic02-after.png, id=1530, 1122.1925pt x 956.57375pt>
 File: pics/pic02-after.png Graphic file (type png)
 
 <use pics/pic02-after.png>
@@ -1799,7 +1799,11 @@ Package pdftex.def Info: pics/pic02-after.png used on input line 355.
 (pdftex.def)             Requested size: 184.3758pt x 157.15643pt.
  [52
 
- <./pics/pic02-after.png>]
+ <./pics/pic02-after.png>] [53
+
+] [54
+
+]
 \tf@nav=\write6
 \openout6 = `sample.nav'.
 
@@ -1809,11 +1813,12 @@ Package pdftex.def Info: pics/pic02-after.png used on input line 355.
 \tf@snm=\write8
 \openout8 = `sample.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 357.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 357.
- (./sample.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 357.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 357.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 377.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 377.
+
+(./sample.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 377.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 377.
 Package rerunfilecheck Info: File `sample.out' has not changed.
 (rerunfilecheck)             Checksum: 660CD6BE6150ED94D668FA31ED7FE200;116.
 
@@ -1824,13 +1829,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 357.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 377.
  ) 
 Here is how much of TeX's memory you used:
- 18109 strings out of 494515
- 322939 string characters out of 6173719
+ 18117 strings out of 494515
+ 323009 string characters out of 6173719
  406864 words of memory out of 5000000
- 20756 multiletter control sequences out of 15000+600000
+ 20760 multiletter control sequences out of 15000+600000
  13865 words of font info for 42 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  49i,15n,53p,901b,657s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1845,11 +1850,12 @@ sfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 s8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on sample.pdf (52 pages, 3926036 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on sample.pdf (54 pages, 3938934 bytes).
 PDF statistics:
- 1788 PDF objects out of 2073 (max. 8388607)
- 1458 compressed objects within 15 object streams
- 108 named destinations out of 1000 (max. 500000)
+ 1852 PDF objects out of 2073 (max. 8388607)
+ 1515 compressed objects within 16 object streams
+ 112 named destinations out of 1000 (max. 500000)
  212 words of extra memory for PDF output out of 10000 (max. 10000000)
 
