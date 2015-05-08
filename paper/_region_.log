@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=prv_thesis 2015.5.7)  7 MAY 2015 19:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=prv_thesis 2015.5.8)  8 MAY 2015 14:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -71,20 +71,20 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
 LaTeX Font Info:    ... okay on input line 109.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 109.
 LaTeX Font Info:    ... okay on input line 109.
-(/home/antonkov/.emacs.d/elpa/auctex-11.88.5/latex/preview.sty
+(/home/antonkov/.emacs.d/elpa/auctex-11.88.4/latex/preview.sty
 Package: preview 2010/02/14 11.88 (AUCTeX/preview-latex)
 
-(/home/antonkov/.emacs.d/elpa/auctex-11.88.5/latex/prtightpage.def
+(/home/antonkov/.emacs.d/elpa/auctex-11.88.4/latex/prtightpage.def
 \PreviewBorder=\dimen128
 )
-(/home/antonkov/.emacs.d/elpa/auctex-11.88.5/latex/prauctex.def
+(/home/antonkov/.emacs.d/elpa/auctex-11.88.4/latex/prauctex.def
 No auxiliary output files.
 
 
 \hbadness=\count117
 \hfuzz=\dimen129
-(/home/antonkov/.emacs.d/elpa/auctex-11.88.5/latex/prauctex.cfg))
-(/home/antonkov/.emacs.d/elpa/auctex-11.88.5/latex/prfootnotes.def)
+(/home/antonkov/.emacs.d/elpa/auctex-11.88.4/latex/prauctex.cfg))
+(/home/antonkov/.emacs.d/elpa/auctex-11.88.4/latex/prfootnotes.def)
 \pr@snippet=\count118
 \pr@box=\box30
 \pr@output=\toks36
@@ -3464,7 +3464,7 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  2203 strings out of 488935
- 28323 string characters out of 6093875
+ 28323 string characters out of 6093874
  168040 words of memory out of 5000000
  10798 multiletter control sequences out of 15000+600000
  21987 words of font info for 47 fonts, out of 8000000 for 9000

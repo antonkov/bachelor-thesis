@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.5)  7 MAY 2015 19:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  8 MAY 2015 14:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -309,8 +309,8 @@ LaTeX Font Info:    Try loading font information for T2A+cmss on input line 109
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ) )
 Beginning to dump on file prv_thesis.fmt
- (format=prv_thesis 2015.5.7)
-11065 strings of total length 156125
+ (format=prv_thesis 2015.5.8)
+11065 strings of total length 156126
 152128 memory locations dumped; current usage is 285&142039
 8714 multiletter control sequences
 \font\nullfont=nullfont
