@@ -91,13 +91,15 @@
 \pause
 \begin{itemize}
   \pause
-\item частица - гипотеза положения объекта поиска
+\item частица --- гипотеза изначального положения объекта поиска и его поведения
+  \pause
+\item вес частицы --- вероятность гипотезы
   \pause
 \item перемещение частиц с течением времени
   \pause
 \item сбор частиц средством поиска
   \pause
-\item больше собранных частиц --- больше вероятность обнаружить объект
+\item больше вес собранных частиц --- больше вероятность обнаружить объект
 \end{itemize}
 }
 \end{frame}
@@ -174,18 +176,19 @@
 \begin{frame}
   \frametitle{Задача}
 \begin{itemize}
-  \item {$w : W$ --- частица}
+  \item {$\pi : \Pi$ --- частица}
+  \item {$w_{\pi}$ --- вес частицы (сумма весов 1)}
   %\item {$pos(w, t)$ --- позиция частицы $w$ в момент времени $t$}
   %\item {$posFinder(t)$ --- позиция средства поиска}
-  \item {$\chi(w) = 
+  \item {$\chi(\pi) = 
 	\left\{
 		\begin{array}{ll}
-			1 & \mbox{если } {\exists t {dist(posFinder(t), pos(w, t)) <= r}}\\
+			1 & \mbox{если } {\exists t {dist(posFinder(t), pos(\pi, t)) <= r}}\\
 			0 & \mbox{иначе }
 		\end{array}
 	\right.$
         }
-  \item {$S_{res}=\frac{\int\limits_W{\chi(w)dw}}{\int\limits_Wdw}$}
+  \item {$S_{res}=\sum\limits_{\pi \in \Pi}{\chi(\pi)w_{\pi}}$}
 \end{itemize}
   Построить маршрут максимизирующий $S_{res}$
 \end{frame}

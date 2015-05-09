@@ -35,7 +35,8 @@
     "sty/rac"
     "listings"
     "placeins"
-    "caption")
+    "caption"
+    "subfigure")
    (TeX-add-symbols
     '("todo" 1)
     "p"
@@ -44,9 +45,12 @@
     "tb"
     "cln"
     "pcn"
+    "putImgx"
+    "putImg"
     "drawfigure"
     "drawfigurex")
    (LaTeX-add-labels
+    "#1"
     "#3"
     "appendix")
    (LaTeX-add-environments

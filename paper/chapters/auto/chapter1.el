@@ -2,5 +2,9 @@
  "chapter1"
  (lambda ()
    (LaTeX-add-labels
-    "chapSVD")))
+    "chapSVD"
+    "strat:comb"
+    "strat:box"
+    "start:tacks"
+    "strat:subfigures")))
 

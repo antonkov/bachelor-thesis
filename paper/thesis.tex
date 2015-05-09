@@ -6,7 +6,7 @@
 %\usepackage{pscyr}
 %\renewcommand{\rmdefault}{fjn}
 %\renewcommand{\ttdefault}{fcr}
-
+ 
 %\usepackage{showkeys}
 \usepackage[T2A]{fontenc}
 \usepackage[utf8x]{inputenc}
@@ -26,7 +26,8 @@
 %\usepackage[russian]{sty/ralg}
 \usepackage{listings}
 \usepackage{placeins}
-%\usepackage{caption}
+\usepackage{caption}
+\usepackage{subfigure}
 %\usepackage{floatrow}
 \usepackage{caption}
 \captionsetup[table]{position=t,justification=raggedright,slc=off}
@@ -169,16 +170,24 @@
 \def\pcn#1{\t{#1}}
 \newcommand{\p}{\par Здесь будет текст...}
 
-\def\drawfigure#1#2#3{
-        \begin{figure}[ht]
-        \centerline{ \includegraphics[width=8cm]{img/#1}}
+\def\putImgx#1#2{
+  \includegraphics[width=#1]{../img/#2}
+}
+
+\def\putImg#1{
+  \includegraphics{../img/#1}
+}
+
+\def\drawfigure#1#2{
+        \begin{figure}
+        \centerline{ \putImg{#1} }
         \caption{#2}
-        \label{#3}
+        \label{#1}
         \end{figure}
 }
 \def\drawfigurex#1#2#3#4{
         \begin{figure}[ht]
-        \centerline{ \includegraphics[#4]{img/#1}}
+        \centerline{ \putImgx{#4}{#1} }
         \caption{#2}
         \label{#3}
         \end{figure}
