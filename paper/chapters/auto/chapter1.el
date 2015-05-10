@@ -7,7 +7,5 @@
     "strat:box"
     "strat:tacks"
     "strat:subfigures"
-    "tacks-lh"
-    "simul:init"
-    "simul:after")))
+    "tacks-lh")))
 

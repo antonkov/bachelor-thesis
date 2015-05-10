@@ -186,9 +186,11 @@
 }
 \def\drawfigurex#1#2#3#4{
         \begin{figure}[ht]
-        \putImgx{#4}{#1}
-        \caption{#2}
-        \label{#3}
+          \begin{center}
+            \putImgx{#4}{#1}
+            \caption{#2}
+            \label{#3}
+          \end{center}
         \end{figure}
 }
  
@@ -196,7 +198,7 @@
 \startthechapters
 \input{chapters/intro.tex}
 \input{chapters/chapter1.tex}
-%\input{chapters/chapter2.tex}
+\input{chapters/chapter2.tex}
 %\input{chapters/chapter3.tex}
 %\input{chapters/chapter4.tex}
 %\input{chapters/outro.tex}
