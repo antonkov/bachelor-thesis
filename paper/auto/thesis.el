@@ -28,6 +28,7 @@
     "amsthm"
     "amsfonts"
     "amsxtra"
+    "wrapfig"
     "sty/dbl12"
     "srcltx"
     "epsfig"

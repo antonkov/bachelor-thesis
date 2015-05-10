@@ -5,6 +5,9 @@
     "chapSVD"
     "strat:comb"
     "strat:box"
-    "start:tacks"
-    "strat:subfigures")))
+    "strat:tacks"
+    "strat:subfigures"
+    "tacks-lh"
+    "simul:init"
+    "simul:after")))
 

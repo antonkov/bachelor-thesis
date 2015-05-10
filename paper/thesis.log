@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  10 MAY 2015 00:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  10 MAY 2015 05:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -193,6 +193,14 @@ Package: amsthm 2004/08/06 v2.20
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsxtra.sty
 Package: amsxtra 1999/11/15 v1.2c
 LaTeX Info: Redefining \nobreakspace on input line 65.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen115
+\WF@size=\dimen116
+\c@WF@wrappedlines=\count103
+\WF@box=\box28
+\WF@everypar=\toks31
+Package: wrapfig 2003/01/31  v 3.6
 ) (./sty/dbl12.sty) (/usr/share/texlive/texmf-dist/tex/latex/srcltx/srcltx.sty
 Package: srcltx 2006/11/12 v1.6 Source specials for inverse search in DVI files
 
@@ -200,45 +208,45 @@ Package: srcltx 2006/11/12 v1.6 Source specials for inverse search in DVI files
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\src@lastline=\count103
-\src@new@everypar=\toks31
-\src@new@output=\toks32
+\src@lastline=\count104
+\src@new@everypar=\toks32
+\src@new@output=\toks33
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
-\epsfxsize=\dimen115
-\epsfysize=\dimen116
+\epsfxsize=\dimen117
+\epsfysize=\dimen118
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks33
-\verbatim@line=\toks34
+\every@verbatim=\toks34
+\verbatim@line=\toks35
 \verbatim@in@stream=\read1
 ) (./sty/rac.sty
 \thelinewidth=\skip50
-\c@anything=\count104
-\c@map=\count105
-\c@appendix=\count106
+\c@anything=\count105
+\c@map=\count106
+\c@appendix=\count107
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count107
-\lst@gtempboxa=\box28
-\lst@token=\toks35
-\lst@length=\count108
-\lst@currlwidth=\dimen117
-\lst@column=\count109
-\lst@pos=\count110
-\lst@lostspace=\dimen118
-\lst@width=\dimen119
-\lst@newlines=\count111
-\lst@lineno=\count112
-\lst@maxwidth=\dimen120
+\lst@mode=\count108
+\lst@gtempboxa=\box29
+\lst@token=\toks36
+\lst@length=\count109
+\lst@currlwidth=\dimen119
+\lst@column=\count110
+\lst@pos=\count111
+\lst@lostspace=\dimen120
+\lst@width=\dimen121
+\lst@newlines=\count112
+\lst@lineno=\count113
+\lst@maxwidth=\dimen122
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
-\c@lstnumber=\count113
-\lst@skipnumbers=\count114
-\lst@framebox=\box29
+\c@lstnumber=\count114
+\lst@skipnumbers=\count115
+\lst@framebox=\box30
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2013/08/26 1.5b listings configuration
@@ -254,13 +262,13 @@ Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen121
-\captionmargin@=\dimen122
-\captionwidth=\dimen123
-\caption@tempdima=\dimen124
-\caption@indent=\dimen125
-\caption@parindent=\dimen126
-\caption@hangindent=\dimen127
+\captionmargin=\dimen123
+\captionmargin@=\dimen124
+\captionwidth=\dimen125
+\caption@tempdima=\dimen126
+\caption@indent=\dimen127
+\caption@parindent=\dimen128
+\caption@hangindent=\dimen129
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 )
@@ -274,20 +282,21 @@ tempboxa \hbox {#1. #2} \ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox
 {#1. } \def \@tempdimj {\hsize } \advance \@tempdimj -\wd \@tempboxa \hbox to\h
 size {#1. \parbox [t]{\@tempdimj }{#2}} \else \hbox to\hsize {\hfill \box \@tem
 pboxa \hfill } \fi .
-\c@ContinuedFloat=\count115
+\c@ContinuedFloat=\count116
 Package caption Info: listings package is loaded.
+Package caption Info: wrapfig package is loaded.
 ) (/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip51
 \subfigcapskip=\skip52
-\subfigcaptopadj=\dimen128
+\subfigcaptopadj=\dimen130
 \subfigbottomskip=\skip53
-\subfigcapmargin=\dimen129
+\subfigcapmargin=\dimen131
 \subfiglabelskip=\skip54
-\c@subfigure=\count116
-\c@lofdepth=\count117
-\c@subtable=\count118
-\c@lotdepth=\count119
+\c@subfigure=\count117
+\c@lofdepth=\count118
+\c@subtable=\count119
+\c@lotdepth=\count120
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -296,7 +305,7 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@top=\skip55
 \subfig@bottom=\skip56
 )
-\c@theorem=\count120
+\c@theorem=\count121
 
 (./thesis.aux)
 \openout1 = `thesis.aux'.
@@ -325,17 +334,17 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 :<-
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count121
-\scratchdimen=\dimen130
-\scratchbox=\box30
-\nofMPsegments=\count122
-\nofMParguments=\count123
-\everyMPshowfont=\toks36
-\MPscratchCnt=\count124
-\MPscratchDim=\dimen131
-\MPnumerator=\count125
-\makeMPintoPDFobject=\count126
-\everyMPtoPDFconversion=\toks37
+\scratchcounter=\count122
+\scratchdimen=\dimen132
+\scratchbox=\box31
+\nofMPsegments=\count123
+\nofMParguments=\count124
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count125
+\MPscratchDim=\dimen133
+\MPnumerator=\count126
+\makeMPintoPDFobject=\count127
+\everyMPtoPDFconversion=\toks38
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -384,7 +393,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count127
+\c@lstlisting=\count128
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -409,19 +418,24 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+)
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+ [][] []\T2A/cmr/m/n/14.4 ‘ормулировка за-да-чи си-му-л€-ции про-хож-де-ни€ 
+ []
+
+)
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
  [2]
 Package srcltx Info: Expanded filename `chapters/intro.tex' to `chapters/intro.
-tex' on input line 198.
+tex' on input line 197.
 
 :<+ chapters/intro.tex
 (./chapters/intro.tex)
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter1.tex' to `chapters/cha
-pter1.tex' on input line 199.
+pter1.tex' on input line 198.
 :<+ chapters/chapter1.tex
 (./chapters/chapter1.tex [3
 
@@ -460,11 +474,41 @@ Package pdftex.def Info: ../img/pic05-expand_box.png used on input line 116.
 File: ../img/pic05-parallel_tacks.png Graphic file (type png)
 
 <use ../img/pic05-parallel_tacks.png>
-Package pdftex.def Info: ../img/pic05-parallel_tacks.png used on input line 120
+Package pdftex.def Info: ../img/pic05-parallel_tacks.png used on input line 121
 .
 (pdftex.def)             Requested size: 187.78531pt x 107.83925pt.
  [8] [9 <../img/pic05-comb.png> <../img/pic05-expand_box.png> <../img/pic05-par
-allel_tacks.png>])
+allel_tacks.png>]
+<../img/pic06-lh.png, id=49, 1087.06125pt x 355.3275pt>
+File: ../img/pic06-lh.png Graphic file (type png)
+
+<use ../img/pic06-lh.png>
+Package pdftex.def Info: ../img/pic06-lh.png used on input line 155.
+(pdftex.def)             Requested size: 469.47046pt x 153.45473pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+[10] <../img/pic03-1.png, id=54, 1122.1925pt x 956.57375pt>
+File: ../img/pic03-1.png Graphic file (type png)
+
+<use ../img/pic03-1.png>
+Package pdftex.def Info: ../img/pic03-1.png used on input line 185.
+(pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
+
+<../img/pic03-4.png, id=55, 1122.1925pt x 956.57375pt>
+File: ../img/pic03-4.png Graphic file (type png)
+
+<use ../img/pic03-4.png>
+Package pdftex.def Info: ../img/pic03-4.png used on input line 189.
+(pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
+
+Underfull \hbox (badness 2452) in paragraph at lines 189--189
+[]\T2A/cmr/m/n/8 (b) »з-ме-не-ни€ рас-пре-де-ле-ни€ со-глас-но мо-де-ли
+ []
+
+[11 <../img/pic06-lh.png>])
 :<-
 :<+ thesis.bbl
 No file thesis.bbl.
@@ -473,33 +517,34 @@ No file thesis.bbl.
 Package caption Warning: Unused \captionsetup[table] on input line 33.
 See the caption package documentation for explanation.
 
-[10] (./thesis.aux) ) 
+[12 <../img/pic03-1.png> <../img/pic03-4.png>] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 7393 strings out of 494515
- 102944 string characters out of 6173718
- 168143 words of memory out of 5000000
- 10462 multiletter control sequences out of 15000+600000
+ 7468 strings out of 494515
+ 104048 string characters out of 6173718
+ 169294 words of memory out of 5000000
+ 10530 multiletter control sequences out of 15000+600000
  15962 words of font info for 37 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 38i,7n,39p,1108b,628s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm
-0800.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasx1440.600pk
-> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/laxc1728.600pk> </home/a
-ntonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/antonkov/.t
-exmf-var/fonts/pk/ljfour/lh/lh-t2a/lasx2488.600pk> </home/antonkov/.texmf-var/f
-onts/pk/ljfour/lh/lh-t2a/labx1728.600pk> </home/antonkov/.texmf-var/fonts/pk/lj
-four/lh/lh-t2a/larm1440.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh
--t2a/larm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on thesis.pdf (10 pages, 180571 bytes).
+ 38i,7n,39p,1121b,628s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/antonkov
+/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0800.600pk> </home/antonkov/.texmf-va
+r/fonts/pk/ljfour/lh/lh-t2a/lasx1440.600pk> </home/antonkov/.texmf-var/fonts/pk
+/ljfour/lh/lh-t2a/laxc1728.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh
+/lh-t2a/labx1440.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/la
+sx2488.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600
+pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1440.600pk> </home
+/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.600pk></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb>
+Output written on thesis.pdf (12 pages, 704443 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
+ 443 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
