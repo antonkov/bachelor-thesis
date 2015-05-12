@@ -3,5 +3,7 @@
  (lambda ()
    (LaTeX-add-labels
     "simul:init"
-    "simul:after")))
+    "simul:after"
+    "eq:deltat"
+    "eq:vqulon")))
 

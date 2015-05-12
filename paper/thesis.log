@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  10 MAY 2015 19:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  12 MAY 2015 04:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -422,19 +422,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [2]
+ [3]
 Package srcltx Info: Expanded filename `chapters/intro.tex' to `chapters/intro.
 tex' on input line 199.
 
 :<+ chapters/intro.tex
-(./chapters/intro.tex)
+(./chapters/intro.tex [4
+
+])
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter1.tex' to `chapters/cha
 pter1.tex' on input line 200.
 :<+ chapters/chapter1.tex
-(./chapters/chapter1.tex [3
-
-] [4]
+(./chapters/chapter1.tex [5]
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 1.
 
 Underfull \hbox (badness 4899) in paragraph at lines 9--15
@@ -448,9 +448,9 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
- [5
+ [6
 
-] [6] [7]
+] [7] [8]
 <../img/pic05-comb.png, id=39, 200.75pt x 112.42pt>
 File: ../img/pic05-comb.png Graphic file (type png)
 
@@ -472,8 +472,8 @@ File: ../img/pic05-parallel_tacks.png Graphic file (type png)
 Package pdftex.def Info: ../img/pic05-parallel_tacks.png used on input line 121
 .
 (pdftex.def)             Requested size: 187.78531pt x 107.83925pt.
- [8] [9 <../img/pic05-comb.png> <../img/pic05-expand_box.png> <../img/pic05-par
-allel_tacks.png>]
+ [9] [10 <../img/pic05-comb.png> <../img/pic05-expand_box.png> <../img/pic05-pa
+rallel_tacks.png>]
 <../img/pic06-lh.png, id=49, 1087.06125pt x 355.3275pt>
 File: ../img/pic06-lh.png Graphic file (type png)
 
@@ -485,18 +485,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
-[10] <../img/pic08-1.png, id=54, 1122.1925pt x 956.57375pt>
+[11] <../img/pic08-1.png, id=54, 1122.1925pt x 956.57375pt>
 File: ../img/pic08-1.png Graphic file (type png)
 
 <use ../img/pic08-1.png>
 Package pdftex.def Info: ../img/pic08-1.png used on input line 184.
 (pdftex.def)             Requested size: 234.73523pt x 200.08362pt.
- [11 <../img/pic06-lh.png>])
+ [12 <../img/pic06-lh.png>])
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter2.tex' to `chapters/cha
 pter2.tex' on input line 201.
 :<+ chapters/chapter2.tex
-(./chapters/chapter2.tex [12 <../img/pic08-1.png>]
+(./chapters/chapter2.tex [13 <../img/pic08-1.png>]
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 2.
 <../img/pic03-1.png, id=62, 1122.1925pt x 956.57375pt>
 File: ../img/pic03-1.png Graphic file (type png)
@@ -516,7 +516,15 @@ Underfull \hbox (badness 2452) in paragraph at lines 14--14
 []\T2A/cmr/m/n/8 (b) Из-ме-не-ния рас-пре-де-ле-ния со-глас-но мо-де-ли
  []
 
-)
+[14
+
+ <../img/pic03-1.png> <../img/pic03-4.png>]
+Underfull \hbox (badness 1028) in paragraph at lines 36--39
+[][]\T2A/cmr/m/n/14.4 Процесс сверт-ки с яд-ром осу-ществ-ля-ет-ся сле-ду-ю-щим
+ об-ра-зом,
+ []
+
+[15] [16])
 :<-
 :<+ thesis.bbl
 No file thesis.bbl.
@@ -525,36 +533,33 @@ No file thesis.bbl.
 Package caption Warning: Unused \captionsetup[table] on input line 33.
 See the caption package documentation for explanation.
 
-[13
-
- <../img/pic03-1.png> <../img/pic03-4.png>] [14] (./thesis.aux) ) 
+[17] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 7477 strings out of 494515
- 104218 string characters out of 6173718
- 169305 words of memory out of 5000000
- 10535 multiletter control sequences out of 15000+600000
+ 7479 strings out of 494515
+ 104240 string characters out of 6173718
+ 169334 words of memory out of 5000000
+ 10537 multiletter control sequences out of 15000+600000
  15962 words of font info for 37 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  38i,7n,43p,1121b,628s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/antonk
-ov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0800.600pk> </home/antonkov/.texmf-
-var/fonts/pk/ljfour/lh/lh-t2a/lasx1440.600pk> </home/antonkov/.texmf-var/fonts/
-pk/ljfour/lh/lh-t2a/laxc1728.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/
-lh/lh-t2a/labx1440.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/
-lasx2488.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.6
-00pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1440.600pk> </ho
-me/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.600pk></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb>
-Output written on thesis.pdf (14 pages, 980322 bytes).
+ </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm
+0800.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasx1440.600pk
+> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/laxc1728.600pk> </home/a
+ntonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/antonkov/.t
+exmf-var/fonts/pk/ljfour/lh/lh-t2a/lasx2488.600pk> </home/antonkov/.texmf-var/f
+onts/pk/ljfour/lh/lh-t2a/labx1728.600pk> </home/antonkov/.texmf-var/fonts/pk/lj
+four/lh/lh-t2a/larm1440.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh
+-t2a/larm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on thesis.pdf (16 pages, 994423 bytes).
 PDF statistics:
- 468 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
+ 483 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
