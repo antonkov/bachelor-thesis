@@ -7,6 +7,7 @@
 \usepackage[english,russian]{babel}
 \usepackage{color} % It may be necessary to set PCTeX or whatever program you are using to output a .pdf instead of a .dvi file in order to see color on your screen.
 \usepackage{graphicx} % This package is needed if you wish to include external image files.
+\usepackage{verbatim}
 \usepackage{amsmath}
 \usepackage{ulem}
 \usepackage{enumitem}
@@ -57,8 +58,13 @@
 \begin{itemize}
   \item распределениe вероятности (зависимость от времени)
   \item параметры средства поиска
-  \item стратегия поиска - ``параллельное галсирование''
+  \item стратегия поиска --- ``параллельное галсирование''
 \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Стратегия поиска}
+\putImg<+>{pic05-parallel_tacks.png}
 \end{frame}
 
 \begin{frame}
@@ -82,6 +88,7 @@
 \end{columns}
 \end{frame}
 
+\begin{comment}
 \begin{frame}[t]
 \only<1>{Распределение вероятности}
 \only<2->{\sout{Распределение вероятности}\\}
@@ -103,7 +110,9 @@
 \end{itemize}
 }
 \end{frame}
+\end{comment}
 
+\begin{comment}
 \begin{frame}
   \frametitle{Параметры распределения}
 \begin{itemize}
@@ -111,7 +120,9 @@
 \item $f(A_t, \Delta t) = A_{t+\Delta t}$ --- функция изменения распределения
 \end{itemize}
 \end{frame}
+\end{comment}
 
+\begin{comment}
 \begin{frame}
   \frametitle{Параметры средства поиска}
 \begin{itemize}
@@ -120,34 +131,17 @@
 \item $r$ --- радиус обнаружения средства поиска (все частицы попавшие в круг радиуса обнаружения считаются ``собранными'')
 \end{itemize}
 \end{frame}
+\end{comment}
 
-\begin{frame}
-  \frametitle{Стратегии поиска}
-\begin{columns}
-
-\column{.6\textwidth}
-\putImg<2>{pic05-comb.png}
-\putImg<3, 5->{pic05-parallel_tacks.png}
-\putImg<4>{pic05-expand_box.png}
-\column{.4\textwidth}
-\setbeamercovered{dynamic}
-\begin{itemize}
-  \item<1> ``Заданный маршрут''
-  \item<2> ``Гребенка''
-  \item<3, 5-> ``Параллельное галсирование''
-  \item<4> ``Расширяющийся квадрат''
-\end{itemize}
-
-\end{columns}
-\end{frame}
-
+\begin{comment}
 \begin{frame}
   \frametitle{Параметры стратегии поиска}
   Параллельное галсирование
 \begin{itemize}
-  \item $l$ - прямая параллельная направлению галсов
+  \item $l$ --- прямая параллельная направлению галсов
 \end{itemize}
 \end{frame}
+\end{comment}
 
 \begin{frame}
 \begin{columns}
@@ -169,7 +163,7 @@
 \item параметры распределения
 \item параметры средства поиска
 \item параметры стратегии поиска
-\item $t$ --- время поиска
+\item время поиска
 \end{itemize}
 \end{frame}
 
@@ -194,7 +188,7 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Выходные данные}
+  \frametitle{Результат алгоритма}
 \putImg<+->{pic06-lh.png}
 \begin{itemize}
   \item $l_i$ --- проекция $i$-го галса на прямую $l$
@@ -233,6 +227,7 @@
 \end{itemize}
 \end{frame}
 
+\begin{comment}
 \begin{frame}
 \frametitle{Проблемa 1}
 \begin{itemize}
@@ -249,9 +244,10 @@
   \item{погрешность не накапливается, так как минимум предыдущий кадр ключевой}
 \end{itemize}
 \end{frame}
+\end{comment}
 
 \begin{frame}
-  \frametitle{Проблема 2}
+  \frametitle{Проблема}
 \begin{columns}
 \column{.6\textwidth}
 \putImg<+>{pic07-1.png}
@@ -262,7 +258,7 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Решение проблемы 2}
+  \frametitle{Решение проблемы}
 \begin{columns}
 \column{.6\textwidth}
 \putImg<+>{pic07-3.png}
@@ -281,10 +277,10 @@
 \begin{frame}
 \frametitle{Глобальный алгоритм}
 \begin{itemize}
-\item{$dp[row][col][time][last]$ - максимальное значение $S_{res}$ заканчивая путь с заданными параметрами}
-\item{$row, col$ - текущий строка и столбец в которой находится средство поиска}
-\item{$time$ - количество сделанных ходов}
-\item{$last$ - предыдущая строка в которой был горизонтальный галс}
+\item{$dp[row][col][time][last]$ --- максимальное суммарный вес частиц, который можно собрать}
+\item{$row, col$ --- текущий строка и столбец в которой находится средство поиска}
+\item{$time$ --- количество сделанных ходов}
+\item{$last$ --- количество строк без галсирования}
 
 \end{itemize}
 \end{frame}
@@ -313,8 +309,8 @@
 \item{$row \approx 50$}
 \item{$col \approx 50$}
 \item{$time \approx 10^3$}
-\item{$last \approx 4$ - более дальние мало влияют}
-\item{$row \cdot col^2 \cdot time \cdot last \approx 5*10^8$}
+\item{$last \approx 4$ --- более дальние мало влияют}
+\item{$row \cdot col^2 \cdot time \cdot last \approx 5 \cdot 10^8$}
 \end{itemize}
 \end{frame}
 
@@ -365,10 +361,10 @@
 \begin{frame}
 \frametitle{Корректировка построенного пути}
 \begin{itemize}
-\item{$rest$ - непройденная часть построенного пути}
-\item{$S'_{rest}$ - планировалось собрать на симуляторе, когда строили путь(без учета диффузии)}
-\item{$S''_{rest}$ - планируется на симуляторе к текущему моменту(без учета диффузии)}
-\item{$S''_{rest} \le k \cdot S'_{rest}$ - перестроить маршрут с текущей точки на оставшееся время}
+\item{$rest$ --- непройденная часть построенного пути}
+\item{$S'_{rest}$ --- планировалось собрать на симуляторе, когда строили путь (без учета диффузии)}
+\item{$S''_{rest}$ --- планируется на симуляторе к текущему моменту (без учета диффузии)}
+\item{$S''_{rest} \le k \cdot S'_{rest}$ --- перестроить маршрут с текущей точки на оставшееся время}
 \item{$k \approx 0.95$}
 \end{itemize}
 \end{frame}
@@ -376,10 +372,10 @@
 \begin{frame}
 \frametitle{Локальная оптимизация пути}
 \begin{itemize}
-\item{$k$ - дискретных значений $h_i$}
+\item{$k$ --- дискретных значений $h_i$}
 \item{необходимо осуществить более точную подстройку $h_i$}
-\item{$l_i$ - фиксированы}
-\item{$h_j, (j \neq i) \land (j \neq i+1)$ - фиксированы, локально изменяем $\frac{h_i}{h_{i+1}}$ пока можно улучшить $S_{res}$}
+\item{$l_i$ --- фиксированы}
+\item{$h_j, (j \neq i) \land (j \neq i+1)$ --- фиксированы, локально изменяем $\frac{h_i}{h_{i+1}}$ пока можно улучшить $S_{res}$}
 \end{itemize}
 \end{frame}
 
@@ -390,6 +386,13 @@
 \item{Реализован инструмент, рассчитывающий изменение распределения частиц с учетом поискового средства в реальном времени. Инструмент используется для визуализации и оценки эффективности алгоритмов поиска}
 \item{Разработан и реализован алгоритм построения пути поиска методом ``Параллельное галсирование'', обеспечивающий нахождение объекта с вероятностью $\ge 90\%$ в большинстве случаев, за приемлемое время поиска}
 \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \begin{center}
+    \Huge
+    {\color{blue} Вопросы?}
+  \end{center}
 \end{frame}
 
 \end{document}
