@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  16 MAY 2015 23:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  18 MAY 2015 14:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -747,6 +747,10 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
 )
 
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 35.
+
+
 Package hyperref Warning: Glyph not defined in PD1 encoding,
 (hyperref)                removing `\CYRA' on input line 35.
 
@@ -797,6 +801,118 @@ Package hyperref Warning: Glyph not defined in PD1 encoding,
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
 (hyperref)                removing `\cyrv' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\CYRN' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyru' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrch' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrn' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrery' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrishrt' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrr' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyru' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrk' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyro' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrv' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyro' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrd' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyri' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrt' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyre' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrl' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrsftsn' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\CYRK' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyro' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrv' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrl' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyre' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrv' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\CYRA' on input line 35.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\CYRS' on input line 35.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
@@ -1268,7 +1384,7 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 
 [3
 
-] <../img/pic05-parallel_tacks.png, id=67, 202.7575pt x 116.435pt>
+] <../img/pic05-parallel_tacks.png, id=68, 202.7575pt x 116.435pt>
 File: ../img/pic05-parallel_tacks.png Graphic file (type png)
 
 <use ../img/pic05-parallel_tacks.png>
@@ -1278,7 +1394,7 @@ Package pdftex.def Info: ../img/pic05-parallel_tacks.png used on input line 68.
  [4
 
  <../img/pic05-parallel_tacks.png>]
-<../img/pic03-1.png, id=76, 1122.1925pt x 956.57375pt>
+<../img/pic03-1.png, id=77, 1122.1925pt x 956.57375pt>
 File: ../img/pic03-1.png Graphic file (type png)
 
 <use ../img/pic03-1.png>
@@ -1295,7 +1411,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 89.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [5
 
- <../img/pic03-1.png>] <../img/pic03-2.png, id=85, 1122.1925pt x 956.57375pt>
+ <../img/pic03-1.png>] <../img/pic03-2.png, id=86, 1122.1925pt x 956.57375pt>
 File: ../img/pic03-2.png Graphic file (type png)
 
 <use ../img/pic03-2.png>
@@ -1304,7 +1420,7 @@ Package pdftex.def Info: ../img/pic03-2.png used on input line 89.
  [6
 
  <../img/pic03-2.png>]
-<../img/pic03-3.png, id=94, 1122.1925pt x 956.57375pt>
+<../img/pic03-3.png, id=95, 1122.1925pt x 956.57375pt>
 File: ../img/pic03-3.png Graphic file (type png)
 
 <use ../img/pic03-3.png>
@@ -1313,7 +1429,7 @@ Package pdftex.def Info: ../img/pic03-3.png used on input line 89.
  [7
 
  <../img/pic03-3.png>]
-<../img/pic03-4.png, id=104, 1122.1925pt x 956.57375pt>
+<../img/pic03-4.png, id=105, 1122.1925pt x 956.57375pt>
 File: ../img/pic03-4.png Graphic file (type png)
 
 <use ../img/pic03-4.png>
@@ -1322,7 +1438,7 @@ Package pdftex.def Info: ../img/pic03-4.png used on input line 89.
  [8
 
  <../img/pic03-4.png>]
-<../img/pic04-1.png, id=113, 1122.1925pt x 956.57375pt>
+<../img/pic04-1.png, id=114, 1122.1925pt x 956.57375pt>
 File: ../img/pic04-1.png Graphic file (type png)
 
 <use ../img/pic04-1.png>
@@ -1331,7 +1447,7 @@ Package pdftex.def Info: ../img/pic04-1.png used on input line 158.
  [9
 
  <../img/pic04-1.png>]
-<../img/pic04-2.png, id=122, 1122.1925pt x 956.57375pt>
+<../img/pic04-2.png, id=123, 1122.1925pt x 956.57375pt>
 File: ../img/pic04-2.png Graphic file (type png)
 
 <use ../img/pic04-2.png>
@@ -1340,7 +1456,7 @@ Package pdftex.def Info: ../img/pic04-2.png used on input line 158.
  [10
 
  <../img/pic04-2.png>]
-<../img/pic04-3.png, id=131, 1122.1925pt x 956.57375pt>
+<../img/pic04-3.png, id=132, 1122.1925pt x 956.57375pt>
 File: ../img/pic04-3.png Graphic file (type png)
 
 <use ../img/pic04-3.png>
@@ -1353,7 +1469,7 @@ Package pdftex.def Info: ../img/pic04-3.png used on input line 158.
 ] [13
 
 ]
-<../img/pic06-lh.png, id=165, 1087.06125pt x 355.3275pt>
+<../img/pic06-lh.png, id=166, 1087.06125pt x 355.3275pt>
 File: ../img/pic06-lh.png Graphic file (type png)
 
 <use ../img/pic06-lh.png>
@@ -1485,7 +1601,7 @@ Package hyperref Warning: Glyph not defined in PD1 encoding,
 (./presentation.toc) [15
 
 ]
-<../img/pic08-1.png, id=188, 1122.1925pt x 956.57375pt>
+<../img/pic08-1.png, id=189, 1122.1925pt x 956.57375pt>
 File: ../img/pic08-1.png Graphic file (type png)
 
 <use ../img/pic08-1.png>
@@ -1494,7 +1610,7 @@ Package pdftex.def Info: ../img/pic08-1.png used on input line 219.
  [16
 
  <../img/pic08-1.png>]
-<../img/pic08-2.png, id=197, 1267.73625pt x 784.9325pt>
+<../img/pic08-2.png, id=198, 1267.73625pt x 784.9325pt>
 File: ../img/pic08-2.png Graphic file (type png)
 
 <use ../img/pic08-2.png>
@@ -1618,7 +1734,7 @@ Package hyperref Warning: Glyph not defined in PD1 encoding,
 ] [22
 
 ]
-<../img/pic01-clear.png, id=250, 1122.1925pt x 956.57375pt>
+<../img/pic01-clear.png, id=251, 1122.1925pt x 956.57375pt>
 File: ../img/pic01-clear.png Graphic file (type png)
 
 <use ../img/pic01-clear.png>
@@ -1627,7 +1743,7 @@ Package pdftex.def Info: ../img/pic01-clear.png used on input line 343.
  [23
 
  <../img/pic01-clear.png>]
-<../img/pic01-1h.png, id=259, 1122.1925pt x 956.57375pt>
+<../img/pic01-1h.png, id=260, 1122.1925pt x 956.57375pt>
 File: ../img/pic01-1h.png Graphic file (type png)
 
 <use ../img/pic01-1h.png>
@@ -1636,7 +1752,7 @@ Package pdftex.def Info: ../img/pic01-1h.png used on input line 343.
  [24
 
  <../img/pic01-1h.png>]
-<../img/pic01-2h.png, id=268, 1122.1925pt x 956.57375pt>
+<../img/pic01-2h.png, id=269, 1122.1925pt x 956.57375pt>
 File: ../img/pic01-2h.png Graphic file (type png)
 
 <use ../img/pic01-2h.png>
@@ -1645,7 +1761,7 @@ Package pdftex.def Info: ../img/pic01-2h.png used on input line 343.
  [25
 
  <../img/pic01-2h.png>]
-<../img/pic01-3h.png, id=278, 1122.1925pt x 956.57375pt>
+<../img/pic01-3h.png, id=279, 1122.1925pt x 956.57375pt>
 File: ../img/pic01-3h.png Graphic file (type png)
 
 <use ../img/pic01-3h.png>
@@ -1654,7 +1770,7 @@ Package pdftex.def Info: ../img/pic01-3h.png used on input line 343.
  [26
 
  <../img/pic01-3h.png>]
-<../img/pic01-4h.png, id=287, 1122.1925pt x 956.57375pt>
+<../img/pic01-4h.png, id=288, 1122.1925pt x 956.57375pt>
 File: ../img/pic01-4h.png Graphic file (type png)
 
 <use ../img/pic01-4h.png>
@@ -1663,7 +1779,7 @@ Package pdftex.def Info: ../img/pic01-4h.png used on input line 343.
  [27
 
  <../img/pic01-4h.png>]
-<../img/pic01-8h.png, id=296, 1122.1925pt x 956.57375pt>
+<../img/pic01-8h.png, id=297, 1122.1925pt x 956.57375pt>
 File: ../img/pic01-8h.png Graphic file (type png)
 
 <use ../img/pic01-8h.png>
@@ -1672,7 +1788,7 @@ Package pdftex.def Info: ../img/pic01-8h.png used on input line 343.
  [28
 
  <../img/pic01-8h.png>]
-<../img/pic01-16h.png, id=305, 1122.1925pt x 956.57375pt>
+<../img/pic01-16h.png, id=306, 1122.1925pt x 956.57375pt>
 File: ../img/pic01-16h.png Graphic file (type png)
 
 <use ../img/pic01-16h.png>
@@ -1681,7 +1797,7 @@ Package pdftex.def Info: ../img/pic01-16h.png used on input line 343.
  [29
 
  <../img/pic01-16h.png>]
-<../img/pic02-init.png, id=314, 1122.1925pt x 956.57375pt>
+<../img/pic02-init.png, id=315, 1122.1925pt x 956.57375pt>
 File: ../img/pic02-init.png Graphic file (type png)
 
 <use ../img/pic02-init.png>
@@ -1690,7 +1806,7 @@ Package pdftex.def Info: ../img/pic02-init.png used on input line 362.
  [30
 
  <../img/pic02-init.png>]
-<../img/pic02-before.png, id=324, 1122.1925pt x 956.57375pt>
+<../img/pic02-before.png, id=325, 1122.1925pt x 956.57375pt>
 File: ../img/pic02-before.png Graphic file (type png)
 
 <use ../img/pic02-before.png>
@@ -1699,7 +1815,7 @@ Package pdftex.def Info: ../img/pic02-before.png used on input line 362.
  [31
 
  <../img/pic02-before.png>]
-<../img/pic02-after.png, id=334, 1122.1925pt x 956.57375pt>
+<../img/pic02-after.png, id=335, 1122.1925pt x 956.57375pt>
 File: ../img/pic02-after.png Graphic file (type png)
 
 <use ../img/pic02-after.png>
@@ -1826,31 +1942,32 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 400.
  ) 
 Here is how much of TeX's memory you used:
- 18069 strings out of 494515
- 322599 string characters out of 6173718
- 405609 words of memory out of 5000000
- 20747 multiletter control sequences out of 15000+600000
- 15511 words of font info for 44 fonts, out of 8000000 for 9000
+ 18074 strings out of 494515
+ 322650 string characters out of 6173718
+ 406015 words of memory out of 5000000
+ 20751 multiletter control sequences out of 15000+600000
+ 16628 words of font info for 46 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  49i,15n,53p,907b,657s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/lass2488.600pk> </home/
 antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/lass1200.600pk> </home/antonkov/.
 texmf-var/fonts/pk/ljfour/lh/lh-t2a/lass0800.600pk> </home/antonkov/.texmf-var/
-fonts/pk/ljfour/lh/lh-t2a/lass1095.600pk> </home/antonkov/.texmf-var/fonts/pk/l
-jfour/lh/lh-t2a/lass1440.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/l
-h-t2a/lass0600.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on presentation.pdf (37 pages, 3551581 bytes).
+fonts/pk/ljfour/lh/lh-t2a/lass1000.600pk> </home/antonkov/.texmf-var/fonts/pk/l
+jfour/lh/lh-t2a/lass1095.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/l
+h-t2a/lass1440.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/lass
+0600.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy8.pfb>
+Output written on presentation.pdf (37 pages, 3557449 bytes).
 PDF statistics:
- 633 PDF objects out of 1000 (max. 8388607)
- 341 compressed objects within 4 object streams
+ 659 PDF objects out of 1000 (max. 8388607)
+ 345 compressed objects within 4 object streams
  79 named destinations out of 1000 (max. 500000)
  180 words of extra memory for PDF output out of 10000 (max. 10000000)
 
