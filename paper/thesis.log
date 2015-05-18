@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  18 MAY 2015 19:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  19 MAY 2015 00:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -194,12 +194,20 @@ Package: amsthm 2004/08/06 v2.20
 Package: amsxtra 1999/11/15 v1.2c
 LaTeX Info: Redefining \nobreakspace on input line 65.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen115
+\extrarowheight=\dimen116
+\NC@list=\toks31
+\extratabsurround=\skip50
+\backup@length=\skip51
+)
 (/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen115
-\WF@size=\dimen116
+\wrapoverhang=\dimen117
+\WF@size=\dimen118
 \c@WF@wrappedlines=\count103
 \WF@box=\box28
-\WF@everypar=\toks31
+\WF@everypar=\toks32
 Package: wrapfig 2003/01/31  v 3.6
 ) (./sty/dbl12.sty) (/usr/share/texlive/texmf-dist/tex/latex/srcltx/srcltx.sty
 Package: srcltx 2006/11/12 v1.6 Source specials for inverse search in DVI files
@@ -209,21 +217,21 @@ Package: srcltx 2006/11/12 v1.6 Source specials for inverse search in DVI files
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \src@lastline=\count104
-\src@new@everypar=\toks32
-\src@new@output=\toks33
+\src@new@everypar=\toks33
+\src@new@output=\toks34
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
-\epsfxsize=\dimen117
-\epsfysize=\dimen118
+\epsfxsize=\dimen119
+\epsfysize=\dimen120
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks34
-\verbatim@line=\toks35
+\every@verbatim=\toks35
+\verbatim@line=\toks36
 \verbatim@in@stream=\read1
 ) (./sty/rac.sty
-\thelinewidth=\skip50
+\thelinewidth=\skip52
 \c@anything=\count105
 \c@map=\count106
 \c@appendix=\count107
@@ -231,16 +239,16 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count108
 \lst@gtempboxa=\box29
-\lst@token=\toks36
+\lst@token=\toks37
 \lst@length=\count109
-\lst@currlwidth=\dimen119
+\lst@currlwidth=\dimen121
 \lst@column=\count110
 \lst@pos=\count111
-\lst@lostspace=\dimen120
-\lst@width=\dimen121
+\lst@lostspace=\dimen122
+\lst@width=\dimen123
 \lst@newlines=\count112
 \lst@lineno=\count113
-\lst@maxwidth=\dimen122
+\lst@maxwidth=\dimen124
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
@@ -262,13 +270,13 @@ Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen123
-\captionmargin@=\dimen124
-\captionwidth=\dimen125
-\caption@tempdima=\dimen126
-\caption@indent=\dimen127
-\caption@parindent=\dimen128
-\caption@hangindent=\dimen129
+\captionmargin=\dimen125
+\captionmargin@=\dimen126
+\captionwidth=\dimen127
+\caption@tempdima=\dimen128
+\caption@indent=\dimen129
+\caption@parindent=\dimen130
+\caption@hangindent=\dimen131
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 )
@@ -287,12 +295,12 @@ Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
 ) (/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
-\subfigtopskip=\skip51
-\subfigcapskip=\skip52
-\subfigcaptopadj=\dimen130
-\subfigbottomskip=\skip53
-\subfigcapmargin=\dimen131
-\subfiglabelskip=\skip54
+\subfigtopskip=\skip53
+\subfigcapskip=\skip54
+\subfigcaptopadj=\dimen132
+\subfigbottomskip=\skip55
+\subfigcapmargin=\dimen133
+\subfiglabelskip=\skip56
 \c@subfigure=\count117
 \c@lofdepth=\count118
 \c@subtable=\count119
@@ -302,30 +310,145 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 * Local config file subfigure.cfg used *
 ****************************************
 (/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
-\subfig@top=\skip55
-\subfig@bottom=\skip56
+\subfig@top=\skip57
+\subfig@bottom=\skip58
 )
-\c@theorem=\count121
-
-(./thesis.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/easy/easytable.sty
+Document Style `easytable' v1.0 <2001/06/13>.
+(/usr/share/texlive/texmf-dist/tex/latex/easy/easy.sty
+Document Style `easy' v1.1 <2001/05/31>.
+Package: easy 2001/05/31 v1.1
+\@easy@level=\count121
+\@easy@ncol=\count122
+\@easy@nrow=\count123
+\@easy@cnt=\count124
+\@easy@boxviii=\box31
+\@easy@minxviii=\dimen134
+\@easy@minyviii=\dimen135
+\@easy@maxxviii=\dimen136
+\@easy@maxyviii=\dimen137
+\@easy@boxvii=\box32
+\@easy@minxvii=\dimen138
+\@easy@minyvii=\dimen139
+\@easy@maxxvii=\dimen140
+\@easy@maxyvii=\dimen141
+\@easy@boxvi=\box33
+\@easy@minxvi=\dimen142
+\@easy@minyvi=\dimen143
+\@easy@maxxvi=\dimen144
+\@easy@maxyvi=\dimen145
+\@easy@boxv=\box34
+\@easy@minxv=\dimen146
+\@easy@minyv=\dimen147
+\@easy@maxxv=\dimen148
+\@easy@maxyv=\dimen149
+\@easy@boxiv=\box35
+\@easy@minxiv=\dimen150
+\@easy@minyiv=\dimen151
+\@easy@maxxiv=\dimen152
+\@easy@maxyiv=\dimen153
+\@easy@boxiii=\box36
+\@easy@minxiii=\dimen154
+\@easy@minyiii=\dimen155
+\@easy@maxxiii=\dimen156
+\@easy@maxyiii=\dimen157
+\@easy@boxii=\box37
+\@easy@minxii=\dimen158
+\@easy@minyii=\dimen159
+\@easy@maxxii=\dimen160
+\@easy@maxyii=\dimen161
+\@easy@boxi=\box38
+\@easy@minxi=\dimen162
+\@easy@minyi=\dimen163
+\@easy@maxxi=\dimen164
+\@easy@maxyi=\dimen165
+\@easy@hsizexxx=\dimen166
+\@easy@vsizexxx=\dimen167
+\@easy@hsizexxix=\dimen168
+\@easy@vsizexxix=\dimen169
+\@easy@hsizexxviii=\dimen170
+\@easy@vsizexxviii=\dimen171
+\@easy@hsizexxvii=\dimen172
+\@easy@vsizexxvii=\dimen173
+\@easy@hsizexxvi=\dimen174
+\@easy@vsizexxvi=\dimen175
+\@easy@hsizexxv=\dimen176
+\@easy@vsizexxv=\dimen177
+\@easy@hsizexxiv=\dimen178
+\@easy@vsizexxiv=\dimen179
+\@easy@hsizexxiii=\dimen180
+\@easy@vsizexxiii=\dimen181
+\@easy@hsizexxii=\dimen182
+\@easy@vsizexxii=\dimen183
+\@easy@hsizexxi=\dimen184
+\@easy@vsizexxi=\dimen185
+\@easy@hsizexx=\dimen186
+\@easy@vsizexx=\dimen187
+\@easy@hsizexix=\dimen188
+\@easy@vsizexix=\dimen189
+\@easy@hsizexviii=\dimen190
+\@easy@vsizexviii=\dimen191
+\@easy@hsizexvii=\dimen192
+\@easy@vsizexvii=\dimen193
+\@easy@hsizexvi=\dimen194
+\@easy@vsizexvi=\dimen195
+\@easy@hsizexv=\dimen196
+\@easy@vsizexv=\dimen197
+\@easy@hsizexiv=\dimen198
+\@easy@vsizexiv=\dimen199
+\@easy@hsizexiii=\dimen200
+\@easy@vsizexiii=\dimen201
+\@easy@hsizexii=\dimen202
+\@easy@vsizexii=\dimen203
+\@easy@hsizexi=\dimen204
+\@easy@vsizexi=\dimen205
+\@easy@hsizex=\dimen206
+\@easy@vsizex=\dimen207
+\@easy@hsizeix=\dimen208
+\@easy@vsizeix=\dimen209
+\@easy@hsizeviii=\dimen210
+\@easy@vsizeviii=\dimen211
+\@easy@hsizevii=\dimen212
+\@easy@vsizevii=\dimen213
+\@easy@hsizevi=\dimen214
+\@easy@vsizevi=\dimen215
+\@easy@hsizev=\dimen216
+\@easy@vsizev=\dimen217
+\@easy@hsizeiv=\dimen218
+\@easy@vsizeiv=\dimen219
+\@easy@hsizeiii=\dimen220
+\@easy@vsizeiii=\dimen221
+\@easy@hsizeii=\dimen222
+\@easy@vsizeii=\dimen223
+\@easy@hsizei=\dimen224
+\@easy@vsizei=\dimen225
+\@easy@dash@len=\dimen226
+\@easy@dash@sep=\dimen227
+)
+Package: easytable 2001/05/31v1.1
+\@tab@size@rule=\dimen228
+\@tab@size@dash=\dimen229
+)
+\c@theorem=\count125
+ (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
 Package srcltx Info: Expanded filename `ucsencs.def' to `ucsencs.def.tex' on in
-put line 111.
+put line 113.
 
 :<+ ucsencs.def.tex
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
@@ -334,17 +457,17 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 :<-
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count122
-\scratchdimen=\dimen132
-\scratchbox=\box31
-\nofMPsegments=\count123
-\nofMParguments=\count124
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count125
-\MPscratchDim=\dimen133
-\MPnumerator=\count126
-\makeMPintoPDFobject=\count127
-\everyMPtoPDFconversion=\toks38
+\scratchcounter=\count126
+\scratchdimen=\dimen230
+\scratchbox=\box39
+\nofMPsegments=\count127
+\nofMParguments=\count128
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count129
+\MPscratchDim=\dimen231
+\MPnumerator=\count130
+\makeMPintoPDFobject=\count131
+\everyMPtoPDFconversion=\toks39
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -393,7 +516,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count128
+\c@lstlisting=\count132
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -403,7 +526,7 @@ File: uni-4.def 2013/05/13 UCS: Unicode data U+0400..U+04FF
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for T2A+cmss on input line 161
+LaTeX Font Info:    Try loading font information for T2A+cmss on input line 163
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmss.fd
@@ -424,7 +547,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  [4]
 Package srcltx Info: Expanded filename `chapters/intro.tex' to `chapters/intro.
-tex' on input line 199.
+tex' on input line 201.
 
 :<+ chapters/intro.tex
 (./chapters/intro.tex [5
@@ -432,7 +555,7 @@ tex' on input line 199.
 ])
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter1.tex' to `chapters/cha
-pter1.tex' on input line 200.
+pter1.tex' on input line 202.
 :<+ chapters/chapter1.tex
 (./chapters/chapter1.tex [6]
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 1.
@@ -494,7 +617,7 @@ Package pdftex.def Info: ../img/pic08-1.png used on input line 184.
  [13 <../img/pic06-lh.png>])
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter2.tex' to `chapters/cha
-pter2.tex' on input line 201.
+pter2.tex' on input line 203.
 :<+ chapters/chapter2.tex
 (./chapters/chapter2.tex [14 <../img/pic08-1.png>]
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 2.
@@ -575,7 +698,7 @@ Package pdftex.def Info: ../img/pic08-2.png used on input line 234.
  [22 <../img/pic07-5.png>])
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter3.tex' to `chapters/cha
-pter3.tex' on input line 202.
+pter3.tex' on input line 204.
 :<+ chapters/chapter3.tex
 (./chapters/chapter3.tex [23 <../img/pic08-2.png>]
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 3.
@@ -584,26 +707,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 []\T2A/cmss/bx/n/24.88 Глава 3. Ал-го-ритм по-стро-е-ния
  []
 
+
+Overfull \hbox (16.66995pt too wide) in paragraph at lines 11--32
+ [][] 
+ []
+
 )
 :<-
 :<+ thesis.bbl
 No file thesis.bbl.
 :<-
-
-Package caption Warning: Unused \captionsetup[table] on input line 34.
-See the caption package documentation for explanation.
-
 [24
 
 ] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 7524 strings out of 494515
- 105073 string characters out of 6173718
- 169411 words of memory out of 5000000
- 10572 multiletter control sequences out of 15000+600000
- 15962 words of font info for 37 fonts, out of 8000000 for 9000
+ 7787 strings out of 494515
+ 108621 string characters out of 6173718
+ 173879 words of memory out of 5000000
+ 10824 multiletter control sequences out of 15000+600000
+ 16607 words of font info for 40 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 38i,7n,43p,1121b,628s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,8n,43p,1121b,629s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm080
 0.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasx1440.600pk> <
 /home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/laxc1728.600pk> </home/anto
@@ -619,9 +743,9 @@ are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on thesis.pdf (23 pages, 1378323 bytes).
+Output written on thesis.pdf (23 pages, 1383510 bytes).
 PDF statistics:
- 548 PDF objects out of 1000 (max. 8388607)
+ 550 PDF objects out of 1000 (max. 8388607)
  109 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)

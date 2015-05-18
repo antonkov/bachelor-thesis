@@ -28,6 +28,7 @@
     "amsthm"
     "amsfonts"
     "amsxtra"
+    "array"
     "wrapfig"
     "sty/dbl12"
     "srcltx"
@@ -37,7 +38,8 @@
     "listings"
     "placeins"
     "caption"
-    "subfigure")
+    "subfigure"
+    "easytable")
    (TeX-add-symbols
     '("todo" 1)
     "p"

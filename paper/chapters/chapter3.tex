@@ -3,6 +3,35 @@
 ``Параллельное галсирование''}
 \section{Алгоритм построения маршрута при
  фиксированном распределении}
+
+\def\dprule{ \rule[-2ex]{0pt}{6ex} }
+
+\begin{table}[ht]
+  \centering
+\begin{tabular}{|l|l|l|l|}
+  \hline
+  Текущий & Следующий & Собрано на текущем ходу & Новое состояние  \\
+  ход & ход & & \\
+\hline 
+\dprule $LEFT$&$LEFT$&$sum[row][col][notCleared]$&$dp[cntHor+1][row][col-1][LEFT][notCleared]$\\
+\hline 
+\dprule $LEFT$&$UP$&$sum[row][col][notCleared]$&$dp[cntHor][row+1][col][UP][0]$\\
+\hline 
+\dprule $RIGHT$&$RIGHT$&$sum[row][col][notCleared]$&$dp[cntHor+1][row][col+1][RIGHT][notCleared]$\\
+\hline 
+\dprule $RIGHT$&$UP$&$sum[row][col][notCleared]$&$dp[cntHor][row+1][col][UP][0]$\\
+\hline 
+\dprule $UP$&$UP$&$sum[row][col][0]$&$dp[cntHor][row+1][col][UP][notCleared+1]$\\
+\hline 
+\dprule $UP$&$LEFT$&$sum[row][col][0]$&$dp[cntHor+1][row][col-1][LEFT][notCleared]$\\
+\hline 
+\dprule $UP$&$RIGHT$&$sum[row][col][0]$&$dp[cntHor+1][row][col+1][RIGHT][notCleared]$\\
+\hline 
+\end{tabular}
+\captionsetup{justification=centering}
+\caption{Переходы между состояниями}
+\label{table:dp}
+\end{table}
 \FloatBarrier
 
 \section{Корректировка маршрута}
