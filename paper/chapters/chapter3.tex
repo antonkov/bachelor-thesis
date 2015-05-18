@@ -4,7 +4,8 @@
 \section{Алгоритм построения маршрута при
  фиксированном распределении}
 
-\def\dprule{ \rule[-2ex]{0pt}{6ex} }
+\def\dprule{ \rule[-2ex]{0pt}{4ex} }
+%\def\dprule{}
 
 \begin{table}[ht]
   \centering
@@ -13,23 +14,37 @@
   Текущий & Следующий & Собрано на текущем ходу & Новое состояние  \\
   ход & ход & & \\
 \hline 
-\dprule $LEFT$&$LEFT$&$sum[row][col][notCleared]$&$dp[cntHor+1][row][col-1][LEFT][notCleared]$\\
+\dprule $L$&$L$&$v[row][col][notCleared]$&$dp[cntHor+1][row][col-1][L][notCleared]$\\
 \hline 
-\dprule $LEFT$&$UP$&$sum[row][col][notCleared]$&$dp[cntHor][row+1][col][UP][0]$\\
+\dprule $L$&$LU$&$v[row][col][notCleared]$&$dp[cntHor][row+1][col][LU][0]$\\
+\dprule  && $cs[row][col][LDC]$ & \\
 \hline 
-\dprule $RIGHT$&$RIGHT$&$sum[row][col][notCleared]$&$dp[cntHor+1][row][col+1][RIGHT][notCleared]$\\
+\dprule $R$&$R$&$v[row][col][notCleared]$&$dp[cntHor+1][row][col+1][R][notCleared]$\\
 \hline 
-\dprule $RIGHT$&$UP$&$sum[row][col][notCleared]$&$dp[cntHor][row+1][col][UP][0]$\\
+\dprule $R$&$RU$&$v[row][col][notCleared]$&$dp[cntHor][row+1][col][RU][0]$\\
+\dprule  && $cs[row][col][RDC]$ & \\
 \hline 
-\dprule $UP$&$UP$&$sum[row][col][0]$&$dp[cntHor][row+1][col][UP][notCleared+1]$\\
+\dprule $LU$&$LU$&$v[row][col][0]$&$dp[cntHor][row+1][col][LU][notCleared+1]$\\
+\dprule && $hr[row][col]$ & \\
 \hline 
-\dprule $UP$&$LEFT$&$sum[row][col][0]$&$dp[cntHor+1][row][col-1][LEFT][notCleared]$\\
+\dprule $LU$&$L$&$v[row][col][0]$&$dp[cntHor+1][row][col-1][L][notCleared]$\\
+\dprule && $cs[row][col][RUC]$ & \\
 \hline 
-\dprule $UP$&$RIGHT$&$sum[row][col][0]$&$dp[cntHor+1][row][col+1][RIGHT][notCleared]$\\
+\dprule $LU$&$R$&$v[row][col][0]$&$dp[cntHor+1][row][col+1][R][notCleared]$\\
+\dprule  && $cs[row][col][LUC]$ & \\
+\hline 
+\dprule $RU$&$RU$&$v[row][col][0]$&$dp[cntHor][row+1][col][RU][notCleared+1]$\\
+\dprule && $hl[row][col]$ & \\
+\hline 
+\dprule $RU$&$L$&$v[row][col][0]$&$dp[cntHor+1][row][col-1][L][notCleared]$\\
+\dprule && $cs[row][col][RUC]$ & \\
+\hline 
+\dprule $RU$&$R$&$v[row][col][0]$&$dp[cntHor+1][row][col+1][R][notCleared]$\\
+\dprule && $cs[row][col][LUC]$ & \\
 \hline 
 \end{tabular}
 \captionsetup{justification=centering}
-\caption{Переходы между состояниями}
+\caption{Переходы из состояния $dp[cntHor][row][col][curMove][notCleared]$}
 \label{table:dp}
 \end{table}
 \FloatBarrier
