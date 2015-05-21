@@ -67,7 +67,9 @@ Oбозначим радиус зоны видимости средства по
 части разного типа (рис. \ref{dpzones}). Как видно из картинки некоторые части могут
 быть частично учтены ранее, поэтому важно знать значение $notCleared$ --- сколько строк
 было пропущено без галсирования. Таким образом все предпосчитанные матрицы будут возвращать
-значения с учетом $notCleared$.
+значения с учетом $notCleared$. Самое большое значение $notCleared$ равное $N-1$ будет
+использовано также в случаех, когда требуется считать, что последний галс был
+достаточно далеко, чтобы не оказывать никакого влияния в текущем положении.
 
 Для примера рассмотрен переход между двумя галсами, содеражащий части всех возможных типов.
 В примере ширина ячейки в два раза большее ее высоты. Примеры ячеек сетки динамики 
@@ -78,10 +80,11 @@ Oбозначим радиус зоны видимости средства по
 Желтым отмечен маршрут. Разные типы частей помечены различными цветами. Черная сетка на
 фоне может интерпретироваться как сетка пикселей.
 
-Рассмотрим вертикальные части синего цвета. Значение матрицы $v[row][col][notCleared]$ ---
+Рассмотрим вертикальные части синего цвета. Значение матрицы $vl[row][col][notCleared]$ ---
 будет содержать сумму в прямоугольнике
 $[w_x(col-1), w_x(col)] \times [w_y(row)-r, w_y(row)+r]$. Без 
-учета частиц собранных ниже прямой $w_y(row-1-notCleared) + r$.
+учета частиц собранных ниже прямой $w_y(row-1-notCleared) + r$. А $vr[row][col][notCleared]$ --- 
+будет содеражть $[w_x(col), w_x(col+1)] \times [w_y(row)-r, w_y(row)+r]$.
 
 Розовый и оранжевый тип отличаются лишь положением относительно маршрута, справа или слева
 соответственно. Матрица для оранжевого 
@@ -117,33 +120,39 @@ $newState$ --- состояние в которое мы перейдем, вы�
   Текущий & Следующий & Собрано на текущем ходу & Новое состояние  \\
   ход & ход & & \\
 \hline 
-\dprule $L$&$L$&$v[row][col][notCleared]$&$dp[cntHor+1][row][col-1][L][notCleared]$\\
+\dprule $L$&$L$&$vr[row][col-1][notCleared]$&$(cntHor+1,row,col-1,L,notCleared)$\\
 \hline 
-\dprule $L$&$LU$&$v[row][col][notCleared]$&$dp[cntHor][row+1][col][LU][0]$\\
-\dprule  && $cs[row][col][LDC]$ & \\
+\dprule $L$&$LU$&$hl[row+1][col][N-1]$&$(cntHor,row+1,col,LU,0)$\\
+\dprule  && $hr[row+1][col][0]$ & \\
+\dprule  && $cs[row][col][Q_{LD}][notCleared]$ & \\
 \hline 
-\dprule $R$&$R$&$v[row][col][notCleared]$&$dp[cntHor+1][row][col+1][R][notCleared]$\\
+\dprule $R$&$R$&$vl[row][col+1][notCleared]$&$(cntHor+1,row,col+1,R,notCleared)$\\
 \hline 
-\dprule $R$&$RU$&$v[row][col][notCleared]$&$dp[cntHor][row+1][col][RU][0]$\\
-\dprule  && $cs[row][col][RDC]$ & \\
+\dprule $R$&$RU$&$hr[row+1][col][N-1]$&$(cntHor,row+1,col,RU,0)$\\
+\dprule  && $hl[row+1][col][0]$ & \\
+\dprule  && $cs[row][col][Q_{RD}][notCleared]$ & \\
 \hline 
-\dprule $LU$&$LU$&$v[row][col][0]$&$dp[cntHor][row+1][col][LU][notCleared+1]$\\
-\dprule && $hr[row][col]$ & \\
+\dprule $LU$&$LU$&$hl[row+1][col][N-1]$&$(cntHor,row+1,col,LU,notCleared+1)$\\
+\dprule && $hr[row+1][col][notCleared+1]$ & \\
 \hline 
-\dprule $LU$&$L$&$v[row][col][0]$&$dp[cntHor+1][row][col-1][L][notCleared]$\\
-\dprule && $cs[row][col][RUC]$ & \\
+\dprule $LU$&$L$&$vr[row][col-1][notCleared]$&$(cntHor+1,row,col-1,L,notCleared)$\\
+\dprule && $cs[row][col][Q_{RU}][N-1]$ & \\
+\dprule && $-ol[row][col][notCleared]$ & \\
 \hline 
-\dprule $LU$&$R$&$v[row][col][0]$&$dp[cntHor+1][row][col+1][R][notCleared]$\\
-\dprule  && $cs[row][col][LUC]$ & \\
+\dprule $LU$&$R$&$vl[row][col+1][notCleared]$&$(cntHor+1,row,col+1,R,notCleared)$\\
+\dprule  && $cs[row][col][Q_{LU}][N-1]$ & \\
+\dprule && $-or[row][col][notCleared]$ & \\
 \hline 
-\dprule $RU$&$RU$&$v[row][col][0]$&$dp[cntHor][row+1][col][RU][notCleared+1]$\\
-\dprule && $hl[row][col]$ & \\
+\dprule $RU$&$RU$&$hr[row+1][col][N-1]$&$(cntHor,row+1,col,RU,notCleared+1)$\\
+\dprule && $hl[row+1][col][notCleared+1]$ & \\
 \hline 
-\dprule $RU$&$L$&$v[row][col][0]$&$dp[cntHor+1][row][col-1][L][notCleared]$\\
-\dprule && $cs[row][col][RUC]$ & \\
+\dprule $RU$&$L$&$vr[row][col-1][notCleared]$&$(cntHor+1,row,col-1,L,notCleared)$\\
+\dprule && $cs[row][col][Q_{RU}][N-1]$ & \\
+\dprule && $-ol[row][col][notCleared]$ & \\
 \hline 
-\dprule $RU$&$R$&$v[row][col][0]$&$dp[cntHor+1][row][col+1][R][notCleared]$\\
-\dprule && $cs[row][col][LUC]$ & \\
+\dprule $RU$&$R$&$vl[row][col+1][notCleared]$&$(cntHor+1,row,col+1,R,notCleared)$\\
+\dprule && $cs[row][col][Q_{LU}][N-1]$ & \\
+\dprule && $-or[row][col][notCleared]$ & \\
 \hline 
 \end{tabular}
 \captionsetup{justification=centering}

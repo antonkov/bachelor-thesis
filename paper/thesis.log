@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  21 MAY 2015 19:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  22 MAY 2015 01:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -734,18 +734,18 @@ File: ../img/dpzones.png Graphic file (type png)
 Package pdftex.def Info: ../img/dpzones.png used on input line 64.
 (pdftex.def)             Requested size: 234.73523pt x 322.09032pt.
  [26]
-Underfull \hbox (badness 10000) in paragraph at lines 86--91
+Underfull \hbox (badness 10000) in paragraph at lines 89--94
 [][]\T2A/cmr/m/n/14.4 Розовый и оран-же-вый тип от-ли-ча-ют-ся лишь по-ло-же-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--91
+Underfull \hbox (badness 10000) in paragraph at lines 89--94
 \T2A/cmr/m/n/14.4 ни-ем от-но-си-тель-но марш-ру-та, спра-ва или сле-ва со-от-в
 ет-ствен-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--91
+Underfull \hbox (badness 10000) in paragraph at lines 89--94
 \T2A/cmr/m/n/14.4 но. Мат-ри-ца для оран-же-во-го $[]\OML/cmm/m/it/14.4 hl\OT1/
 cmr/m/n/14.4 [\OML/cmm/m/it/14.4 row\OT1/cmr/m/n/14.4 ][\OML/cmm/m/it/14.4 col\
 OT1/cmr/m/n/14.4 ][\OML/cmm/m/it/14.4 notCleared\OT1/cmr/m/n/14.4 ]$ \T2A/cmr/m
@@ -753,7 +753,7 @@ OT1/cmr/m/n/14.4 ][\OML/cmm/m/it/14.4 notCleared\OT1/cmr/m/n/14.4 ]$ \T2A/cmr/m
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--91
+Underfull \hbox (badness 10000) in paragraph at lines 89--94
 \T2A/cmr/m/n/14.4 жит сум-му в $[]\OT1/cmr/m/n/14.4 [\OML/cmm/m/it/14.4 w[]\OT1
 /cmr/m/n/14.4 (\OML/cmm/m/it/14.4 col\OT1/cmr/m/n/14.4 ) \OMS/cmsy/m/n/14.4 ^^@
  \OML/cmm/m/it/14.4 r; w[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 col\OT1/cmr/m/n
@@ -764,7 +764,7 @@ mr/m/n/14.4 (\OML/cmm/m/it/14.4 row \OMS/cmsy/m/n/14.4 ^^@ \OT1/cmr/m/n/14.4 1)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--91
+Underfull \hbox (badness 10000) in paragraph at lines 89--94
 \T2A/cmr/m/n/14.4 Мат-ри-ца для ро-зо-во-го $[]\OML/cmm/m/it/14.4 hr\OT1/cmr/m/
 n/14.4 [\OML/cmm/m/it/14.4 row\OT1/cmr/m/n/14.4 ][\OML/cmm/m/it/14.4 col\OT1/cm
 r/m/n/14.4 ][\OML/cmm/m/it/14.4 notCleared\OT1/cmr/m/n/14.4 ]$ \T2A/cmr/m/n/14.
@@ -772,13 +772,13 @@ r/m/n/14.4 ][\OML/cmm/m/it/14.4 notCleared\OT1/cmr/m/n/14.4 ]$ \T2A/cmr/m/n/14.
  []
 
 [27 <../img/dpzones.png>]
-Underfull \hbox (badness 1259) in paragraph at lines 92--98
+Underfull \hbox (badness 1259) in paragraph at lines 95--101
 \T2A/cmr/m/n/14.4 как об-ласть си-не-го. Для ис-клю-че-ния пер-во-го оши-боч-но
  по-счи-тан-но-
  []
 
 
-Underfull \hbox (badness 5446) in paragraph at lines 92--98
+Underfull \hbox (badness 5446) in paragraph at lines 95--101
 \T2A/cmr/m/n/14.4 го ра-за необ-хо-ди-мо пред-по-счи-тать мат-ри-цу $[]\OML/cmm
 /m/it/14.4 ol\OT1/cmr/m/n/14.4 [\OML/cmm/m/it/14.4 row\OT1/cmr/m/n/14.4 ][\OML/
 cmm/m/it/14.4 col\OT1/cmr/m/n/14.4 ][\OML/cmm/m/it/14.4 notCleared\OT1/cmr/m/n/
@@ -786,7 +786,7 @@ cmm/m/it/14.4 col\OT1/cmr/m/n/14.4 ][\OML/cmm/m/it/14.4 notCleared\OT1/cmr/m/n/
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 92--98
+Underfull \hbox (badness 1648) in paragraph at lines 95--101
 \T2A/cmr/m/n/14.4 --- об-ласть $\OT1/cmr/m/n/14.4 [\OML/cmm/m/it/14.4 w[]\OT1/c
 mr/m/n/14.4 (\OML/cmm/m/it/14.4 col\OT1/cmr/m/n/14.4 ) \OMS/cmsy/m/n/14.4 ^^@ \
 OML/cmm/m/it/14.4 r; w[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 col\OT1/cmr/m/n/1
@@ -797,7 +797,7 @@ L/cmm/m/it/14.4 r; w[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 row\OT1/cmr/m/n/14.
  []
 
 
-Overfull \hbox (16.53792pt too wide) in paragraph at lines 92--98
+Overfull \hbox (16.53792pt too wide) in paragraph at lines 95--101
 []\OML/cmm/m/it/14.4 or\OT1/cmr/m/n/14.4 [\OML/cmm/m/it/14.4 row\OT1/cmr/m/n/14
 .4 ][\OML/cmm/m/it/14.4 col\OT1/cmr/m/n/14.4 ][\OML/cmm/m/it/14.4 notCleared\OT
 1/cmr/m/n/14.4 ]$ \T2A/cmr/m/n/14.4 --- об-ласть $\OT1/cmr/m/n/14.4 [\OML/cmm/m
@@ -807,6 +807,11 @@ m/m/it/14.4 ; w[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 col\OT1/cmr/m/n/14.4 ) +
 .4 [\OML/cmm/m/it/14.4 w[]\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 row\OT1/cmr/m/n
 /14.4 ) \OMS/cmsy/m/n/14.4 ^^@ \OML/cmm/m/it/14.4 r; w[]\OT1/cmr/m/n/14.4 (\OML
 /cmm/m/it/14.4 row\OT1/cmr/m/n/14.4 )]$\T2A/cmr/m/n/14.4 . 
+ []
+
+
+Overfull \hbox (3.38084pt too wide) in paragraph at lines 118--159
+ [][] 
  []
 
 [28])
@@ -827,11 +832,11 @@ No file thesis.bbl.
 Here is how much of TeX's memory you used:
  7796 strings out of 494515
  108784 string characters out of 6173718
- 177890 words of memory out of 5000000
+ 180890 words of memory out of 5000000
  10829 multiletter control sequences out of 15000+600000
  16607 words of font info for 40 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 38i,9n,43p,1121b,629s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,10n,43p,1121b,629s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a
 /larm0800.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasx1440.
 600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/laxc1728.600pk> </h
@@ -847,7 +852,7 @@ m/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on thesis.pdf (31 pages, 1423247 bytes).
+Output written on thesis.pdf (31 pages, 1425757 bytes).
 PDF statistics:
  592 PDF objects out of 1000 (max. 8388607)
  127 compressed objects within 2 object streams
