@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  22 MAY 2015 01:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  22 MAY 2015 02:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -814,26 +814,47 @@ Overfull \hbox (3.38084pt too wide) in paragraph at lines 118--159
  [][] 
  []
 
-[28])
+[28] [29] <../img/pic02-init.png, id=126, 1122.1925pt x 956.57375pt>
+File: ../img/pic02-init.png Graphic file (type png)
+
+<use ../img/pic02-init.png>
+Package pdftex.def Info: ../img/pic02-init.png used on input line 189.
+(pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
+
+<../img/pic02-before.png, id=127, 1122.1925pt x 956.57375pt>
+File: ../img/pic02-before.png Graphic file (type png)
+
+<use ../img/pic02-before.png>
+Package pdftex.def Info: ../img/pic02-before.png used on input line 195.
+(pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
+ [30]
+<../img/pic02-after.png, id=131, 1122.1925pt x 956.57375pt>
+File: ../img/pic02-after.png Graphic file (type png)
+
+<use ../img/pic02-after.png>
+Package pdftex.def Info: ../img/pic02-after.png used on input line 215.
+(pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
+)
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter4.tex' to `chapters/cha
 pter4.tex' on input line 205.
 :<+ chapters/chapter4.tex
-(./chapters/chapter4.tex [29]
+(./chapters/chapter4.tex [31 <../img/pic02-init.png> <../img/pic02-before.png> 
+<../img/pic02-after.png>]
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 4.
-[30
+[32
 
 ])
 :<-
 :<+ thesis.bbl
 No file thesis.bbl.
 :<-
-[31] [32] (./thesis.aux) ) 
+[33] [34] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 7796 strings out of 494515
- 108784 string characters out of 6173718
- 180890 words of memory out of 5000000
- 10829 multiletter control sequences out of 15000+600000
+ 7814 strings out of 494515
+ 109187 string characters out of 6173718
+ 180923 words of memory out of 5000000
+ 10844 multiletter control sequences out of 15000+600000
  16607 words of font info for 40 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  38i,10n,43p,1121b,629s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -852,10 +873,10 @@ m/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on thesis.pdf (31 pages, 1425757 bytes).
+Output written on thesis.pdf (33 pages, 1910186 bytes).
 PDF statistics:
- 592 PDF objects out of 1000 (max. 8388607)
- 127 compressed objects within 2 object streams
+ 601 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

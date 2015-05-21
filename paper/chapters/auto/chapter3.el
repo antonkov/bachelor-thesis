@@ -4,5 +4,7 @@
    (TeX-add-symbols
     "dprule")
    (LaTeX-add-labels
-    "table:dp")))
+    "table:dp"
+    "algo:init"
+    "algo:before")))
 
