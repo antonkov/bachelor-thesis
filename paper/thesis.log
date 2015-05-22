@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  22 MAY 2015 02:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  22 MAY 2015 23:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -832,24 +832,24 @@ Package pdftex.def Info: ../img/pic02-before.png used on input line 195.
 File: ../img/pic02-after.png Graphic file (type png)
 
 <use ../img/pic02-after.png>
-Package pdftex.def Info: ../img/pic02-after.png used on input line 215.
+Package pdftex.def Info: ../img/pic02-after.png used on input line 212.
 (pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
-)
+ [31 <../img/pic02-init.png> <../img/pic02-before.png> <../img/pic02-after.png>
+])
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter4.tex' to `chapters/cha
 pter4.tex' on input line 205.
 :<+ chapters/chapter4.tex
-(./chapters/chapter4.tex [31 <../img/pic02-init.png> <../img/pic02-before.png> 
-<../img/pic02-after.png>]
+(./chapters/chapter4.tex [32]
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 4.
-[32
+[33
 
 ])
 :<-
 :<+ thesis.bbl
 No file thesis.bbl.
 :<-
-[33] [34] (./thesis.aux) ) 
+[34] [35] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
  7814 strings out of 494515
  109187 string characters out of 6173718
@@ -872,11 +872,12 @@ m/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on thesis.pdf (33 pages, 1910186 bytes).
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on thesis.pdf (34 pages, 1919047 bytes).
 PDF statistics:
- 601 PDF objects out of 1000 (max. 8388607)
- 131 compressed objects within 2 object streams
+ 608 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
