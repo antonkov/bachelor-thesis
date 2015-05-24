@@ -105,7 +105,7 @@ $quarter$ --- обозначает четверть и будет принима
 соответсвенно для четвертей в порядке их стандартной нумерации.
 \FloatBarrier
 \subsection{Переходы между состояниями}
-Переходы из состонния динамики \[state=(cntHor, row, col, curMove, notCleared)\] будут
+Переходы из состонния динамики \[state=(cntHor, notCleared, row, col, curMove)\] будут
 описаны в таблице \ref{table:dp} следующим образом. Текущий ход
 $curMove$ будет зафиксирован в первом столбце, следущий выбранный во втором.
 $newState$ --- состояние в которое мы перейдем, выбрав такой ход, указано
@@ -120,43 +120,43 @@ $newState$ --- состояние в которое мы перейдем, вы�
   Текущий & Следующий & Собрано на текущем ходу & Новое состояние  \\
   ход & ход & & \\
 \hline 
-\dprule $L$&$L$&$vr[row][col-1][notCleared]$&$(cntHor+1,row,col-1,L,notCleared)$\\
+\dprule $L$&$L$&$vr[row][col-1][notCleared]$&$(cntHor+1,notCleared,row,col-1,L)$\\
 \hline 
-\dprule $L$&$LU$&$hl[row+1][col][N-1]$&$(cntHor,row+1,col,LU,0)$\\
+\dprule $L$&$LU$&$hl[row+1][col][N-1]$&$(cntHor,0,row+1,col,LU)$\\
 \dprule  && $hr[row+1][col][0]$ & \\
 \dprule  && $cs[row][col][Q_{LD}][notCleared]$ & \\
 \hline 
-\dprule $R$&$R$&$vl[row][col+1][notCleared]$&$(cntHor+1,row,col+1,R,notCleared)$\\
+\dprule $R$&$R$&$vl[row][col+1][notCleared]$&$(cntHor+1,notCleared,row,col+1,R)$\\
 \hline 
-\dprule $R$&$RU$&$hr[row+1][col][N-1]$&$(cntHor,row+1,col,RU,0)$\\
+\dprule $R$&$RU$&$hr[row+1][col][N-1]$&$(cntHor,0,row+1,col,RU)$\\
 \dprule  && $hl[row+1][col][0]$ & \\
 \dprule  && $cs[row][col][Q_{RD}][notCleared]$ & \\
 \hline 
-\dprule $LU$&$LU$&$hl[row+1][col][N-1]$&$(cntHor,row+1,col,LU,notCleared+1)$\\
+\dprule $LU$&$LU$&$hl[row+1][col][N-1]$&$(cntHor,notCleared+1,row+1,col,LU)$\\
 \dprule && $hr[row+1][col][notCleared+1]$ & \\
 \hline 
-\dprule $LU$&$L$&$vr[row][col-1][notCleared]$&$(cntHor+1,row,col-1,L,notCleared)$\\
+\dprule $LU$&$L$&$vr[row][col-1][notCleared]$&$(cntHor+1,notCleared,row,col-1,L)$\\
 \dprule && $cs[row][col][Q_{RU}][N-1]$ & \\
 \dprule && $-ol[row][col][notCleared]$ & \\
 \hline 
-\dprule $LU$&$R$&$vl[row][col+1][notCleared]$&$(cntHor+1,row,col+1,R,notCleared)$\\
+\dprule $LU$&$R$&$vl[row][col+1][notCleared]$&$(cntHor+1,notCleared,row,col+1,R)$\\
 \dprule  && $cs[row][col][Q_{LU}][N-1]$ & \\
 \dprule && $-or[row][col][notCleared]$ & \\
 \hline 
-\dprule $RU$&$RU$&$hr[row+1][col][N-1]$&$(cntHor,row+1,col,RU,notCleared+1)$\\
+\dprule $RU$&$RU$&$hr[row+1][col][N-1]$&$(cntHor,notCleared+1,row+1,col,RU)$\\
 \dprule && $hl[row+1][col][notCleared+1]$ & \\
 \hline 
-\dprule $RU$&$L$&$vr[row][col-1][notCleared]$&$(cntHor+1,row,col-1,L,notCleared)$\\
+\dprule $RU$&$L$&$vr[row][col-1][notCleared]$&$(cntHor+1,notCleared,row,col-1,L)$\\
 \dprule && $cs[row][col][Q_{RU}][N-1]$ & \\
 \dprule && $-ol[row][col][notCleared]$ & \\
 \hline 
-\dprule $RU$&$R$&$vl[row][col+1][notCleared]$&$(cntHor+1,row,col+1,R,notCleared)$\\
+\dprule $RU$&$R$&$vl[row][col+1][notCleared]$&$(cntHor+1,notCleared,row,col+1,R)$\\
 \dprule && $cs[row][col][Q_{LU}][N-1]$ & \\
 \dprule && $-or[row][col][notCleared]$ & \\
 \hline 
 \end{tabular}
 \captionsetup{justification=centering}
-\caption{Переходы из состояния $(cntHor,row,col,curMove,notCleared)$}
+\caption{Переходы из состояния $(cntHor,notCleared,row,col,curMove)$}
 \label{table:dp}
 \end{table}
 \FloatBarrier
