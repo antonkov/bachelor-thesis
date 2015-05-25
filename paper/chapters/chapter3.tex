@@ -136,7 +136,7 @@ $newState$ --- состояние в которое мы перейдем, вы�
 \dprule && $hr[row+1][col][notCleared+1]$ & \\
 \hline 
 \dprule $LU$&$L$&$vr[row][col-1][notCleared]$&$(cntHor+1,notCleared,row,col-1,L)$\\
-\dprule && $cs[row][col][Q_{RU}][N-1]$ & \\
+\dprule && $cs[row][col][Q_{RU}][notCleared]$ & \\
 \dprule && $-ol[row][col][notCleared]$ & \\
 \hline 
 \dprule $LU$&$R$&$vl[row][col+1][notCleared]$&$(cntHor+1,notCleared,row,col+1,R)$\\
@@ -151,7 +151,7 @@ $newState$ --- состояние в которое мы перейдем, вы�
 \dprule && $-ol[row][col][notCleared]$ & \\
 \hline 
 \dprule $RU$&$R$&$vl[row][col+1][notCleared]$&$(cntHor+1,notCleared,row,col+1,R)$\\
-\dprule && $cs[row][col][Q_{LU}][N-1]$ & \\
+\dprule && $cs[row][col][Q_{LU}][notCleared]$ & \\
 \dprule && $-or[row][col][notCleared]$ & \\
 \hline 
 \end{tabular}

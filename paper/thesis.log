@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  24 MAY 2015 17:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  26 MAY 2015 02:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -844,40 +844,79 @@ pter4.tex' on input line 205.
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 4.
 [33
 
-])
+] [34] <../img/t1op.png, id=146, 1122.1925pt x 956.57375pt>
+File: ../img/t1op.png Graphic file (type png)
+
+<use ../img/t1op.png>
+Package pdftex.def Info: ../img/t1op.png used on input line 66.
+(pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
+ <../img/t1os.png, id=147, 1134.2375pt x 1013.7875pt>
+File: ../img/t1os.png Graphic file (type png)
+
+<use ../img/t1os.png>
+Package pdftex.def Info: ../img/t1os.png used on input line 70.
+(pdftex.def)             Requested size: 187.78531pt x 167.84007pt.
+ <../img/t1np.png, id=148, 1122.1925pt x 956.57375pt>
+File: ../img/t1np.png Graphic file (type png)
+
+<use ../img/t1np.png>
+Package pdftex.def Info: ../img/t1np.png used on input line 74.
+(pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
+ <../img/t1ns.png, id=149, 1119.18124pt x 919.435pt>
+File: ../img/t1ns.png Graphic file (type png)
+
+<use ../img/t1ns.png>
+Package pdftex.def Info: ../img/t1ns.png used on input line 78.
+(pdftex.def)             Requested size: 187.78531pt x 154.26761pt.
+ <../img/t1sp.png, id=150, 1122.1925pt x 956.57375pt>
+File: ../img/t1sp.png Graphic file (type png)
+
+<use ../img/t1sp.png>
+Package pdftex.def Info: ../img/t1sp.png used on input line 82.
+(pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
+ <../img/t1ss.png, id=151, 1135.24126pt x 903.375pt>
+File: ../img/t1ss.png Graphic file (type png)
+
+<use ../img/t1ss.png>
+Package pdftex.def Info: ../img/t1ss.png used on input line 86.
+(pdftex.def)             Requested size: 187.78531pt x 149.42262pt.
+ [35] [36 <../img/t1op.png> <../img/t1os.png> <../img/t1np.png> <../img/t1ns.pn
+g> <../img/t1sp.png> <../img/t1ss.png>])
 :<-
 :<+ thesis.bbl
 No file thesis.bbl.
 :<-
-[34] [35] (./thesis.aux) ) 
+[37
+
+] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 7814 strings out of 494515
- 109187 string characters out of 6173718
- 180923 words of memory out of 5000000
- 10844 multiletter control sequences out of 15000+600000
+ 7857 strings out of 494515
+ 109814 string characters out of 6173718
+ 181084 words of memory out of 5000000
+ 10881 multiletter control sequences out of 15000+600000
  16607 words of font info for 40 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  38i,10n,43p,1121b,629s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a
-/larm0800.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasx1440.
-600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/laxc1728.600pk> </h
-ome/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/antonk
-ov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasx2488.600pk> </home/antonkov/.texmf-
-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk> </home/antonkov/.texmf-var/fonts/
-pk/ljfour/lh/lh-t2a/larm1440.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/
-lh/lh-t2a/larm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on thesis.pdf (34 pages, 1919061 bytes).
+ </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm080
+0.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasx1440.600pk> <
+/home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/laxc1728.600pk> </home/anto
+nkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/antonkov/.texm
+f-var/fonts/pk/ljfour/lh/lh-t2a/lasx2488.600pk> </home/antonkov/.texmf-var/font
+s/pk/ljfour/lh/lh-t2a/labx1728.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfou
+r/lh/lh-t2a/larm1440.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2
+a/larm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on thesis.pdf (36 pages, 2388821 bytes).
 PDF statistics:
- 608 PDF objects out of 1000 (max. 8388607)
- 136 compressed objects within 2 object streams
+ 630 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
