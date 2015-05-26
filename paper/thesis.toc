@@ -42,3 +42,4 @@
 \contentsline {subsection}{\numberline {4.2.3}Te\IeC {\cyrs }\IeC {\cyrt } 3}{35}
 \contentsline {subsection}{\numberline {4.2.4}Te\IeC {\cyrs }\IeC {\cyrt } 4}{36}
 \contentsline {subsection}{\numberline {4.2.5}\IeC {\CYRR }\IeC {\cyre }\IeC {\cyrz }\IeC {\cyru }\IeC {\cyrl }\IeC {\cyrsftsn }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyrery }}{41}
+\contentsline {chapter}{\relax \fontsize {14.4}{18}\selectfont \bf \IeC {\CYRZ }\IeC {\cyra }\IeC {\cyrk }\IeC {\cyrl }\IeC {\cyryu }\IeC {\cyrch }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre }}{42}
