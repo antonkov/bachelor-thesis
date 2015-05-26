@@ -41,5 +41,4 @@
 \contentsline {subsection}{\numberline {4.2.2}Te\IeC {\cyrs }\IeC {\cyrt } 2}{35}
 \contentsline {subsection}{\numberline {4.2.3}Te\IeC {\cyrs }\IeC {\cyrt } 3}{35}
 \contentsline {subsection}{\numberline {4.2.4}Te\IeC {\cyrs }\IeC {\cyrt } 4}{35}
-\contentsline {subsection}{\numberline {4.2.5}Te\IeC {\cyrs }\IeC {\cyrt } 5}{35}
-\contentsline {section}{\numberline {4.3}\IeC {\CYRR }\IeC {\cyre }\IeC {\cyrz }\IeC {\cyru }\IeC {\cyrl }\IeC {\cyrsftsn }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyrery }}{37}
+\contentsline {section}{\numberline {4.3}\IeC {\CYRR }\IeC {\cyre }\IeC {\cyrz }\IeC {\cyru }\IeC {\cyrl }\IeC {\cyrsftsn }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyrery }}{40}
