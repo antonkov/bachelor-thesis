@@ -277,47 +277,55 @@
 
 \section{Алгоритм построения маршрута}
 \begin{frame}
-\frametitle{Глобальный алгоритм}
+\frametitle{Статический алгоритм}
 \begin{itemize}
-\item{$dp[row][col][time][last]$ --- максимальное суммарный вес частиц, который можно собрать}
+\item{$dp[cntHor][row][col][move][last]$ --- максимальное суммарный вес частиц, который можно собрать}
 \item{$row, col$ --- текущий строка и столбец в которой находится средство поиска}
-\item{$time$ --- количество сделанных ходов}
+\item{$cntHor$ --- количество горизонтальных ходов}
 \item{$last$ --- количество строк без галсирования}
+\item{$move$ --- тип последнего хода из $\{L, LU, R, RU\}$} 
 
 \end{itemize}
 \end{frame}
 
 \begin{frame}
-\frametitle{Глобальный алгоритм: переходы}
+\frametitle{Статический алгоритм: переходы}
 \begin{itemize}
-\item{$(row, col, time) \to (row+1, col, time+1)/(row, col \pm 1, time+1)$}
+\item{$(cntHor, row, col) \to (cntHor, row+1, col)/(cntHor+1,row, col \pm 1)$}
 \\
-\item{$(row, col_{row}, time, last) \to 
-\left\{
-\begin{array}{l}
-        (row+1, col_{row+1}, time+|col_{row}-col_{row+1}| + 1, 0)\\
- \mbox{если } col_{row} \neq col_{row+1}\\
-  \\
-        (row+1, col_{row+1}, time + 1, last + 1)\\
- \mbox{иначе }
-\end{array}
-\right.$}
+\item{$((cntHor_i, row_i, col_i, curMove, last_i), nextMove) \to 
+(cntHor_{i+1}, row_{i+1}, col_{i+1}, nextMove, last_{i+1})$}
 \end{itemize}
 \end{frame}
 
 \begin{frame}
-\frametitle{Глобальный алгоритм: порядки величин}
+  \frametitle{Статический алгоритм: переходы}
+\begin{columns}
+\column{.4\textwidth}
 \begin{itemize}
-\item{$row \approx 50$}
+\item{$L \to L, LU$}
+\item{$R \to R, RU$}
+\item{$LU \to LU, L, R$}
+\item{$RU \to RU, L, R$}
+\end{itemize}
+\column{.4\textwidth}
+\putImg<+>{dpzones}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Статический алгоритм: порядки величин}
+\begin{itemize}
+\item{$row \approx 200$}
 \item{$col \approx 50$}
-\item{$time \approx 10^3$}
-\item{$last \approx 4$ --- более дальние мало влияют}
-\item{$row \cdot col^2 \cdot time \cdot last \approx 5 \cdot 10^8$}
+\item{$cntHor \approx 10^3$}
+\item{$last \approx 16$ --- более дальние мало влияют}
+\item{$row \cdot col \cdot cntHor \cdot last \cdot 4 \approx 6.4 \cdot 10^8$}
 \end{itemize}
 \end{frame}
 
 \begin{frame}
-\frametitle{Результаты работы глобального алгоритма}
+\frametitle{Результаты работы статического алгоритма}
 \begin{columns}
 \column{.6\textwidth}
 \putImg<+>{pic01-clear.png}
