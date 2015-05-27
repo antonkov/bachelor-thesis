@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  27 MAY 2015 06:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  27 MAY 2015 07:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -601,35 +601,34 @@ arallel_tacks.png>]
 File: ../img/pic06-lh.png Graphic file (type png)
 
 <use ../img/pic06-lh.png>
-Package pdftex.def Info: ../img/pic06-lh.png used on input line 160.
+Package pdftex.def Info: ../img/pic06-lh.png used on input line 157.
 (pdftex.def)             Requested size: 469.47046pt x 153.45473pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
-[12] [13 <../img/pic06-lh.png>]
-<../img/pic08-1.png, id=61, 1122.1925pt x 956.57375pt>
+[12] <../img/pic08-1.png, id=57, 1122.1925pt x 956.57375pt>
 File: ../img/pic08-1.png Graphic file (type png)
 
 <use ../img/pic08-1.png>
-Package pdftex.def Info: ../img/pic08-1.png used on input line 189.
+Package pdftex.def Info: ../img/pic08-1.png used on input line 186.
 (pdftex.def)             Requested size: 234.73523pt x 200.08362pt.
- [14 <../img/pic08-1.png>])
+ [13 <../img/pic06-lh.png>])
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter2.tex' to `chapters/cha
 pter2.tex' on input line 202.
 :<+ chapters/chapter2.tex
-(./chapters/chapter2.tex [15]
+(./chapters/chapter2.tex [14 <../img/pic08-1.png>]
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 2.
-<../img/pic03-1.png, id=69, 1122.1925pt x 956.57375pt>
+<../img/pic03-1.png, id=66, 1122.1925pt x 956.57375pt>
 File: ../img/pic03-1.png Graphic file (type png)
 
 <use ../img/pic03-1.png>
 Package pdftex.def Info: ../img/pic03-1.png used on input line 10.
 (pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
 
-<../img/pic03-4.png, id=70, 1122.1925pt x 956.57375pt>
+<../img/pic03-4.png, id=67, 1122.1925pt x 956.57375pt>
 File: ../img/pic03-4.png Graphic file (type png)
 
 <use ../img/pic03-4.png>
@@ -640,7 +639,7 @@ Underfull \hbox (badness 2452) in paragraph at lines 14--14
 []\T2A/cmr/m/n/8 (b) Из-ме-не-ния рас-пре-де-ле-ния со-глас-но мо-де-ли
  []
 
-[16
+[15
 
  <../img/pic03-1.png> <../img/pic03-4.png>]
 Underfull \hbox (badness 1028) in paragraph at lines 38--41
@@ -648,60 +647,60 @@ Underfull \hbox (badness 1028) in paragraph at lines 38--41
  об-ра-зом,
  []
 
-[17] [18] <../img/keyframe.png, id=80, 1456.44125pt x 400.49625pt>
+[16] [17] <../img/keyframe.png, id=77, 1456.44125pt x 400.49625pt>
 File: ../img/keyframe.png Graphic file (type png)
 
 <use ../img/keyframe.png>
 Package pdftex.def Info: ../img/keyframe.png used on input line 120.
 (pdftex.def)             Requested size: 469.47046pt x 129.0903pt.
- [19 <../img/keyframe.png>] [20]
-<../img/pic07-1.png, id=90, 1122.1925pt x 956.57375pt>
+ [18 <../img/keyframe.png>] [19]
+<../img/pic07-1.png, id=86, 1122.1925pt x 956.57375pt>
 File: ../img/pic07-1.png Graphic file (type png)
 
 <use ../img/pic07-1.png>
 Package pdftex.def Info: ../img/pic07-1.png used on input line 166.
 (pdftex.def)             Requested size: 225.34381pt x 192.08495pt.
 
-<../img/pic07-2.png, id=91, 1122.1925pt x 956.57375pt>
+<../img/pic07-2.png, id=87, 1122.1925pt x 956.57375pt>
 File: ../img/pic07-2.png Graphic file (type png)
 
 <use ../img/pic07-2.png>
 Package pdftex.def Info: ../img/pic07-2.png used on input line 172.
 (pdftex.def)             Requested size: 225.34381pt x 192.08495pt.
- [21 <../img/pic07-1.png> <../img/pic07-2.png>]
-<../img/pic07-3.png, id=95, 1122.1925pt x 956.57375pt>
+ [20 <../img/pic07-1.png> <../img/pic07-2.png>]
+<../img/pic07-3.png, id=92, 1122.1925pt x 956.57375pt>
 File: ../img/pic07-3.png Graphic file (type png)
 
 <use ../img/pic07-3.png>
 Package pdftex.def Info: ../img/pic07-3.png used on input line 195.
 (pdftex.def)             Requested size: 225.34381pt x 192.08495pt.
 
-<../img/pic07-4.png, id=96, 1122.1925pt x 956.57375pt>
+<../img/pic07-4.png, id=93, 1122.1925pt x 956.57375pt>
 File: ../img/pic07-4.png Graphic file (type png)
 
 <use ../img/pic07-4.png>
 Package pdftex.def Info: ../img/pic07-4.png used on input line 201.
 (pdftex.def)             Requested size: 225.34381pt x 192.08495pt.
- [22 <../img/pic07-3.png> <../img/pic07-4.png>]
-<../img/pic07-5.png, id=100, 1122.1925pt x 956.57375pt>
+ [21 <../img/pic07-3.png> <../img/pic07-4.png>]
+<../img/pic07-5.png, id=97, 1122.1925pt x 956.57375pt>
 File: ../img/pic07-5.png Graphic file (type png)
 
 <use ../img/pic07-5.png>
 Package pdftex.def Info: ../img/pic07-5.png used on input line 226.
 (pdftex.def)             Requested size: 375.57779pt x 320.13672pt.
 
-<../img/pic08-2.png, id=101, 1267.73625pt x 784.9325pt>
+<../img/pic08-2.png, id=98, 1267.73625pt x 784.9325pt>
 File: ../img/pic08-2.png Graphic file (type png)
 
 <use ../img/pic08-2.png>
 Package pdftex.def Info: ../img/pic08-2.png used on input line 234.
 (pdftex.def)             Requested size: 469.47046pt x 290.672pt.
- [23 <../img/pic07-5.png>])
+ [22 <../img/pic07-5.png>])
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter3.tex' to `chapters/cha
 pter3.tex' on input line 203.
 :<+ chapters/chapter3.tex
-(./chapters/chapter3.tex [24 <../img/pic08-2.png>]
+(./chapters/chapter3.tex [23 <../img/pic08-2.png>]
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -714,7 +713,7 @@ Underfull \hbox (badness 1092) in paragraph at lines 27--28
 -ет-ся кор-теж
  []
 
-[25
+[24
 
 ]
 Underfull \hbox (badness 3354) in paragraph at lines 31--37
@@ -728,13 +727,13 @@ Underfull \hbox (badness 5288) in paragraph at lines 31--37
 ак
  []
 
-[26] <../img/dpzones.png, id=115, 663.47874pt x 910.40125pt>
+[25] <../img/dpzones.png, id=111, 663.47874pt x 910.40125pt>
 File: ../img/dpzones.png Graphic file (type png)
 
 <use ../img/dpzones.png>
 Package pdftex.def Info: ../img/dpzones.png used on input line 64.
 (pdftex.def)             Requested size: 234.73523pt x 322.09032pt.
- [27]
+ [26]
 Underfull \hbox (badness 10000) in paragraph at lines 89--94
 [][]\T2A/cmr/m/n/14.4 Розовый и оран-же-вый тип от-ли-ча-ют-ся лишь по-ло-же-
  []
@@ -772,7 +771,7 @@ r/m/n/14.4 ][\OML/cmm/m/it/14.4 notCleared\OT1/cmr/m/n/14.4 ]$ \T2A/cmr/m/n/14.
 4 --- со-дер-жит
  []
 
-[28 <../img/dpzones.png>]
+[27 <../img/dpzones.png>]
 Underfull \hbox (badness 1259) in paragraph at lines 95--101
 \T2A/cmr/m/n/14.4 как об-ласть си-не-го. Для ис-клю-че-ния пер-во-го оши-боч-но
  по-счи-тан-но-
@@ -815,200 +814,204 @@ Overfull \hbox (4.49197pt too wide) in paragraph at lines 120--161
  [][] 
  []
 
-[29] [30] <../img/pic02-init.png, id=129, 1122.1925pt x 956.57375pt>
+[28] [29] <../img/pic02-init.png, id=126, 1122.1925pt x 956.57375pt>
 File: ../img/pic02-init.png Graphic file (type png)
 
 <use ../img/pic02-init.png>
 Package pdftex.def Info: ../img/pic02-init.png used on input line 191.
 (pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
 
-<../img/pic02-before.png, id=130, 1122.1925pt x 956.57375pt>
+<../img/pic02-before.png, id=127, 1122.1925pt x 956.57375pt>
 File: ../img/pic02-before.png Graphic file (type png)
 
 <use ../img/pic02-before.png>
 Package pdftex.def Info: ../img/pic02-before.png used on input line 197.
 (pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
- [31]
-<../img/pic02-after.png, id=134, 1122.1925pt x 956.57375pt>
+ [30]
+<../img/pic02-after.png, id=131, 1122.1925pt x 956.57375pt>
 File: ../img/pic02-after.png Graphic file (type png)
 
 <use ../img/pic02-after.png>
 Package pdftex.def Info: ../img/pic02-after.png used on input line 214.
 (pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
- [32 <../img/pic02-init.png> <../img/pic02-before.png> <../img/pic02-after.png>
+ [31 <../img/pic02-init.png> <../img/pic02-before.png> <../img/pic02-after.png>
 ])
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter4.tex' to `chapters/cha
 pter4.tex' on input line 204.
 :<+ chapters/chapter4.tex
-(./chapters/chapter4.tex [33]
+(./chapters/chapter4.tex [32]
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 4.
-[34
+[33
 
-] [35] [36] <../img/t1op.png, id=152, 1122.1925pt x 956.57375pt>
+] [34] [35] <../img/t1op.png, id=149, 1122.1925pt x 956.57375pt>
 File: ../img/t1op.png Graphic file (type png)
 
 <use ../img/t1op.png>
 Package pdftex.def Info: ../img/t1op.png used on input line 118.
 (pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
- <../img/t1os.png, id=153, 1134.2375pt x 1013.7875pt>
+ <../img/t1os.png, id=150, 1134.2375pt x 1013.7875pt>
 File: ../img/t1os.png Graphic file (type png)
 
 <use ../img/t1os.png>
 Package pdftex.def Info: ../img/t1os.png used on input line 118.
 (pdftex.def)             Requested size: 187.78531pt x 167.84007pt.
- <../img/t1np.png, id=154, 1122.1925pt x 956.57375pt>
+ <../img/t1np.png, id=151, 1122.1925pt x 956.57375pt>
 File: ../img/t1np.png Graphic file (type png)
 
 <use ../img/t1np.png>
 Package pdftex.def Info: ../img/t1np.png used on input line 118.
 (pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
- <../img/t1ns.png, id=155, 1119.18124pt x 919.435pt>
+ <../img/t1ns.png, id=152, 1119.18124pt x 919.435pt>
 File: ../img/t1ns.png Graphic file (type png)
 
 <use ../img/t1ns.png>
 Package pdftex.def Info: ../img/t1ns.png used on input line 118.
 (pdftex.def)             Requested size: 187.78531pt x 154.26761pt.
- <../img/t1sp.png, id=156, 1122.1925pt x 956.57375pt>
+ <../img/t1sp.png, id=153, 1122.1925pt x 956.57375pt>
 File: ../img/t1sp.png Graphic file (type png)
 
 <use ../img/t1sp.png>
 Package pdftex.def Info: ../img/t1sp.png used on input line 118.
 (pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
- <../img/t1ss.png, id=157, 1135.24126pt x 903.375pt>
+ <../img/t1ss.png, id=154, 1135.24126pt x 903.375pt>
 File: ../img/t1ss.png Graphic file (type png)
 
 <use ../img/t1ss.png>
 Package pdftex.def Info: ../img/t1ss.png used on input line 118.
 (pdftex.def)             Requested size: 187.78531pt x 149.42262pt.
- <../img/t2op.png, id=158, 1122.1925pt x 956.57375pt>
+ <../img/t2op.png, id=155, 1122.1925pt x 956.57375pt>
 File: ../img/t2op.png Graphic file (type png)
 
 <use ../img/t2op.png>
 Package pdftex.def Info: ../img/t2op.png used on input line 119.
 (pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
- <../img/t2os.png, id=159, 1125.20375pt x 900.36375pt>
+ <../img/t2os.png, id=156, 1125.20375pt x 900.36375pt>
 File: ../img/t2os.png Graphic file (type png)
 
 <use ../img/t2os.png>
 Package pdftex.def Info: ../img/t2os.png used on input line 119.
 (pdftex.def)             Requested size: 187.78531pt x 150.25717pt.
- <../img/t2np.png, id=160, 1122.1925pt x 956.57375pt>
+ <../img/t2np.png, id=157, 1122.1925pt x 956.57375pt>
 File: ../img/t2np.png Graphic file (type png)
 
 <use ../img/t2np.png>
 Package pdftex.def Info: ../img/t2np.png used on input line 119.
 (pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
- <../img/t2ns.png, id=161, 1130.2225pt x 902.37125pt>
+ <../img/t2ns.png, id=158, 1130.2225pt x 902.37125pt>
 File: ../img/t2ns.png Graphic file (type png)
 
 <use ../img/t2ns.png>
 Package pdftex.def Info: ../img/t2ns.png used on input line 119.
 (pdftex.def)             Requested size: 187.78531pt x 149.91751pt.
- <../img/t2sp.png, id=162, 1122.1925pt x 956.57375pt>
+ <../img/t2sp.png, id=159, 1122.1925pt x 956.57375pt>
 File: ../img/t2sp.png Graphic file (type png)
 
 <use ../img/t2sp.png>
 Package pdftex.def Info: ../img/t2sp.png used on input line 119.
 (pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
- <../img/t2ss.png, id=163, 1141.26375pt x 908.39375pt>
+ <../img/t2ss.png, id=160, 1141.26375pt x 908.39375pt>
 File: ../img/t2ss.png Graphic file (type png)
 
 <use ../img/t2ss.png>
 Package pdftex.def Info: ../img/t2ss.png used on input line 119.
 (pdftex.def)             Requested size: 187.78531pt x 149.46266pt.
- <../img/t3op.png, id=164, 1122.1925pt x 956.57375pt>
+ <../img/t3op.png, id=161, 1122.1925pt x 956.57375pt>
 File: ../img/t3op.png Graphic file (type png)
 
 <use ../img/t3op.png>
 Package pdftex.def Info: ../img/t3op.png used on input line 120.
 (pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
- <../img/t3os.png, id=165, 1118.1775pt x 885.3075pt>
+ <../img/t3os.png, id=162, 1118.1775pt x 885.3075pt>
 File: ../img/t3os.png Graphic file (type png)
 
 <use ../img/t3os.png>
 Package pdftex.def Info: ../img/t3os.png used on input line 120.
 (pdftex.def)             Requested size: 187.78531pt x 148.6766pt.
- <../img/t3np.png, id=166, 1122.1925pt x 956.57375pt>
+ <../img/t3np.png, id=163, 1122.1925pt x 956.57375pt>
 File: ../img/t3np.png Graphic file (type png)
 
 <use ../img/t3np.png>
 Package pdftex.def Info: ../img/t3np.png used on input line 120.
 (pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
- <../img/t3ns.png, id=167, 1126.2075pt x 898.35625pt>
+ <../img/t3ns.png, id=164, 1126.2075pt x 898.35625pt>
 File: ../img/t3ns.png Graphic file (type png)
 
 <use ../img/t3ns.png>
 Package pdftex.def Info: ../img/t3ns.png used on input line 120.
 (pdftex.def)             Requested size: 187.78531pt x 149.78506pt.
- <../img/t3sp.png, id=168, 1122.1925pt x 956.57375pt>
+ <../img/t3sp.png, id=165, 1122.1925pt x 956.57375pt>
 File: ../img/t3sp.png Graphic file (type png)
 
 <use ../img/t3sp.png>
 Package pdftex.def Info: ../img/t3sp.png used on input line 120.
 (pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
- <../img/t3ss.png, id=169, 1118.1775pt x 890.32625pt>
+ <../img/t3ss.png, id=166, 1118.1775pt x 890.32625pt>
 File: ../img/t3ss.png Graphic file (type png)
 
 <use ../img/t3ss.png>
 Package pdftex.def Info: ../img/t3ss.png used on input line 120.
 (pdftex.def)             Requested size: 187.78531pt x 149.51944pt.
- <../img/t4op.png, id=170, 1122.1925pt x 956.57375pt>
+ <../img/t4op.png, id=167, 1122.1925pt x 956.57375pt>
 File: ../img/t4op.png Graphic file (type png)
 
 <use ../img/t4op.png>
 Package pdftex.def Info: ../img/t4op.png used on input line 121.
 (pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
- <../img/t4os.png, id=171, 1123.19624pt x 905.3825pt>
+ <../img/t4os.png, id=168, 1123.19624pt x 905.3825pt>
 File: ../img/t4os.png Graphic file (type png)
 
 <use ../img/t4os.png>
 Package pdftex.def Info: ../img/t4os.png used on input line 121.
 (pdftex.def)             Requested size: 187.78531pt x 151.35721pt.
- <../img/t4np.png, id=172, 1122.1925pt x 956.57375pt>
+ <../img/t4np.png, id=169, 1122.1925pt x 956.57375pt>
 File: ../img/t4np.png Graphic file (type png)
 
 <use ../img/t4np.png>
 Package pdftex.def Info: ../img/t4np.png used on input line 121.
 (pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
- <../img/t4ns.png, id=173, 1121.18875pt x 901.3675pt>
+ <../img/t4ns.png, id=170, 1121.18875pt x 901.3675pt>
 File: ../img/t4ns.png Graphic file (type png)
 
 <use ../img/t4ns.png>
 Package pdftex.def Info: ../img/t4ns.png used on input line 121.
 (pdftex.def)             Requested size: 187.78531pt x 150.96107pt.
- <../img/t4sp.png, id=174, 1122.1925pt x 956.57375pt>
+ <../img/t4sp.png, id=171, 1122.1925pt x 956.57375pt>
 File: ../img/t4sp.png Graphic file (type png)
 
 <use ../img/t4sp.png>
 Package pdftex.def Info: ../img/t4sp.png used on input line 121.
 (pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
- <../img/t4ss.png, id=175, 1119.18124pt x 907.39pt>
+ <../img/t4ss.png, id=172, 1119.18124pt x 907.39pt>
 File: ../img/t4ss.png Graphic file (type png)
 
 <use ../img/t4ss.png>
 Package pdftex.def Info: ../img/t4ss.png used on input line 121.
 (pdftex.def)             Requested size: 187.78531pt x 152.24664pt.
- [37] [38 <../img/t1op.png> <../img/t1os.png> <../img/t1np.png> <../img/t1ns.pn
-g> <../img/t1sp.png> <../img/t1ss.png>] [39 <../img/t2op.png> <../img/t2os.png>
- <../img/t2np.png> <../img/t2ns.png> <../img/t2sp.png> <../img/t2ss.png>] [40 <
+ [36] [37 <../img/t1op.png> <../img/t1os.png> <../img/t1np.png> <../img/t1ns.pn
+g> <../img/t1sp.png> <../img/t1ss.png>] [38 <../img/t2op.png> <../img/t2os.png>
+ <../img/t2np.png> <../img/t2ns.png> <../img/t2sp.png> <../img/t2ss.png>] [39 <
 ../img/t3op.png> <../img/t3os.png> <../img/t3np.png> <../img/t3ns.png> <../img/
-t3sp.png> <../img/t3ss.png>] [41 <../img/t4op.png> <../img/t4os.png> <../img/t4
+t3sp.png> <../img/t3ss.png>] [40 <../img/t4op.png> <../img/t4os.png> <../img/t4
 np.png> <../img/t4ns.png> <../img/t4sp.png> <../img/t4ss.png>])
 :<-
 Package srcltx Info: Expanded filename `chapters/outro.tex' to `chapters/outro.
 tex' on input line 205.
 :<+ chapters/outro.tex
-(./chapters/outro.tex [42
+(./chapters/outro.tex [41
 
 ])
 :<-
 :<+ thesis.bbl
-(./thesis.bbl [43])
+(./thesis.bbl [42])
 :<-
-[44
+[43
 
-] (./thesis.aux) ) 
+] (./thesis.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  7995 strings out of 494515
  111798 string characters out of 6173718
@@ -1017,26 +1020,26 @@ Here is how much of TeX's memory you used:
  16607 words of font info for 40 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  38i,10n,43p,1121b,629s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm080
-0.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasx1440.600pk> <
-/home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/laxc1728.600pk> </home/anto
-nkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/antonkov/.texm
-f-var/fonts/pk/ljfour/lh/lh-t2a/lasx2488.600pk> </home/antonkov/.texmf-var/font
-s/pk/ljfour/lh/lh-t2a/labx1728.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfou
-r/lh/lh-t2a/larm1440.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2
-a/larm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on thesis.pdf (43 pages, 3518787 bytes).
+ </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0800.600pk> </home/
+antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/lasx1440.600pk> </home/antonkov/.
+texmf-var/fonts/pk/ljfour/lh/lh-t2a/laxc1728.600pk> </home/antonkov/.texmf-var/
+fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/antonkov/.texmf-var/fonts/pk/l
+jfour/lh/lh-t2a/lasx2488.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/l
+h-t2a/labx1728.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm
+1440.600pk> </home/antonkov/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.600pk
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy7.pfb>
+Output written on thesis.pdf (42 pages, 3518563 bytes).
 PDF statistics:
- 708 PDF objects out of 1000 (max. 8388607)
- 158 compressed objects within 2 object streams
+ 704 PDF objects out of 1000 (max. 8388607)
+ 155 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  211 words of extra memory for PDF output out of 10000 (max. 10000000)
 
