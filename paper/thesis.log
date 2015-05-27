@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  27 MAY 2015 07:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  27 MAY 2015 08:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -560,17 +560,17 @@ pter1.tex' on input line 201.
 (./chapters/chapter1.tex [6]
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 1.
 
-Underfull \hbox (badness 4899) in paragraph at lines 9--15
+Underfull \hbox (badness 4899) in paragraph at lines 9--16
 [][]\T2A/cmr/m/n/14.4 ¬ клас-си-че-ской фор-му-ли-ров-ке за-да-ча ком-ми-во-€-ж
 е-ра(traveling
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 16.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
  [7
 
 ] [8] [9]
@@ -578,21 +578,21 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
 File: ../img/pic05-comb.png Graphic file (type png)
 
 <use ../img/pic05-comb.png>
-Package pdftex.def Info: ../img/pic05-comb.png used on input line 112.
+Package pdftex.def Info: ../img/pic05-comb.png used on input line 115.
 (pdftex.def)             Requested size: 187.78531pt x 105.16705pt.
 
 <../img/pic05-expand_box.png, id=43, 210.7875pt x 116.435pt>
 File: ../img/pic05-expand_box.png Graphic file (type png)
 
 <use ../img/pic05-expand_box.png>
-Package pdftex.def Info: ../img/pic05-expand_box.png used on input line 116.
+Package pdftex.def Info: ../img/pic05-expand_box.png used on input line 119.
 (pdftex.def)             Requested size: 187.78531pt x 103.73163pt.
 
 <../img/pic05-parallel_tacks.png, id=44, 202.7575pt x 116.435pt>
 File: ../img/pic05-parallel_tacks.png Graphic file (type png)
 
 <use ../img/pic05-parallel_tacks.png>
-Package pdftex.def Info: ../img/pic05-parallel_tacks.png used on input line 121
+Package pdftex.def Info: ../img/pic05-parallel_tacks.png used on input line 124
 .
 (pdftex.def)             Requested size: 187.78531pt x 107.83925pt.
  [10] [11 <../img/pic05-comb.png> <../img/pic05-expand_box.png> <../img/pic05-p
@@ -601,10 +601,10 @@ arallel_tacks.png>]
 File: ../img/pic06-lh.png Graphic file (type png)
 
 <use ../img/pic06-lh.png>
-Package pdftex.def Info: ../img/pic06-lh.png used on input line 157.
+Package pdftex.def Info: ../img/pic06-lh.png used on input line 160.
 (pdftex.def)             Requested size: 469.47046pt x 153.45473pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
@@ -612,7 +612,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--158
 File: ../img/pic08-1.png Graphic file (type png)
 
 <use ../img/pic08-1.png>
-Package pdftex.def Info: ../img/pic08-1.png used on input line 186.
+Package pdftex.def Info: ../img/pic08-1.png used on input line 189.
 (pdftex.def)             Requested size: 234.73523pt x 200.08362pt.
  [13 <../img/pic06-lh.png>])
 :<-
@@ -1003,16 +1003,26 @@ tex' on input line 205.
 ])
 :<-
 :<+ thesis.bbl
-(./thesis.bbl [42])
+(./thesis.bbl [42] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+) (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-2.def
+File: uni-2.def 2013/05/13 UCS: Unicode data U+0200..U+02FF
+)
+Underfull \hbox (badness 1184) in paragraph at lines 42--47
+[][]\T2A/cmr/m/n/10 The Trav-el-ling Sales-man Prob-lem with Time Win-dows: Ada
+pt-ing Al-go-rithms from Travel-time
+ []
+
+)
 :<-
 [43
 
 ] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 7995 strings out of 494515
- 111798 string characters out of 6173718
- 181538 words of memory out of 5000000
- 10996 multiletter control sequences out of 15000+600000
+ 8795 strings out of 494515
+ 120117 string characters out of 6173718
+ 181566 words of memory out of 5000000
+ 11790 multiletter control sequences out of 15000+600000
  16607 words of font info for 40 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  38i,10n,43p,1121b,629s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1032,9 +1042,9 @@ live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on thesis.pdf (42 pages, 3518187 bytes).
+Output written on thesis.pdf (42 pages, 3528499 bytes).
 PDF statistics:
- 703 PDF objects out of 1000 (max. 8388607)
+ 734 PDF objects out of 1000 (max. 8388607)
  155 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  211 words of extra memory for PDF output out of 10000 (max. 10000000)
