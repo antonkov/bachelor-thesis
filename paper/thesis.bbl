@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \def\selectlanguageifdefined#1{
 \expandafter\ifx\csname date#1\endcsname\relax
 \else\language\csname l@#1\endcsname\fi}
@@ -68,5 +68,24 @@ Helvig~C., Robins~G., Zelikovsky~A. The moving-target traveling salesman
   обеспечения полетов авиации.
 \newblock http://aviaclub.ru/uploads/media/PSO\_poljotov.pdf.
 \newblock 1990.
+
+\bibitem{nov12}
+\selectlanguageifdefined{russian}
+Novak~Jan, Kaplanyan~Anton, Liktor~Gabor {[и~др.]}. GPU Computing: Image
+  Convolution.
+\newblock 2012.
+
+\bibitem{gon02}
+\selectlanguageifdefined{english}
+R.C.Gonzalez, R.E.Woods. Digital Image Processing.
+\newblock Pearson Education Inc., 2002.
+
+\bibitem{ryo08}
+\selectlanguageifdefined{english}
+Optimization Principles and Application Performance Evaluation of a
+  Multithreaded GPU Using CUDA~/ S.~Ryoo, C.~Rodrigues, S.~Baghsorkhi et~al.~//
+  PPoPP’08.
+\newblock 2008.  February.
+\newblock P.~73--82.
 
 \end{thebibliography}
