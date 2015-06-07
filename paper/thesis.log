@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  7 JUN 2015 19:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  8 JUN 2015 01:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -734,6 +734,14 @@ File: ../img/dpzones.png Graphic file (type png)
 Package pdftex.def Info: ../img/dpzones.png used on input line 64.
 (pdftex.def)             Requested size: 234.73523pt x 322.09032pt.
  [26]
+Underfull \hbox (badness 1173) in paragraph at lines 83--88
+\T2A/cmr/m/n/14.4 цы $\OML/cmm/m/it/14.4 vl\OT1/cmr/m/n/14.4 [\OML/cmm/m/it/14.
+4 row\OT1/cmr/m/n/14.4 ][\OML/cmm/m/it/14.4 col\OT1/cmr/m/n/14.4 ][\OML/cmm/m/i
+t/14.4 notCleared\OT1/cmr/m/n/14.4 ]$ \T2A/cmr/m/n/14.4 бу-дет со-дер-жать сум-
+му в пря-мо-уголь-ни-ке
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 89--94
 [][]\T2A/cmr/m/n/14.4 Розовый и оран-же-вый тип от-ли-ча-ют-ся лишь по-ло-же-
  []
@@ -749,7 +757,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--94
 \T2A/cmr/m/n/14.4 но. Мат-ри-ца для оран-же-во-го $[]\OML/cmm/m/it/14.4 hl\OT1/
 cmr/m/n/14.4 [\OML/cmm/m/it/14.4 row\OT1/cmr/m/n/14.4 ][\OML/cmm/m/it/14.4 col\
 OT1/cmr/m/n/14.4 ][\OML/cmm/m/it/14.4 notCleared\OT1/cmr/m/n/14.4 ]$ \T2A/cmr/m
-/n/14.4 --- со-дер-
+/n/14.4 со-дер-
  []
 
 
@@ -768,24 +776,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--94
 \T2A/cmr/m/n/14.4 Мат-ри-ца для ро-зо-во-го $[]\OML/cmm/m/it/14.4 hr\OT1/cmr/m/
 n/14.4 [\OML/cmm/m/it/14.4 row\OT1/cmr/m/n/14.4 ][\OML/cmm/m/it/14.4 col\OT1/cm
 r/m/n/14.4 ][\OML/cmm/m/it/14.4 notCleared\OT1/cmr/m/n/14.4 ]$ \T2A/cmr/m/n/14.
-4 --- со-дер-жит
+4 со-дер-жит
  []
 
 [27 <../img/dpzones.png>]
-Underfull \hbox (badness 1259) in paragraph at lines 95--101
-\T2A/cmr/m/n/14.4 как об-ласть си-не-го. Для ис-клю-че-ния пер-во-го оши-боч-но
- по-счи-тан-но-
- []
-
-
-Underfull \hbox (badness 5446) in paragraph at lines 95--101
-\T2A/cmr/m/n/14.4 го ра-за необ-хо-ди-мо пред-по-счи-тать мат-ри-цу $[]\OML/cmm
-/m/it/14.4 ol\OT1/cmr/m/n/14.4 [\OML/cmm/m/it/14.4 row\OT1/cmr/m/n/14.4 ][\OML/
-cmm/m/it/14.4 col\OT1/cmr/m/n/14.4 ][\OML/cmm/m/it/14.4 notCleared\OT1/cmr/m/n/
-14.4 ]$
- []
-
-
 Underfull \hbox (badness 1648) in paragraph at lines 95--101
 \T2A/cmr/m/n/14.4 --- об-ласть $\OT1/cmr/m/n/14.4 [\OML/cmm/m/it/14.4 w[]\OT1/c
 mr/m/n/14.4 (\OML/cmm/m/it/14.4 col\OT1/cmr/m/n/14.4 ) \OMS/cmsy/m/n/14.4 ^^@ \
@@ -1039,7 +1033,7 @@ live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on thesis.pdf (42 pages, 3529556 bytes).
+Output written on thesis.pdf (42 pages, 3529563 bytes).
 PDF statistics:
  736 PDF objects out of 1000 (max. 8388607)
  155 compressed objects within 2 object streams
