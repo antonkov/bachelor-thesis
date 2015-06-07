@@ -225,7 +225,7 @@ $2^{2m}$ целых старых пикселей.
 \begin{figure}[ht]
   \centering
     \putImgx{0.8\textwidth}{pic07-5}
-    \caption{Расширение и изменение центра области симуляции}
+    \caption{Расширение и измененеие центра области симуляции}
     \label{corr:5}
 \end{figure}
 
