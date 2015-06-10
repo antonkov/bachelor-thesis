@@ -3,14 +3,19 @@
  (lambda ()
    (TeX-add-to-alist 'LaTeX-provided-package-options
                      '(("fontenc" "T2A") ("inputenc" "utf8x") ("babel" "english" "russian") ("graphicx" "pdftex")))
+   (add-to-list 'LaTeX-verbatim-environments-local "lstlisting")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "lstinline")
+   (add-to-list 'LaTeX-verbatim-macros-with-delims-local "lstinline")
    (TeX-run-style-hooks
     "latex2e"
+    "header"
     "chapters/intro"
     "chapters/chapter1"
     "chapters/chapter2"
     "chapters/chapter3"
     "chapters/chapter4"
     "chapters/outro"
+    "appendix"
     "report"
     "rep10"
     "fontenc"
@@ -49,7 +54,8 @@
     "drawfigurex")
    (LaTeX-add-labels
     "#1"
-    "#3")
+    "#3"
+    "appendix")
    (LaTeX-add-environments
     "theorem"
     "prop"
@@ -62,6 +68,7 @@
     "notation"
     "condition"
     "example"
-    "algorithm")
+    "algorithm"
+    "remark")
    (LaTeX-add-bibliographies)))
 

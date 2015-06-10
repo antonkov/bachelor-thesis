@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.5)  8 JUN 2015 18:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.30)  11 JUN 2015 00:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -541,23 +541,23 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3])
+) [4])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [4]
+ [5]
 Package srcltx Info: Expanded filename `chapters/intro.tex' to `chapters/intro.
 tex' on input line 200.
 
 :<+ chapters/intro.tex
-(./chapters/intro.tex [5
+(./chapters/intro.tex [6
 
 ])
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter1.tex' to `chapters/cha
 pter1.tex' on input line 201.
 :<+ chapters/chapter1.tex
-(./chapters/chapter1.tex [6]
+(./chapters/chapter1.tex [7]
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 1.
 
 Underfull \hbox (badness 4899) in paragraph at lines 9--16
@@ -571,9 +571,9 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
- [7
+ [8
 
-] [8] [9]
+] [9] [10]
 <../img/pic05-comb.png, id=42, 200.75pt x 112.42pt>
 File: ../img/pic05-comb.png Graphic file (type png)
 
@@ -595,7 +595,7 @@ File: ../img/pic05-parallel_tacks.png Graphic file (type png)
 Package pdftex.def Info: ../img/pic05-parallel_tacks.png used on input line 127
 .
 (pdftex.def)             Requested size: 187.78531pt x 107.83925pt.
- [10] [11 <../img/pic05-comb.png> <../img/pic05-expand_box.png> <../img/pic05-p
+ [11] [12 <../img/pic05-comb.png> <../img/pic05-expand_box.png> <../img/pic05-p
 arallel_tacks.png>]
 <../img/pic06-lh.png, id=52, 1087.06125pt x 355.3275pt>
 File: ../img/pic06-lh.png Graphic file (type png)
@@ -608,18 +608,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
 
-[12] <../img/pic08-1.png, id=57, 1122.1925pt x 956.57375pt>
+[13] <../img/pic08-1.png, id=57, 1122.1925pt x 956.57375pt>
 File: ../img/pic08-1.png Graphic file (type png)
 
 <use ../img/pic08-1.png>
 Package pdftex.def Info: ../img/pic08-1.png used on input line 192.
 (pdftex.def)             Requested size: 234.73523pt x 200.08362pt.
- [13 <../img/pic06-lh.png>])
+ [14 <../img/pic06-lh.png>])
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter2.tex' to `chapters/cha
 pter2.tex' on input line 202.
 :<+ chapters/chapter2.tex
-(./chapters/chapter2.tex [14 <../img/pic08-1.png>]
+(./chapters/chapter2.tex [15 <../img/pic08-1.png>]
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 2.
 <../img/pic03-1.png, id=66, 1122.1925pt x 956.57375pt>
 File: ../img/pic03-1.png Graphic file (type png)
@@ -639,7 +639,7 @@ Underfull \hbox (badness 2452) in paragraph at lines 14--14
 []\T2A/cmr/m/n/8 (b) Из-ме-не-ния рас-пре-де-ле-ния со-глас-но мо-де-ли
  []
 
-[15
+[16
 
  <../img/pic03-1.png> <../img/pic03-4.png>]
 Underfull \hbox (badness 1028) in paragraph at lines 38--41
@@ -647,13 +647,13 @@ Underfull \hbox (badness 1028) in paragraph at lines 38--41
  об-ра-зом,
  []
 
-[16] [17] <../img/keyframe.png, id=77, 1456.44125pt x 400.49625pt>
+[17] [18] <../img/keyframe.png, id=77, 1456.44125pt x 400.49625pt>
 File: ../img/keyframe.png Graphic file (type png)
 
 <use ../img/keyframe.png>
 Package pdftex.def Info: ../img/keyframe.png used on input line 120.
 (pdftex.def)             Requested size: 469.47046pt x 129.0903pt.
- [18 <../img/keyframe.png>] [19]
+ [19 <../img/keyframe.png>] [20]
 <../img/pic07-1.png, id=86, 1122.1925pt x 956.57375pt>
 File: ../img/pic07-1.png Graphic file (type png)
 
@@ -667,7 +667,7 @@ File: ../img/pic07-2.png Graphic file (type png)
 <use ../img/pic07-2.png>
 Package pdftex.def Info: ../img/pic07-2.png used on input line 173.
 (pdftex.def)             Requested size: 225.34381pt x 192.08495pt.
- [20 <../img/pic07-1.png> <../img/pic07-2.png>]
+ [21 <../img/pic07-1.png> <../img/pic07-2.png>]
 <../img/pic07-3.png, id=92, 1122.1925pt x 956.57375pt>
 File: ../img/pic07-3.png Graphic file (type png)
 
@@ -681,7 +681,7 @@ File: ../img/pic07-4.png Graphic file (type png)
 <use ../img/pic07-4.png>
 Package pdftex.def Info: ../img/pic07-4.png used on input line 202.
 (pdftex.def)             Requested size: 225.34381pt x 192.08495pt.
- [21 <../img/pic07-3.png> <../img/pic07-4.png>]
+ [22 <../img/pic07-3.png> <../img/pic07-4.png>]
 <../img/pic07-5.png, id=97, 1122.1925pt x 956.57375pt>
 File: ../img/pic07-5.png Graphic file (type png)
 
@@ -695,12 +695,12 @@ File: ../img/pic08-2.png Graphic file (type png)
 <use ../img/pic08-2.png>
 Package pdftex.def Info: ../img/pic08-2.png used on input line 235.
 (pdftex.def)             Requested size: 469.47046pt x 290.672pt.
- [22 <../img/pic07-5.png>])
+ [23 <../img/pic07-5.png>])
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter3.tex' to `chapters/cha
 pter3.tex' on input line 203.
 :<+ chapters/chapter3.tex
-(./chapters/chapter3.tex [23 <../img/pic08-2.png>]
+(./chapters/chapter3.tex [24 <../img/pic08-2.png>]
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -713,7 +713,7 @@ Underfull \hbox (badness 1092) in paragraph at lines 27--28
 -ет-ся кор-теж
  []
 
-[24
+[25
 
 ]
 Underfull \hbox (badness 3354) in paragraph at lines 31--37
@@ -727,13 +727,13 @@ Underfull \hbox (badness 5288) in paragraph at lines 31--37
 ак
  []
 
-[25] <../img/dpzones.png, id=111, 663.47874pt x 910.40125pt>
+[26] <../img/dpzones.png, id=111, 663.47874pt x 910.40125pt>
 File: ../img/dpzones.png Graphic file (type png)
 
 <use ../img/dpzones.png>
 Package pdftex.def Info: ../img/dpzones.png used on input line 64.
 (pdftex.def)             Requested size: 234.73523pt x 322.09032pt.
- [26]
+ [27]
 Underfull \hbox (badness 1173) in paragraph at lines 83--88
 \T2A/cmr/m/n/14.4 цы $\OML/cmm/m/it/14.4 vl\OT1/cmr/m/n/14.4 [\OML/cmm/m/it/14.
 4 row\OT1/cmr/m/n/14.4 ][\OML/cmm/m/it/14.4 col\OT1/cmr/m/n/14.4 ][\OML/cmm/m/i
@@ -779,7 +779,7 @@ r/m/n/14.4 ][\OML/cmm/m/it/14.4 notCleared\OT1/cmr/m/n/14.4 ]$ \T2A/cmr/m/n/14.
 4 со-дер-жит
  []
 
-[27 <../img/dpzones.png>]
+[28 <../img/dpzones.png>]
 Underfull \hbox (badness 1546) in paragraph at lines 95--101
 [][]\T2A/cmr/m/n/14.4 Обратим вни-ма-ние на об-ласть, по-кры-тую од-но-вре-мен-
 но оран-
@@ -814,7 +814,7 @@ Overfull \hbox (4.49197pt too wide) in paragraph at lines 120--161
  [][] 
  []
 
-[28] [29] <../img/pic02-init.png, id=126, 1122.1925pt x 956.57375pt>
+[29] [30] <../img/pic02-init.png, id=126, 1122.1925pt x 956.57375pt>
 File: ../img/pic02-init.png Graphic file (type png)
 
 <use ../img/pic02-init.png>
@@ -827,24 +827,24 @@ File: ../img/pic02-before.png Graphic file (type png)
 <use ../img/pic02-before.png>
 Package pdftex.def Info: ../img/pic02-before.png used on input line 197.
 (pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
- [30]
+ [31]
 <../img/pic02-after.png, id=131, 1122.1925pt x 956.57375pt>
 File: ../img/pic02-after.png Graphic file (type png)
 
 <use ../img/pic02-after.png>
 Package pdftex.def Info: ../img/pic02-after.png used on input line 214.
 (pdftex.def)             Requested size: 187.78531pt x 160.06107pt.
- [31 <../img/pic02-init.png> <../img/pic02-before.png> <../img/pic02-after.png>
+ [32 <../img/pic02-init.png> <../img/pic02-before.png> <../img/pic02-after.png>
 ])
 :<-
 Package srcltx Info: Expanded filename `chapters/chapter4.tex' to `chapters/cha
 pter4.tex' on input line 204.
 :<+ chapters/chapter4.tex
-(./chapters/chapter4.tex [32]
+(./chapters/chapter4.tex [33]
 \IeC {\CYRG }\IeC {\cyrl }\IeC {\cyra }\IeC {\cyrv }\IeC {\cyra } 4.
-[33
+[34
 
-] [34] [35] <../img/t1op.png, id=149, 1122.1925pt x 956.57375pt>
+] [35] [36] <../img/t1op.png, id=149, 1122.1925pt x 956.57375pt>
 File: ../img/t1op.png Graphic file (type png)
 
 <use ../img/t1op.png>
@@ -988,22 +988,22 @@ File: ../img/t4ss.png Graphic file (type png)
 <use ../img/t4ss.png>
 Package pdftex.def Info: ../img/t4ss.png used on input line 121.
 (pdftex.def)             Requested size: 187.78531pt x 152.24664pt.
- [36] [37 <../img/t1op.png> <../img/t1os.png> <../img/t1np.png> <../img/t1ns.pn
-g> <../img/t1sp.png> <../img/t1ss.png>] [38 <../img/t2op.png> <../img/t2os.png>
- <../img/t2np.png> <../img/t2ns.png> <../img/t2sp.png> <../img/t2ss.png>] [39 <
+ [37] [38 <../img/t1op.png> <../img/t1os.png> <../img/t1np.png> <../img/t1ns.pn
+g> <../img/t1sp.png> <../img/t1ss.png>] [39 <../img/t2op.png> <../img/t2os.png>
+ <../img/t2np.png> <../img/t2ns.png> <../img/t2sp.png> <../img/t2ss.png>] [40 <
 ../img/t3op.png> <../img/t3os.png> <../img/t3np.png> <../img/t3ns.png> <../img/
-t3sp.png> <../img/t3ss.png>] [40 <../img/t4op.png> <../img/t4os.png> <../img/t4
+t3sp.png> <../img/t3ss.png>] [41 <../img/t4op.png> <../img/t4os.png> <../img/t4
 np.png> <../img/t4ns.png> <../img/t4sp.png> <../img/t4ss.png>])
 :<-
 Package srcltx Info: Expanded filename `chapters/outro.tex' to `chapters/outro.
 tex' on input line 205.
 :<+ chapters/outro.tex
-(./chapters/outro.tex [41
+(./chapters/outro.tex [42
 
 ])
 :<-
 :<+ thesis.bbl
-(./thesis.bbl [42] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+(./thesis.bbl [43] (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 ) (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-2.def
 File: uni-2.def 2013/05/13 UCS: Unicode data U+0200..U+02FF
@@ -1012,12 +1012,12 @@ File: uni-2.def 2013/05/13 UCS: Unicode data U+0200..U+02FF
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ))
 :<-
-[43
+[44
 
 ] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
  9050 strings out of 494515
- 122985 string characters out of 6173719
+ 122985 string characters out of 6173718
  181580 words of memory out of 5000000
  12042 multiletter control sequences out of 15000+600000
  16607 words of font info for 40 fonts, out of 8000000 for 9000
@@ -1039,9 +1039,9 @@ live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on thesis.pdf (42 pages, 3529122 bytes).
+Output written on thesis.pdf (42 pages, 3529623 bytes).
 PDF statistics:
- 735 PDF objects out of 1000 (max. 8388607)
+ 736 PDF objects out of 1000 (max. 8388607)
  155 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  211 words of extra memory for PDF output out of 10000 (max. 10000000)
