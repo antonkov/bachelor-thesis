@@ -18,6 +18,7 @@
     "appendix"
     "report"
     "rep10"
+    "cmap"
     "fontenc"
     "inputenc"
     "babel"
